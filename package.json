@@ -1,0 +1,48 @@
+{
+    "name": "@api3/dapp-registry",
+    "license": "MIT",
+    "version": "1.0.0",
+    "author": "API3 DAO",
+    "private": false,
+    "main": "./dist/index.js",
+    "repository": "git@github.com:api3dao/dapp-registry",
+    "bugs": {
+      "url": "https://github.com/api3dao/dapp-registry/issues"
+    },
+    "files": [
+      "dist",
+      "src"
+    ],
+    "scripts": {
+      "build": "yarn clean && yarn generate:projects && tsc -p tsconfig.build.json",
+      "clean": "rimraf ./dist",
+      "dev": "ts-node scripts/generate-projects.ts --watch",
+      "generate:projects": "ts-node scripts/generate-projects.ts",
+      "lint": "eslint . --ext .js,.ts",
+      "prepare": "husky install",
+      "prepublishOnly": "yarn validate:projects",
+      "prettier": "prettier --write \"./**/*.{js,md,json}\"",
+      "providers:ping": "ts-node scripts/ping-providers.ts",
+      "test": "node --test --loader ts-node/esm ./src/**/*.test.ts",
+      "validate": "yarn validate:projects",
+      "validate:projects": "ts-node scripts/validate-projects.ts"
+    },
+    "dependencies": {
+      "zod": "^3.21.4"
+    },
+    "devDependencies": {
+      "@types/node": "^20.2.5",
+      "@types/prettier": "^2.7.3",
+      "@typescript-eslint/eslint-plugin": "^5.59.8",
+      "@typescript-eslint/parser": "^5.59.8",
+      "chokidar": "^3.5.3",
+      "eslint": "^8.39.0",
+      "eslint-plugin-import": "^2.27.5",
+      "ethers": "^6.4.0",
+      "husky": "^8.0.3",
+      "prettier": "^2.8.8",
+      "rimraf": "^5.0.1",
+      "ts-node": "^10.9.1",
+      "typescript": "^5.0.4"
+    }
+  }
