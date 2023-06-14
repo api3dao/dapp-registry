@@ -1,7 +1,7 @@
 import { z } from 'zod';
 
 // TODO: Fetch this from @api3/chains
-const chainsSchema = z.enum(["1", "137", "56", "250"]);
+const chainsSchema = z.enum(["1", "137", "56", "250", "1101"]);
 
 const statusSchema = z.enum(['active', 'inactive', 'deprecated']);
 
@@ -53,17 +53,17 @@ export const projectSchema = z.object({
         logo: z.string().url(),
         cover: z.string().url(),
         banner: z.string().url(),
-        screenshots: z.array(z.string().url()),
+        screenshots: z.array(z.string().url()).optional(),
     }),
     links: z.object({
-        dapp: z.string().url(),
+        dapp: z.string().url().optional(),
         website: z.string().url(),
-        docs: z.string().url(),
-        explorer: z.string().url(),
+        docs: z.string().url().optional(),
+        explorer: z.string().url().optional(),
         socials: z.array(z.object({
             label: z.string(),
             url: z.string().url(),
-        })),
+        })).optional(),
     }),
 });
   
