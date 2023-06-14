@@ -23,7 +23,6 @@
       "prepublishOnly": "yarn validate:projects",
       "prettier": "prettier --write \"./**/*.{js,md,json}\"",
       "providers:ping": "ts-node scripts/ping-providers.ts",
-      "test": "node --test --loader ts-node/esm ./src/**/*.test.ts",
       "validate": "yarn validate:projects",
       "validate:projects": "ts-node scripts/validate-projects.ts"
     },
