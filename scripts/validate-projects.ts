@@ -8,21 +8,21 @@ const INPUT_DIR = './projects';
 const fileNames = fs.readdirSync(INPUT_DIR);
 const jsonFiles = fileNames.filter((fileName) => fileName.endsWith('.json'));
 
-const jsonChains: any[] = jsonFiles.map((filePath: string) => {
+const jsonProjects: any[] = jsonFiles.map((filePath: string) => {
   const fullPath = path.join(INPUT_DIR, filePath);
   const fileContentRaw = fs.readFileSync(fullPath, 'utf-8');
   return JSON.parse(fileContentRaw);
 });
 
 // Validation: Ensure that each JSON file is represented in the PROJECTS array
-if (PROJECTS.length !== jsonChains.length) {
+if (PROJECTS.length !== jsonProjects.length) {
   console.log('Generated projects differs in length to the number of JSON files');
-  console.log(`Generated PROJECTS length = ${PROJECTS.length}. Expected ${jsonChains.length} chains`);
-  console.log('Try regenerating chains');
+  console.log(`Generated PROJECTS length = ${PROJECTS.length}. Expected ${jsonProjects.length} projects`);
+  console.log('Try regenerating projects');
   process.exit(1);
 }
 
-jsonChains.forEach((project: any, index: number) => {
+jsonProjects.forEach((project: any, index: number) => {
   const res = projectSchema.safeParse(project);
   // Validation: Ensure each JSON file content conforms to the required schema
   if (!res.success) {
