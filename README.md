@@ -51,7 +51,7 @@ yarn dev
 Validations can be run with the following commands.
 
 ```sh
-# Validate each chain JSON file conforms to the zod schemas
+# Validate each project JSON file conforms to the zod schemas
 yarn validate:projects
 
 # Run all validations synchronously
