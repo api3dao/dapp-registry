@@ -1,43 +1,46 @@
 import { z } from 'zod';
+import { CHAINS } from '@api3/chains';
 
-// TODO: Fetch this from @api3/chains
-const chainsSchema = z.enum(["1", "137", "56", "250"]);
+const chains = CHAINS.map((chain) => chain.id) as [string, ...string[]] //refer to https://github.com/colinhacks/zod/issues/2376#issuecomment-1526316070
+const chainsSchema = z.enum(chains);
 
-const statusSchema = z.enum(['active', 'inactive', 'deprecated']);
+const statusSchema = z.enum(['active','beta', 'inactive', 'deprecated']);
 
 const productTypeSchema = z.enum(['datafeed', 'qrng']);
 
 const categorySchema = z.enum(['defi', 'dex', 'nft', 'gaming', 'dao', 'oracle', 'wallet', 'infrastructure', 'other']);
 
-const dapiProxySchema = z.object({
-    proxyType: z.enum(['dAPI Proxy']),
-    feedName: z.string(),
-    dapiName: z.string(),
-    proxyAddress: z.string(),
+const oevEnabledSchema = z.object({
+    enabled: z.literal(true),
+    beneficiary: z.string(),
 });
 
-const datafeedProxySchema = z.object({
-    proxyType: z.enum(['datafeed Proxy']),
-    feedName: z.string(),
-    datafeedId: z.string(),
-    proxyAddress: z.string(),
+const oevDisabledSchema = z.object({
+    enabled: z.literal(false),
 });
 
-const oevDapiProxySchema = z.object({
-    proxyType: z.enum(['OEV dAPI Proxy']),
+const proxySchema = z.object({
     feedName: z.string(),
-    dapiName: z.string(),
     proxyAddress: z.string(),
-    oevBeneficiary: z.string(),
+    oev: z.discriminatedUnion(
+        'enabled', [
+            oevEnabledSchema,
+            oevDisabledSchema,
+        ]
+    )
 });
 
-const oevDatafeedProxySchema = z.object({
-    proxyType: z.enum(['OEV datafeed Proxy']),
-    feedName: z.string(),
-    datafeedId: z.string(),
-    proxyAddress: z.string(),
-    oevBeneficiary: z.string(),
-});
+const dapiSchema = z.intersection(
+    z.object({proxyType: z.literal('dapi'),dapiName: z.string()}),
+    proxySchema
+);
+
+const datafeedSchema = z.intersection(
+    z.object({proxyType: z.literal('datafeedId'),datafeedId: z.string()}),
+    proxySchema
+);
+
+const commonProxySchema = z.union([dapiSchema, datafeedSchema]);
 
 export const projectSchema = z.object({
     name: z.string(),
@@ -47,7 +50,7 @@ export const projectSchema = z.object({
     chains: z.array(chainsSchema),
     categories: z.array(categorySchema),
     productType: productTypeSchema,
-    proxies: z.record(chainsSchema, z.array(z.union([dapiProxySchema, datafeedProxySchema, oevDapiProxySchema, oevDatafeedProxySchema]))),
+    proxies: z.record(chainsSchema, z.array(commonProxySchema)),
     year: z.number(),
     images: z.object({
         logo: z.string().url(),
@@ -56,14 +59,14 @@ export const projectSchema = z.object({
         screenshots: z.array(z.string().url()),
     }),
     links: z.object({
-        dapp: z.string().url(),
-        website: z.string().url(),
-        docs: z.string().url(),
-        explorer: z.string().url(),
+        dapp: z.string().url().optional(),
+        website: z.string().url().optional(),
+        docs: z.string().url().optional(),
+        explorer: z.string().url().optional(),
         socials: z.array(z.object({
             label: z.string(),
             url: z.string().url(),
-        })),
+        })).optional(),
     }),
 });
   
