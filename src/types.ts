@@ -56,7 +56,7 @@ export const projectSchema = z.object({
         logo: z.string().url(),
         cover: z.string().url(),
         banner: z.string().url(),
-        screenshots: z.array(z.string().url()),
+        screenshots: z.array(z.string().url()).optional(),
     }),
     links: z.object({
         dapp: z.string().url().optional(),
