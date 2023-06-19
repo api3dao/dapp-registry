@@ -1,7 +1,7 @@
 import { z } from 'zod';
 import { CHAINS } from '@api3/chains';
 
-const chains = CHAINS.map((chain) => chain.id) as [string, ...string[]] //refer to https://github.com/colinhacks/zod/issues/2376#issuecomment-1526316070
+const chains = CHAINS.map((chain) => chain.id) as [string, ...string[]]; //refer to https://github.com/colinhacks/zod/issues/2376#issuecomment-1526316070
 const chainsSchema = z.enum(chains);
 
 const statusSchema = z.enum(['active','beta', 'inactive', 'deprecated']);
