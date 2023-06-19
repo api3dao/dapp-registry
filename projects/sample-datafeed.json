@@ -12,48 +12,66 @@
   "proxies": {
     "1" : [
         {
-            "proxyType": "dAPI Proxy",
+            "proxyType": "dapi",
             "feedName": "ETH/USD",
             "dapiName": "ETH/USD",
-            "proxyAddress": "0x"
+            "proxyAddress": "0x",
+            "oev": {
+              "enabled": false
+            }
 
         },
         {
-            "proxyType": "datafeed Proxy",
+            "proxyType": "datafeedId",
             "feedName": "ETH/USD",
             "datafeedId": "0x",
-            "proxyAddress": "0x"
+            "proxyAddress": "0x",
+            "oev": {
+              "enabled": false
+            }
         },
         {
-            "proxyType": "OEV dAPI Proxy",
+            "proxyType": "dapi",
             "feedName": "ETH/USD",
             "dapiName": "ETH/USD",
             "proxyAddress": "0x",
-            "oevBeneficiary": "0x"
+            "oev": {
+              "enabled": true,
+              "beneficiary": "0x"
+            }
         },
         {
-            "proxyType": "OEV datafeed Proxy",
+            "proxyType": "datafeedId",
             "feedName": "ETH/USD",
             "datafeedId": "0x",
             "proxyAddress": "0x",
-            "oevBeneficiary": "0x"
+            "oev": {
+              "enabled": true,
+              "beneficiary": "0x"
+            }
         }
     ],
     "137": [
-        {
-            "proxyType": "OEV dAPI Proxy",
-            "feedName": "BTC/USD",
-            "dapiName": "BTC/USD",
-            "proxyAddress": "0x",
-            "oevBeneficiary": "0x"
-        },
-        {
-            "proxyType": "OEV datafeed Proxy",
-            "feedName": "BTC/USD",
-            "datafeedId": "0x",
-            "proxyAddress": "0x",
-            "oevBeneficiary": "0x"
+    {
+        "proxyType": "dapi",
+        "feedName": "BTC/USD",
+        "dapiName": "BTC/USD",
+        "proxyAddress": "0x",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x"
         }
+    },
+    {
+        "proxyType": "datafeedId",
+        "feedName": "BTC/USD",
+        "datafeedId": "0x",
+        "proxyAddress": "0x",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x"
+        }
+    }
     ] 
   },
   "year": 2020,
