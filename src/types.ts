@@ -6,8 +6,6 @@ const chainsSchema = z.enum(chains);
 
 const statusSchema = z.enum(['active','beta', 'inactive', 'deprecated']);
 
-const productTypeSchema = z.enum(['datafeed', 'qrng']);
-
 const categorySchema = z.enum(['defi', 'dex', 'nft', 'gaming', 'dao', 'oracle', 'wallet', 'infrastructure', 'other']);
 
 const oevEnabledSchema = z.object({
@@ -40,23 +38,35 @@ const datafeedSchema = z.intersection(
     proxySchema
 );
 
-const commonProxySchema = z.union([dapiSchema, datafeedSchema]);
+const commonProxySchema = z.object({
+    productType: z.literal('datafeed'),
+    proxies: z.record(chainsSchema, z.array(z.union([dapiSchema, datafeedSchema])))
+});
 
-export const projectSchema = z.object({
+const qrngSchema = z.object({
+    productType: z.literal('qrng'),
+});
+
+const productSchema = z.discriminatedUnion(
+    'productType', [
+        commonProxySchema,
+        qrngSchema,
+    ]
+);
+
+export const baseProjectSchema = z.object({
     name: z.string(),
     tagline: z.string(),
     description: z.string(),
     status: statusSchema,
     chains: z.array(chainsSchema),
     categories: z.array(categorySchema),
-    productType: productTypeSchema,
-    proxies: z.record(chainsSchema, z.array(commonProxySchema)),
     year: z.number(),
     images: z.object({
         logo: z.string().url(),
         cover: z.string().url(),
         banner: z.string().url(),
-        screenshots: z.array(z.string().url()).optional(),
+        screenshots: z.array(z.string().url()),
     }),
     links: z.object({
         dapp: z.string().url().optional(),
@@ -69,5 +79,7 @@ export const projectSchema = z.object({
         })).optional(),
     }),
 });
+
+export const projectSchema = z.intersection(baseProjectSchema, productSchema);
   
 export type Project = z.infer<typeof projectSchema>;
