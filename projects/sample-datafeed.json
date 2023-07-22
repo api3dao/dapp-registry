@@ -3,66 +3,62 @@
   "tagline": "sample tagline",
   "description": "sample description",
   "status": "inactive",
-  "chains": [
-    "1",
-    "137"
-  ],
+  "chains": ["1", "137"],
   "categories": ["defi"],
   "productType": "datafeed",
   "proxies": {
-    "1" : [
-        {
-            "proxyType": "dapi",
-            "feedName": "ETH/USD",
-            "dapiName": "ETH/USD",
-            "proxyAddress": "0x",
-            "oev": {
-              "enabled": false
-            }
-
-        },
-        {
-            "proxyType": "datafeedId",
-            "feedName": "ETH/USD",
-            "datafeedId": "0x",
-            "proxyAddress": "0x",
-            "oev": {
-              "enabled": false
-            }
-        },
-        {
-            "proxyType": "dapi",
-            "feedName": "ETH/USD",
-            "dapiName": "ETH/USD",
-            "proxyAddress": "0x",
-            "oev": {
-              "enabled": true,
-              "beneficiary": "0x"
-            }
-        },
-        {
-            "proxyType": "datafeedId",
-            "feedName": "ETH/USD",
-            "datafeedId": "0x",
-            "proxyAddress": "0x",
-            "oev": {
-              "enabled": true,
-              "beneficiary": "0x"
-            }
-        }
-    ],
-    "137": [
-    {
+    "1": [
+      {
         "proxyType": "dapi",
-        "feedName": "BTC/USD",
-        "dapiName": "BTC/USD",
+        "feedName": "ETH/USD",
+        "dapiNameHash": "0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42",
+        "proxyAddress": "0x",
+        "oev": {
+          "enabled": false
+        }
+      },
+      {
+        "proxyType": "datafeedId",
+        "feedName": "ETH/USD",
+        "datafeedId": "0x",
+        "proxyAddress": "0x",
+        "oev": {
+          "enabled": false
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "ETH/USD",
+        "dapiNameHash": "0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42",
         "proxyAddress": "0x",
         "oev": {
           "enabled": true,
           "beneficiary": "0x"
         }
-    },
-    {
+      },
+      {
+        "proxyType": "datafeedId",
+        "feedName": "ETH/USD",
+        "datafeedId": "0x",
+        "proxyAddress": "0x",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x"
+        }
+      }
+    ],
+    "137": [
+      {
+        "proxyType": "dapi",
+        "feedName": "BTC/USD",
+        "dapiNameHash": "0x4291cd9e354c309a63b4a41d0de370e9494d5d59a306af07636abaf68159e043",
+        "proxyAddress": "0x",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x"
+        }
+      },
+      {
         "proxyType": "datafeedId",
         "feedName": "BTC/USD",
         "datafeedId": "0x",
@@ -71,14 +67,13 @@
           "enabled": true,
           "beneficiary": "0x"
         }
-    }
-    ] 
+      }
+    ]
   },
   "year": 2020,
   "images": {
     "logo": "https://-.com/images/logo.png",
     "cover": "https://-.com/images/cover.png",
-    "banner": "https://-.com/images/banner.png",
     "screenshots": [
       "https://-.com/images/screenshot1.png",
       "https://-.com/images/screenshot2.png",

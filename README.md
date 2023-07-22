@@ -2,7 +2,6 @@
 
 > A registry of all dapps that are part of the API3 ecosystem
 
-
 - [Listing your project](#listing-your-project)
 - [API](#api)
   - [PROJECTS](#projects)
