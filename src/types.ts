@@ -29,7 +29,7 @@ const proxySchema = z.object({
 });
 
 const dapiSchema = z.intersection(
-    z.object({proxyType: z.literal('dapi'),dapiName: z.string()}),
+    z.object({proxyType: z.literal('dapi'),dapiNameHash: z.string()}),
     proxySchema
 );
 
@@ -65,7 +65,6 @@ export const baseProjectSchema = z.object({
     images: z.object({
         logo: z.string().url(),
         cover: z.string().url(),
-        banner: z.string().url(),
         screenshots: z.array(z.string().url()),
     }),
     links: z.object({

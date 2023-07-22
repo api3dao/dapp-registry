@@ -68,8 +68,6 @@ export const PROJECTS: Project[] = [
       logo: 'https://www.gitbook.com/cdn-cgi/image/width=40,dpr=2,height=40,fit=contain,format=auto/https%3A%2F%2F60594080-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FLyYNl56ITrQ2UqSmR7BQ%252Ficon%252F5hGnJPwDbseRBRVMsz9u%252FGroup%252025981.png%3Falt%3Dmedia%26token%3Decb076c5-0898-48f9-a284-fbb533f65c31',
       cover:
         'https://60594080-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FLyYNl56ITrQ2UqSmR7BQ%2Fuploads%2FMXO3nwBjR8YjOZw3OMrd%2Fimage.png?alt=media&token=3db1e3e6-4d4b-4b92-8247-bd0bb94ba97f',
-      banner:
-        'https://60594080-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FLyYNl56ITrQ2UqSmR7BQ%2Fuploads%2FMXO3nwBjR8YjOZw3OMrd%2Fimage.png?alt=media&token=3db1e3e6-4d4b-4b92-8247-bd0bb94ba97f',
       screenshots: [
         'https://60594080-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FLyYNl56ITrQ2UqSmR7BQ%2Fuploads%2FbZrkyTv9pwJMd2E9n0Hg%2FGroup%201321314307.png?alt=media&token=8d578c4d-36cc-4895-bdbf-4e2de91e9fa4',
         'https://60594080-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FLyYNl56ITrQ2UqSmR7BQ%2Fuploads%2FhCg6BqBlbk7SsuwWWqeW%2FGroup%201321314307%20(2).png?alt=media&token=77d64f78-4c87-4284-a0ee-88cf83d06653',
@@ -100,12 +98,18 @@ export const PROJECTS: Project[] = [
     productType: 'datafeed',
     proxies: {
       '1': [
-        { proxyType: 'dapi', feedName: 'ETH/USD', dapiName: 'ETH/USD', proxyAddress: '0x', oev: { enabled: false } },
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0x',
+          oev: { enabled: false },
+        },
         { proxyType: 'datafeedId', feedName: 'ETH/USD', datafeedId: '0x', proxyAddress: '0x', oev: { enabled: false } },
         {
           proxyType: 'dapi',
           feedName: 'ETH/USD',
-          dapiName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
           proxyAddress: '0x',
           oev: { enabled: true, beneficiary: '0x' },
         },
@@ -121,7 +125,7 @@ export const PROJECTS: Project[] = [
         {
           proxyType: 'dapi',
           feedName: 'BTC/USD',
-          dapiName: 'BTC/USD',
+          dapiNameHash: '0x4291cd9e354c309a63b4a41d0de370e9494d5d59a306af07636abaf68159e043',
           proxyAddress: '0x',
           oev: { enabled: true, beneficiary: '0x' },
         },
@@ -138,7 +142,6 @@ export const PROJECTS: Project[] = [
     images: {
       logo: 'https://-.com/images/logo.png',
       cover: 'https://-.com/images/cover.png',
-      banner: 'https://-.com/images/banner.png',
       screenshots: [
         'https://-.com/images/screenshot1.png',
         'https://-.com/images/screenshot2.png',
