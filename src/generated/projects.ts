@@ -9,6 +9,61 @@ import { Project } from '../types';
 
 export const PROJECTS: Project[] = [
   {
+    name: 'MantisSwap',
+    tagline: 'Next Generation Stableswap',
+    description:
+      'Mantissa Finance is a new decentralised finance (DeFi) primitive on the Polygon blockchain that aims to redefine the trading experience for pegged assets./nMantissa introduces MantisSwap, a single-sided AMM for trading pegged assets that is designed to maximise capital efficiency and minimise principal losses for liquidity providers. Through its innovative design, MantisSwap will push the boundaries of traditional AMMs with greater capital efficiency, lower trading fees, principal protection for liquidity providers and a super intuitive UI to fuel DeFi growth and adoption./n/nMantisSwap will allow seamless trades of different stablecoins and pegged assets while offering lower slippage, cheaper gas and safer trades. With the majority of liquidity within a DeFi ecosystem flowing through its native DEX, we believe our ecosystem-centric DEX will become the liquidity hub on Polygon and the premier destination for trading pegged assets./n/nMantisSwap have partnered with API3 to get the latest price feeds for all the tokens in our protocol. These prices will always be consulted before a swap occurs to predict depeg risks.',
+    status: 'inactive',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1691435201166_logo.png',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1691435201167_banner.jpg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1691435201195_screenshot1.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1691435201247_screenshot2.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1691435201259_screenshot3.png',
+      ],
+    },
+    categories: ['defi', 'dex'],
+    productType: 'datafeed',
+    chains: ['1101'],
+    proxies: {
+      '1101': [
+        {
+          proxyType: 'dapi',
+          feedName: 'USDC/USD',
+          dapiNameHash: '0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880',
+          proxyAddress: '0x8DF7d919Fe9e866259BB4D135922c5Bd96AF6A27',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDT/USD',
+          dapiNameHash: '0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d',
+          proxyAddress: '0xF63Fa6EA00678F435Ae3e845541EBb2Db0a1e8fF',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'DAI/USD',
+          dapiNameHash: '0x9eaf6889d5df94e769098eb3119c7ad9a8f301b58296c06cb75b2859c6f35557',
+          proxyAddress: '0x6538D9c4b12b5E5E209917D29C097465Ba8EFA02',
+          oev: { enabled: false },
+        },
+      ],
+    },
+    links: {
+      website: 'https://mantissa.finance/',
+      dapp: 'https://app.mantissa.finance/',
+      docs: 'https://docs.mantissa.finance/',
+      explorer: 'https://zkevm.polygonscan.com/address/0x12d41b6DF938C739F00c392575e3FD9292d98215',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/MantisSwap' },
+        { label: 'discord', url: 'https://t.co/duyLdUi3fj' },
+      ],
+    },
+    year: 2023,
+  },
+  {
     name: 'Quickswap-Perps',
     tagline: 'cutting-edge decentralized Perpetual Exchange on Polygon zkEVM',
     description:
