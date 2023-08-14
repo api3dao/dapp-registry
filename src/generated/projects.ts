@@ -64,6 +64,54 @@ export const PROJECTS: Project[] = [
     year: 2023,
   },
   {
+    name: 'Tropykus finance',
+    tagline: 'Earn interest and open fair credit lines for latinamericans.',
+    description:
+      'Tropykus enables users and companies to leverage their savings using ETH and USDC, generating passive interest. Additionally, it provides the opportunity to open credit lines for members or employees in an easy and secure way through an intuitive interface that guides both savvy users and beginners alike.',
+    status: 'inactive',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1692035607644_Logo%20Tropykus%20cuadrado.png',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1692035607644_Banner%20API3.png',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1692035607660_Captura%20de%20Pantalla%202023-08-11%20a%20la%28s%29%209.21.21%20a.m..png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1692035607887_Captura%20de%20Pantalla%202023-08-11%20a%20la%28s%29%209.28.11%20a.m..png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1692035608060_Captura%20de%20Pantalla%202023-08-11%20a%20la%28s%29%209.29.53%20a.m..png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['1101'],
+    proxies: {
+      '1101': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0x26690F9f17FdC26D419371315bc17950a0FC90eD',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'WBTC/USD',
+          dapiNameHash: '0x788a83d3185172684a06bc2d96ea3e98728e0e87b759e866757989dcfe63b4f4',
+          proxyAddress: '0x28Cac6604A8f2471E19c8863E8AfB163aB60186a',
+          oev: { enabled: false },
+        },
+      ],
+    },
+    links: {
+      website: 'https://tropykus.com/',
+      dapp: 'https://zk.app.tropykus.com/',
+      docs: 'https://tropykus.atlassian.net/l/cp/S4f18UAN',
+      explorer: 'https://zkevm.polygonscan.com/',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/tropykus' },
+        { label: 'telegram', url: 'https://t.me/tropykus' },
+      ],
+    },
+    year: 2023,
+  },
+  {
     name: 'Quickswap-Perps',
     tagline: 'cutting-edge decentralized Perpetual Exchange on Polygon zkEVM',
     description:
