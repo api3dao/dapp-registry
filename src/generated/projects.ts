@@ -113,6 +113,67 @@ export const PROJECTS: Project[] = [
     year: 2021,
   },
   {
+    name: 'Shrike Perps',
+    tagline: 'Maximize your gains with 50x leverage on Shrike!',
+    description:
+      'Trade for maximum gains on zkEVM with Shrike! $3,000 up for grabs in our contests, so make sure you get on the leaderboard! Or provide liquidity with SHLP and win like the house always does through real ETH rewards from trading fees!',
+    status: 'active',
+    images: {
+      logo: 'https://shrike.dovish.finance/static/media/shrike.7fd3441e.png',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1691697416706_dovish-branded-cover.png',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1691697416714_shrikesc2.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1691697416743_shrikeSC.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['1101'],
+    proxies: {
+      '1101': [
+        {
+          proxyType: 'datafeedId',
+          feedName: 'ETH/USD',
+          datafeedId: '0x4385954e058fbe6b6a744f32a4f89d67aad099f8fb8b23e7ea8dd366ae88151d',
+          proxyAddress: '0x42e7638365215B18E969c7c71cAfd98fc035f3dc',
+          oev: { enabled: true, beneficiary: '0xa5964a9CF2f8ADDF72b3e9Dd417b4E950Cd34e99' },
+        },
+        {
+          proxyType: 'datafeedId',
+          feedName: 'BTC/USD',
+          datafeedId: '0xd888b92f9d71afedd0a012622c0d1d5368fc0dc0ff1d30bb16266afcd49c2c17',
+          proxyAddress: '0xDF164A1A1f51460953B3839E9e5d7EdceE0EB0D9',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'datafeedId',
+          feedName: 'MATIC/USD',
+          datafeedId: '0x7a32de86e03383b758e3c7e00681b6c762e0cef235676a2593e4aef83c1b41b2',
+          proxyAddress: '0x9d642fD27Ab7baa66Fba30BCBD67bd31ab5578d5',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'datafeedId',
+          feedName: 'USDC/USD',
+          datafeedId: '0x811b12b44adf2e6ad84dc3ec577cc6c0b15e76e400764139330ce3fc58043d26',
+          proxyAddress: '0x2a87813e167D8365001C99Ee8C220500767E99f0',
+          oev: { enabled: false },
+        },
+      ],
+    },
+    links: {
+      website: 'https://shrike.dovish.finance/',
+      dapp: 'https://shrike.dovish.finance/',
+      docs: 'https://dovish.gitbook.io/shrike/',
+      explorer: 'https://zkevm.polygonscan.com/',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/DovishFi' },
+        { label: 'discord', url: 'https://discord.com/invite/Up2SMcfthg' },
+      ],
+    },
+    year: 2023,
+  },
+  {
     name: 'Tropykus finance',
     tagline: 'Earn interest and open fair credit lines for latinamericans.',
     description:
