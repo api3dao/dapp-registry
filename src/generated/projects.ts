@@ -68,7 +68,7 @@ export const PROJECTS: Project[] = [
     tagline: 'Earn interest and open fair credit lines for latinamericans.',
     description:
       'Tropykus enables users and companies to leverage their savings using ETH and USDC, generating passive interest. Additionally, it provides the opportunity to open credit lines for members or employees in an easy and secure way through an intuitive interface that guides both savvy users and beginners alike.',
-    status: 'inactive',
+    status: 'active',
     images: {
       logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1692035607644_Logo%20Tropykus%20cuadrado.png',
       cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1692035607644_Banner%20API3.png',
@@ -102,7 +102,7 @@ export const PROJECTS: Project[] = [
     links: {
       website: 'https://tropykus.com/',
       dapp: 'https://zk.app.tropykus.com/',
-      docs: 'https://tropykus.atlassian.net/l/cp/S4f18UAN',
+      docs: 'https://github.com/Tropykus/protocol-rsk',
       explorer: 'https://zkevm.polygonscan.com/',
       socials: [
         { label: 'twitter', url: 'https://twitter.com/tropykus' },
