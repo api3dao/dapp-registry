@@ -119,7 +119,7 @@ export const PROJECTS: Project[] = [
       'Trade for maximum gains on zkEVM with Shrike! $3,000 up for grabs in our contests, so make sure you get on the leaderboard! Or provide liquidity with SHLP and win like the house always does through real ETH rewards from trading fees!',
     status: 'active',
     images: {
-      logo: 'https://shrike.dovish.finance/static/media/shrike.7fd3441e.png',
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/shrike.7fd3441e.png',
       cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1691697416706_dovish-branded-cover.png',
       screenshots: [
         'https://ecosystem-website.s3.us-east-2.amazonaws.com/1691697416714_shrikesc2.png',
