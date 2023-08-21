@@ -64,6 +64,55 @@ export const PROJECTS: Project[] = [
     year: 2023,
   },
   {
+    name: 'Mean Finance',
+    tagline: 'Providing you the best tools to invest, diversify and grow',
+    description:
+      'Mean Finance aims to be the go-to platform for decentralized investment tools, fostering responsible and diversified exposure to the emerging crypto asset thesis. We prioritize diversification and prudence in our approach, simplifying users investment journey into the future of finance.',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1691700045302_PFP%20%283%29.png',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1691700045302_Portada%20con%20logo.png',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1691700047068_photo_2023-08-10_16-20-11.jpg',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1691700047075_f7cfa71f71e3b6adecbf1f1104759e4d.jpg',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1691700047152_06883394a3a5b56c55965d778db2e02c.jpg',
+      ],
+    },
+    categories: ['defi', 'dex', 'infrastructure'],
+    productType: 'datafeed',
+    chains: ['42161', '10', '137', '56', '1', '100'],
+    proxies: {
+      '137': [
+        {
+          proxyType: 'dapi',
+          feedName: 'LDO/USD',
+          dapiNameHash: '0x4495bcb7091356505efac7d5326d6565b528bc2a3ec4ecb6543ff13ee2334dc4',
+          proxyAddress: '0x774F0C833ceaacA9b472771FfBE3ada4d6805709',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'STG/USD',
+          dapiNameHash: '0xfacb6a0dc0f94e3844f1559bc9215b88ffb2e91503135ae9eb26497e93041be7',
+          proxyAddress: '0x7972cFBa470eF69062A3C58d9BfAfe68c09Fb4F0',
+          oev: { enabled: false },
+        },
+      ],
+    },
+    links: {
+      website: 'https://mean.finance',
+      dapp: 'https://mean.finance',
+      docs: 'https://docs.mean.finance',
+      explorer: 'https://etherscan.io/address/0xA5AdC5484f9997fBF7D405b9AA62A7d88883C345',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/mean_fi' },
+        { label: 'discord', url: 'https://discord.mean.finance' },
+        { label: 'github', url: 'https://github.com/mean-finance' },
+      ],
+    },
+    year: 2021,
+  },
+  {
     name: 'Quickswap-Perps',
     tagline: 'cutting-edge decentralized Perpetual Exchange on Polygon zkEVM',
     description:
