@@ -14,7 +14,7 @@
 To list your project in the API3 dapp registry, follow these steps:
 
 - Fork this repository
-- Add a new json with the same name as your project to `/projects`. You can use this [template](./projects/sample-datafeed.json) as a starting point
+- Add a new json with the same name as your project to `/projects`. You can use this [project](./projects/Shrike-Perps.json) as a starting point
 - Run `yarn build` to build the project. This will also validate the json file
 - Create a pull request with your changes
 
