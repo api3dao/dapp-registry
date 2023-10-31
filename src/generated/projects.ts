@@ -9,7 +9,6 @@ import { Project } from '../types';
 
 export const PROJECTS: Project[] = [
   {
-    slug: 'kinetix-finance',
     name: 'Kinetix Finance',
     tagline: 'State-of-the-Art DeFi Hub on Kava EVM. Your best trade, every trade',
     description:
