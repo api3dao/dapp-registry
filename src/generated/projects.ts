@@ -9,6 +9,78 @@ import { Project } from '../types';
 
 export const PROJECTS: Project[] = [
   {
+    slug: 'kinetix-finance',
+    name: 'Kinetix Finance',
+    tagline: 'State-of-the-Art DeFi Hub on Kava EVM. Your best trade, every trade',
+    description:
+      'What is Kinetix Finance? /n/nKinetix is building a native DeFi Hub for the Kava community. The Kinetix DeFi Hub encompasses a suite of sophisticated DeFi legos in the Web3 landscape to provide Kava with a one-stop platform for all things DeFi. Kinetix’s cohesive network of DeFi protocols includes a perpetual exchange (PEX), a decentralized exchange (DEX), and a market for sophisticated derivative instruments. Users on Kinetix are able to take on 50x leverage with perpetual contracts, execute swaps in spot markets, provide liquidity, stake as well as farm, and more./n/nThe Kinetix platform will unite all the major building blocks of DeFi, by including a range of financial instruments such as:/n➯ Lending markets/n➯ Staking and farming pools/n➯ Options/n➯ Synthetic assets/n➯ Concentrated liquidity/n➯ Leverage aggregation/n➯ Yield optimizers/n➯ Fiat on/off ramp solutions/nAnd much more./n/nAll of these features will be available on a single platform, making Kinetix the go-to place where the Kava ecosystem unites.',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1698349805931_KFI_Token%201%20%282%29.png',
+      cover:
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1698349805932_Kinetix%20Twitter%20Banner%20%281%29.png',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1698349805943_Bildschirmfoto%202023-10-26%20um%2021.45.00.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1698349805953_Bildschirmfoto%202023-10-26%20um%2021.46.24.png',
+      ],
+    },
+    categories: ['defi', 'dex'],
+    productType: 'datafeed',
+    chains: ['2222'],
+    proxies: {
+      '2222': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ATOM/USD',
+          dapiNameHash: '0x23cdae0d2e01579a9dac06f1666639946391be8c10213d419428853b7de67f31',
+          proxyAddress: '0x0582Fd0AfD3a40d53859b948E5c9854c3E03B5E2',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDT/USD',
+          dapiNameHash: '0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d',
+          proxyAddress: '0xF63Fa6EA00678F435Ae3e845541EBb2Db0a1e8fF',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0x26690F9f17FdC26D419371315bc17950a0FC90eD',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'KAVA/USD',
+          dapiNameHash: '0xe8a1adc2c39e0913b30761ffc9d563d42c3ec7829c2584fa024d23660e8adcb6',
+          proxyAddress: '0xCDd2231400dfC719205b90FC2D69106d376F9656',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'BTC/USD',
+          dapiNameHash: '0x4291cd9e354c309a63b4a41d0de370e9494d5d59a306af07636abaf68159e043',
+          proxyAddress: '0xe5Cf15fED24942E656dBF75165aF1851C89F21B5',
+          oev: { enabled: false },
+        },
+      ],
+    },
+    year: 2023,
+    links: {
+      dapp: 'https://kinetix.finance/',
+      website: 'https://kinetix.finance/',
+      docs: 'https://docs.kinetix.finance/',
+      explorer: 'https://kavascan.com/',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/KinetixFi' },
+        { label: 'discord', url: 'https://discord.com/invite/kinetixfi' },
+        { label: 'github', url: 'https://github.com/kinetixfi/' },
+        { label: 'telegram', url: 'https://t.me/KinetixFi' },
+      ],
+    },
+  },
+  {
     name: 'MantisSwap',
     tagline: 'Next Generation Stableswap',
     description:
