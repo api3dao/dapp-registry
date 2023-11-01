@@ -1,0 +1,87 @@
+{
+    "name": "Grimoire Finance",
+    "tagline": "Grimoire Finance : Best way to trade",
+    "description": "Grimoire Finance is a Decentralized Trading (spot & futures)Exchange and Yield Farming Protocol. As a trading platform, with a drive of being invested in developing a strong foundation with our Grimoire token (GRIM) and trading protocols for users across web3 globe",
+    "status": "active",
+    "images": {
+        "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1698846196024_Grimore%20logo%202.png",
+        "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1698846196027_Grimore%20logo.png",
+        "screenshots": [
+            "https://ecosystem-website.s3.us-east-2.amazonaws.com/1698846196047_Screenshot%202023-10-26%20123406.png",
+            "https://ecosystem-website.s3.us-east-2.amazonaws.com/1698846196053_Screenshot%202023-10-26%20124435.png"
+        ]
+    },
+    "categories": [
+        "defi",
+        "dao"
+    ],
+    "productType": "datafeed",
+    "chains": [
+        "42161"
+    ],
+    "proxies": {
+        "42161": [
+            {
+                "proxyType": "dapi",
+                "feedName": "ETH/USD",
+                "dapiNameHash": "0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42",
+                "proxyAddress": "0x26690F9f17FdC26D419371315bc17950a0FC90eD",
+                "oev": {
+                    "enabled": false
+                }
+            },
+            {
+                "proxyType": "dapi",
+                "feedName": "EUR/USD",
+                "dapiNameHash": "0xb98b48d49cffec4edeb24e899dd1c681d2b45de1141378c72d726f70491ffbae",
+                "proxyAddress": "0xA37F6f5a04b7D5eB8DF71799e09D683f8CeC22F3",
+                "oev": {
+                    "enabled": false
+                }
+            },
+            {
+                "proxyType": "dapi",
+                "feedName": "BTC/USD",
+                "dapiNameHash": "0x4291cd9e354c309a63b4a41d0de370e9494d5d59a306af07636abaf68159e043",
+                "proxyAddress": "0xe5Cf15fED24942E656dBF75165aF1851C89F21B5",
+                "oev": {
+                    "enabled": false
+                }
+            },
+            {
+                "proxyType": "dapi",
+                "feedName": "GBP/USD",
+                "dapiNameHash": "0x2cbb31d2202b04731dced650dbdf405924914d81e40ccbb9c5f7156d510ce6a5",
+                "proxyAddress": "0x2760445db099427F9A394fb1365e1Aa08Ed1f84d",
+                "oev": {
+                    "enabled": false
+                }
+            }
+        ]
+    },
+    "year": 2023,
+    "links": {
+        "dapp": "https://grimoire.finance",
+        "website": "https://tensormarkets.finance/",
+        "docs": "https://docs.grimoire.finance",
+        "explorer": "",
+        "socials": [
+            {
+                "label": "twitter",
+                "url": "https://twitter.com/GrimoireFinance"
+            },
+            {
+                "label": "discord",
+                "url": "https://discord.gg/uVjcVZ7Dss"
+            },
+            {
+                "label": "github",
+                "url": "https://github.com/Grimoire-Finance"
+            },
+            {
+                "label": "telegram",
+                "url": "https://t.me/GrimoireFinance"
+            }
+        ]
+    }
+}

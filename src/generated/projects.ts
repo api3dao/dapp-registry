@@ -9,6 +9,136 @@ import { Project } from '../types';
 
 export const PROJECTS: Project[] = [
   {
+    name: 'Granary Finance',
+    tagline: 'Decentralized Lending Protocol',
+    description:
+      'Granary Finance is a decentralized non-custodial liquidity market protocol where users can participate as depositors or borrowers on a variety of network deployments. Granary strives to be "the People\'s Platform" by focusing on security, having low fees, and being one of the easiest to use lending protocols in DeFi.',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1698780224350_TheGranary_Logo_Yellow_mark%20%281%29.png',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1698780224351_TheGranary_Logo_Yellow.png',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1698780224351_g2.PNG',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1698780224367_g1.PNG',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['42161', '8453', '56', '250', '1', '1088', '10', '43114', '59144'],
+    proxies: {
+      '59144': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0x26690F9f17FdC26D419371315bc17950a0FC90eD',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDC/USD',
+          dapiNameHash: '0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880',
+          proxyAddress: '0x8DF7d919Fe9e866259BB4D135922c5Bd96AF6A27',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDT/USD',
+          dapiNameHash: '0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d',
+          proxyAddress: '0xF63Fa6EA00678F435Ae3e845541EBb2Db0a1e8fF',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'DAI/USD',
+          dapiNameHash: '0x9eaf6889d5df94e769098eb3119c7ad9a8f301b58296c06cb75b2859c6f35557',
+          proxyAddress: '0x6538D9c4b12b5E5E209917D29C097465Ba8EFA02',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'WBTC/USD',
+          dapiNameHash: '0x788a83d3185172684a06bc2d96ea3e98728e0e87b759e866757989dcfe63b4f4',
+          proxyAddress: '0x28Cac6604A8f2471E19c8863E8AfB163aB60186a',
+          oev: { enabled: false },
+        },
+      ],
+    },
+    year: 2022,
+    links: {
+      dapp: 'https://granary.finance/markets',
+      website: 'https://granary.finance/markets',
+      docs: 'https://docs.granary.finance/granary-v1.0/introduction',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/GranaryFinance' },
+        { label: 'discord', url: 'https://discord.gg/sEtRC63s' },
+      ],
+    },
+  },
+  {
+    name: 'Grimoire Finance',
+    tagline: 'Grimoire Finance : Best way to trade',
+    description:
+      'Grimoire Finance is a Decentralized Trading (spot & futures)Exchange and Yield Farming Protocol. As a trading platform, with a drive of being invested in developing a strong foundation with our Grimoire token (GRIM) and trading protocols for users across web3 globe',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1698846196024_Grimore%20logo%202.png',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1698846196027_Grimore%20logo.png',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1698846196047_Screenshot%202023-10-26%20123406.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1698846196053_Screenshot%202023-10-26%20124435.png',
+      ],
+    },
+    categories: ['defi', 'dao'],
+    productType: 'datafeed',
+    chains: ['42161'],
+    proxies: {
+      '42161': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0x26690F9f17FdC26D419371315bc17950a0FC90eD',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'EUR/USD',
+          dapiNameHash: '0xb98b48d49cffec4edeb24e899dd1c681d2b45de1141378c72d726f70491ffbae',
+          proxyAddress: '0xA37F6f5a04b7D5eB8DF71799e09D683f8CeC22F3',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'BTC/USD',
+          dapiNameHash: '0x4291cd9e354c309a63b4a41d0de370e9494d5d59a306af07636abaf68159e043',
+          proxyAddress: '0xe5Cf15fED24942E656dBF75165aF1851C89F21B5',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'GBP/USD',
+          dapiNameHash: '0x2cbb31d2202b04731dced650dbdf405924914d81e40ccbb9c5f7156d510ce6a5',
+          proxyAddress: '0x2760445db099427F9A394fb1365e1Aa08Ed1f84d',
+          oev: { enabled: false },
+        },
+      ],
+    },
+    year: 2023,
+    links: {
+      dapp: 'https://grimoire.finance',
+      website: 'https://tensormarkets.finance/',
+      docs: 'https://docs.grimoire.finance',
+      explorer: '',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/GrimoireFinance' },
+        { label: 'discord', url: 'https://discord.gg/uVjcVZ7Dss' },
+        { label: 'github', url: 'https://github.com/Grimoire-Finance' },
+        { label: 'telegram', url: 'https://t.me/GrimoireFinance' },
+      ],
+    },
+  },
+  {
     name: 'Kinetix Finance',
     tagline: 'State-of-the-Art DeFi Hub on Kava EVM. Your best trade, every trade',
     description:

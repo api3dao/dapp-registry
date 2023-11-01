@@ -1,0 +1,94 @@
+{
+    "name": "Granary Finance",
+    "tagline": "Decentralized Lending Protocol",
+    "description": "Granary Finance is a decentralized non-custodial liquidity market protocol where users can participate as depositors or borrowers on a variety of network deployments. Granary strives to be \"the People's Platform\" by focusing on security, having low fees, and being one of the easiest to use lending protocols in DeFi.",
+    "status": "active",
+    "images": {
+        "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1698780224350_TheGranary_Logo_Yellow_mark%20%281%29.png",
+        "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1698780224351_TheGranary_Logo_Yellow.png",
+        "screenshots": [
+            "https://ecosystem-website.s3.us-east-2.amazonaws.com/1698780224351_g2.PNG",
+            "https://ecosystem-website.s3.us-east-2.amazonaws.com/1698780224367_g1.PNG"
+        ]
+    },
+    "categories": [
+        "defi"
+    ],
+    "productType": "datafeed",
+    "chains": [
+        "42161",
+        "8453",
+        "56",
+        "250",
+        "1",
+        "1088",
+        "10",
+        "43114",
+        "59144"
+    ],
+    "proxies": {
+        "59144": [
+            {
+                "proxyType": "dapi",
+                "feedName": "ETH/USD",
+                "dapiNameHash": "0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42",
+                "proxyAddress": "0x26690F9f17FdC26D419371315bc17950a0FC90eD",
+                "oev": {
+                    "enabled": false
+                }
+            },
+            {
+                "proxyType": "dapi",
+                "feedName": "USDC/USD",
+                "dapiNameHash": "0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880",
+                "proxyAddress": "0x8DF7d919Fe9e866259BB4D135922c5Bd96AF6A27",
+                "oev": {
+                    "enabled": false
+                }
+            },
+            {
+                "proxyType": "dapi",
+                "feedName": "USDT/USD",
+                "dapiNameHash": "0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d",
+                "proxyAddress": "0xF63Fa6EA00678F435Ae3e845541EBb2Db0a1e8fF",
+                "oev": {
+                    "enabled": false
+                }
+            },
+            {
+                "proxyType": "dapi",
+                "feedName": "DAI/USD",
+                "dapiNameHash": "0x9eaf6889d5df94e769098eb3119c7ad9a8f301b58296c06cb75b2859c6f35557",
+                "proxyAddress": "0x6538D9c4b12b5E5E209917D29C097465Ba8EFA02",
+                "oev": {
+                    "enabled": false
+                }
+            },
+            {
+                "proxyType": "dapi",
+                "feedName": "WBTC/USD",
+                "dapiNameHash": "0x788a83d3185172684a06bc2d96ea3e98728e0e87b759e866757989dcfe63b4f4",
+                "proxyAddress": "0x28Cac6604A8f2471E19c8863E8AfB163aB60186a",
+                "oev": {
+                    "enabled": false
+                }
+            }
+        ]
+    },
+    "year": 2022,
+    "links": {
+        "dapp": "https://granary.finance/markets",
+        "website": "https://granary.finance/markets",
+        "docs": "https://docs.granary.finance/granary-v1.0/introduction",
+        "socials": [
+            {
+                "label": "twitter",
+                "url": "https://twitter.com/GranaryFinance"
+            },
+            {
+                "label": "discord",
+                "url": "https://discord.gg/sEtRC63s"
+            }
+        ]
+    }
+}
