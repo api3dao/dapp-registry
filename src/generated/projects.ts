@@ -129,7 +129,6 @@ export const PROJECTS: Project[] = [
       dapp: 'https://grimoire.finance',
       website: 'https://tensormarkets.finance/',
       docs: 'https://docs.grimoire.finance',
-      explorer: '',
       socials: [
         { label: 'twitter', url: 'https://twitter.com/GrimoireFinance' },
         { label: 'discord', url: 'https://discord.gg/uVjcVZ7Dss' },
