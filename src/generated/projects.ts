@@ -37,7 +37,7 @@ export const PROJECTS: Project[] = [
     },
   },
   {
-    name: 'Damned Pirates Society ',
+    name: 'Damned Pirates Society',
     tagline: 'The Damned Pirate Society combines an on-chain light-strategy game.',
     description:
       'Voyaging (On-chain strategy game)/n/nThe game where you go on voyages, find treasure and grow your fleets with the profits of your plunder. Pirates, Flagships, Support Ships & Artefacts all combine to help you generate Doubloons, the in-game currency. These NFTs and live on-chain, allowing you to trade them./n/nPixel-based sprite Metaverse/n/nThe gameplay will have semi-idle style games and will also incorporate real-time elements in the future for those looking for a more traditional game experience. Sprite-based gameplay is inspired by 90s games such as Final Fantasy VI, Pokemon and of course the Curse of Monkey Island.',
@@ -511,7 +511,7 @@ export const PROJECTS: Project[] = [
     year: 2023,
   },
   {
-    name: 'Tropykus finance',
+    name: 'Tropykus Finance',
     tagline: 'Earn interest and open fair credit lines for latinamericans.',
     description:
       'Tropykus enables users and companies to leverage their savings using ETH and USDC, generating passive interest. Additionally, it provides the opportunity to open credit lines for members or employees in an easy and secure way through an intuitive interface that guides both savvy users and beginners alike.',
