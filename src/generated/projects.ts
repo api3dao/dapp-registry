@@ -9,6 +9,63 @@ import { Project } from '../types';
 
 export const PROJECTS: Project[] = [
   {
+    name: '0xCardinal',
+    tagline: 'An innovative token-based betting platform built on the BSC.',
+    description:
+      '0xcardinal is a pioneering, community-driven decentralized betting platform developed based on blockchain technology and operationalized on the Binance Smart Chain. 0xcardinal puts its community at the center of its operations, valuing transparency, fairness, and empowerment. By doing so, 0xcardinal enables its users to not only participate but also influence the platform’s evolution.',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1699245650628_12.jpeg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1699245650630_BANNER.png',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1699245650733_0603.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1699245650794_0602.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1699245650909_0601.png',
+      ],
+    },
+    categories: ['gaming', 'defi', 'dao'],
+    productType: 'qrng',
+    chains: ['56'],
+    year: 2023,
+    links: {
+      dapp: 'https://0xcardinal.io/',
+      docs: 'https://docs.0xcardinal.io/',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/0xCardinal_io' },
+        { label: 'discord', url: 'https://discord.com/invite/6b6JFrNzsT' },
+      ],
+    },
+  },
+  {
+    name: 'Damned Pirates Society ',
+    tagline: 'The Damned Pirate Society combines an on-chain light-strategy game.',
+    description:
+      'Voyaging (On-chain strategy game)/n/nThe game where you go on voyages, find treasure and grow your fleets with the profits of your plunder. Pirates, Flagships, Support Ships & Artefacts all combine to help you generate Doubloons, the in-game currency. These NFTs and live on-chain, allowing you to trade them./n/nPixel-based sprite Metaverse/n/nThe gameplay will have semi-idle style games and will also incorporate real-time elements in the future for those looking for a more traditional game experience. Sprite-based gameplay is inspired by 90s games such as Final Fantasy VI, Pokemon and of course the Curse of Monkey Island.',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1699271321271_dps.jpeg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1699271321272_DPSbanner.png',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1699271321278_Screenshot%202023-11-06%20at%2011.39.58.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1699271321302_Screenshot%202023-11-06%20at%2011.47.51.png',
+      ],
+    },
+    categories: ['gaming', 'nft'],
+    productType: 'qrng',
+    chains: ['42170', '1284'],
+    year: 2022,
+    links: {
+      dapp: 'https://damnedpiratessociety.io/',
+      website: 'https://www.damnedpiratessociety.io/',
+      docs: 'https://damnedpiratessociety.gitbook.io/the-damned-pirates-society/introduction',
+      explorer: 'https://damnedpiratessociety.gitbook.io/the-damned-pirates-society/introduction/contracts',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/TheDPSproject' },
+        { label: 'discord', url: 'https://discord.gg/thedamnedpiratessociety' },
+      ],
+    },
+  },
+  {
     name: 'Granary Finance',
     tagline: 'Decentralized Lending Protocol',
     description:
@@ -80,7 +137,7 @@ export const PROJECTS: Project[] = [
     tagline: 'Grimoire Finance : Best way to trade',
     description:
       'Grimoire Finance is a Decentralized Trading (spot & futures)Exchange and Yield Farming Protocol. As a trading platform, with a drive of being invested in developing a strong foundation with our Grimoire token (GRIM) and trading protocols for users across web3 globe',
-    status: 'active',
+    status: 'inactive',
     images: {
       logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1698846196024_Grimore%20logo%202.png',
       cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1698846196027_Grimore%20logo.png',
@@ -313,6 +370,86 @@ export const PROJECTS: Project[] = [
     year: 2021,
   },
   {
+    name: 'Quickswap-Perps',
+    tagline: 'cutting-edge decentralized Perpetual Exchange on Polygon zkEVM',
+    description:
+      "QuickPerps is QuickSwap's decentralized Perpetual Exchange built on Polygon zkEVM, leveraging Polygon's newest and promising infrastructure to provide unparalleled security, powerful scalability, and much more.",
+    status: 'active',
+    chains: ['1101'],
+    categories: ['defi', 'dex'],
+    productType: 'datafeed',
+    proxies: {
+      '1101': [
+        {
+          proxyType: 'datafeedId',
+          feedName: 'ETH/USD',
+          datafeedId: '0x4385954e058fbe6b6a744f32a4f89d67aad099f8fb8b23e7ea8dd366ae88151d',
+          proxyAddress: '0x94C10721Bc55E81E40E5Db92060335374F32546b',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'datafeedId',
+          feedName: 'BTC/USD',
+          datafeedId: '0xd888b92f9d71afedd0a012622c0d1d5368fc0dc0ff1d30bb16266afcd49c2c17',
+          proxyAddress: '0xDF164A1A1f51460953B3839E9e5d7EdceE0EB0D9',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'datafeedId',
+          feedName: 'MATIC/USD',
+          datafeedId: '0x7a32de86e03383b758e3c7e00681b6c762e0cef235676a2593e4aef83c1b41b2',
+          proxyAddress: '0x9d642fD27Ab7baa66Fba30BCBD67bd31ab5578d5',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'datafeedId',
+          feedName: 'USDC/USD',
+          datafeedId: '0x811b12b44adf2e6ad84dc3ec577cc6c0b15e76e400764139330ce3fc58043d26',
+          proxyAddress: '0x2a87813e167D8365001C99Ee8C220500767E99f0',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'datafeedId',
+          feedName: 'USDT/USD',
+          datafeedId: '0xff96db9f5eaf10f5425e58ceb282308ab8099ef73c01bc3c6a094f84fa0aa53d',
+          proxyAddress: '0x92860DD9335BE57c789CB95237Fd67f1c5B21c5a',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'datafeedId',
+          feedName: 'DAI/USD',
+          datafeedId: '0x07bd5ed37a946e4c54f1efb26f013245406fbf760ded5db962a9ce054570aa28',
+          proxyAddress: '0x12102D07010c86fF8E7Ba6D48894c7B9039Db358',
+          oev: { enabled: false },
+        },
+      ],
+    },
+    year: 2023,
+    images: {
+      logo: 'https://www.gitbook.com/cdn-cgi/image/width=40,dpr=2,height=40,fit=contain,format=auto/https%3A%2F%2F60594080-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FLyYNl56ITrQ2UqSmR7BQ%252Ficon%252F5hGnJPwDbseRBRVMsz9u%252FGroup%252025981.png%3Falt%3Dmedia%26token%3Decb076c5-0898-48f9-a284-fbb533f65c31',
+      cover:
+        'https://60594080-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FLyYNl56ITrQ2UqSmR7BQ%2Fuploads%2FMXO3nwBjR8YjOZw3OMrd%2Fimage.png?alt=media&token=3db1e3e6-4d4b-4b92-8247-bd0bb94ba97f',
+      screenshots: [
+        'https://60594080-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FLyYNl56ITrQ2UqSmR7BQ%2Fuploads%2FbZrkyTv9pwJMd2E9n0Hg%2FGroup%201321314307.png?alt=media&token=8d578c4d-36cc-4895-bdbf-4e2de91e9fa4',
+        'https://60594080-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FLyYNl56ITrQ2UqSmR7BQ%2Fuploads%2FhCg6BqBlbk7SsuwWWqeW%2FGroup%201321314307%20(2).png?alt=media&token=77d64f78-4c87-4284-a0ee-88cf83d06653',
+        'https://60594080-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FLyYNl56ITrQ2UqSmR7BQ%2Fuploads%2FQOOpYdnw0JssURphHH8V%2Fimage.png?alt=media&token=c009b7a3-5efa-4b75-a7a5-00a85e672b51',
+      ],
+    },
+    links: {
+      dapp: 'https://perps.quickswap.exchange/',
+      website: 'https://perps.quickswap.exchange/',
+      docs: 'https://perps-docs.quickswap.exchange/',
+      explorer: 'https://zkevm.polygonscan.com/address/0x99B31498B0a1Dae01fc3433e3Cb60F095340935C',
+      socials: [
+        { label: 'Reddit', url: 'https://www.reddit.com/r/QuickSwap/' },
+        { label: 'Twitter', url: 'https://twitter.com/QuickswapDEX' },
+        { label: 'Telegram', url: 'https://t.me/QuickSwapDEX' },
+        { label: 'Youtube', url: 'https://www.youtube.com/channel/UCrPlF-DBwD-UzLFDzJ4Z5Fw' },
+        { label: 'Discord', url: 'https://discord.com/invite/dSMd7AFH36' },
+      ],
+    },
+  },
+  {
     name: 'Shrike Perps',
     tagline: 'Maximize your gains with 50x leverage on Shrike!',
     description:
@@ -420,85 +557,5 @@ export const PROJECTS: Project[] = [
       ],
     },
     year: 2023,
-  },
-  {
-    name: 'Quickswap-Perps',
-    tagline: 'cutting-edge decentralized Perpetual Exchange on Polygon zkEVM',
-    description:
-      "QuickPerps is QuickSwap's decentralized Perpetual Exchange built on Polygon zkEVM, leveraging Polygon's newest and promising infrastructure to provide unparalleled security, powerful scalability, and much more.",
-    status: 'active',
-    chains: ['1101'],
-    categories: ['defi', 'dex'],
-    productType: 'datafeed',
-    proxies: {
-      '1101': [
-        {
-          proxyType: 'datafeedId',
-          feedName: 'ETH/USD',
-          datafeedId: '0x4385954e058fbe6b6a744f32a4f89d67aad099f8fb8b23e7ea8dd366ae88151d',
-          proxyAddress: '0x94C10721Bc55E81E40E5Db92060335374F32546b',
-          oev: { enabled: false },
-        },
-        {
-          proxyType: 'datafeedId',
-          feedName: 'BTC/USD',
-          datafeedId: '0xd888b92f9d71afedd0a012622c0d1d5368fc0dc0ff1d30bb16266afcd49c2c17',
-          proxyAddress: '0xDF164A1A1f51460953B3839E9e5d7EdceE0EB0D9',
-          oev: { enabled: false },
-        },
-        {
-          proxyType: 'datafeedId',
-          feedName: 'MATIC/USD',
-          datafeedId: '0x7a32de86e03383b758e3c7e00681b6c762e0cef235676a2593e4aef83c1b41b2',
-          proxyAddress: '0x9d642fD27Ab7baa66Fba30BCBD67bd31ab5578d5',
-          oev: { enabled: false },
-        },
-        {
-          proxyType: 'datafeedId',
-          feedName: 'USDC/USD',
-          datafeedId: '0x811b12b44adf2e6ad84dc3ec577cc6c0b15e76e400764139330ce3fc58043d26',
-          proxyAddress: '0x2a87813e167D8365001C99Ee8C220500767E99f0',
-          oev: { enabled: false },
-        },
-        {
-          proxyType: 'datafeedId',
-          feedName: 'USDT/USD',
-          datafeedId: '0xff96db9f5eaf10f5425e58ceb282308ab8099ef73c01bc3c6a094f84fa0aa53d',
-          proxyAddress: '0x92860DD9335BE57c789CB95237Fd67f1c5B21c5a',
-          oev: { enabled: false },
-        },
-        {
-          proxyType: 'datafeedId',
-          feedName: 'DAI/USD',
-          datafeedId: '0x07bd5ed37a946e4c54f1efb26f013245406fbf760ded5db962a9ce054570aa28',
-          proxyAddress: '0x12102D07010c86fF8E7Ba6D48894c7B9039Db358',
-          oev: { enabled: false },
-        },
-      ],
-    },
-    year: 2023,
-    images: {
-      logo: 'https://www.gitbook.com/cdn-cgi/image/width=40,dpr=2,height=40,fit=contain,format=auto/https%3A%2F%2F60594080-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FLyYNl56ITrQ2UqSmR7BQ%252Ficon%252F5hGnJPwDbseRBRVMsz9u%252FGroup%252025981.png%3Falt%3Dmedia%26token%3Decb076c5-0898-48f9-a284-fbb533f65c31',
-      cover:
-        'https://60594080-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FLyYNl56ITrQ2UqSmR7BQ%2Fuploads%2FMXO3nwBjR8YjOZw3OMrd%2Fimage.png?alt=media&token=3db1e3e6-4d4b-4b92-8247-bd0bb94ba97f',
-      screenshots: [
-        'https://60594080-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FLyYNl56ITrQ2UqSmR7BQ%2Fuploads%2FbZrkyTv9pwJMd2E9n0Hg%2FGroup%201321314307.png?alt=media&token=8d578c4d-36cc-4895-bdbf-4e2de91e9fa4',
-        'https://60594080-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FLyYNl56ITrQ2UqSmR7BQ%2Fuploads%2FhCg6BqBlbk7SsuwWWqeW%2FGroup%201321314307%20(2).png?alt=media&token=77d64f78-4c87-4284-a0ee-88cf83d06653',
-        'https://60594080-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FLyYNl56ITrQ2UqSmR7BQ%2Fuploads%2FQOOpYdnw0JssURphHH8V%2Fimage.png?alt=media&token=c009b7a3-5efa-4b75-a7a5-00a85e672b51',
-      ],
-    },
-    links: {
-      dapp: 'https://perps.quickswap.exchange/',
-      website: 'https://perps.quickswap.exchange/',
-      docs: 'https://perps-docs.quickswap.exchange/',
-      explorer: 'https://zkevm.polygonscan.com/address/0x99B31498B0a1Dae01fc3433e3Cb60F095340935C',
-      socials: [
-        { label: 'Reddit', url: 'https://www.reddit.com/r/QuickSwap/' },
-        { label: 'Twitter', url: 'https://twitter.com/QuickswapDEX' },
-        { label: 'Telegram', url: 'https://t.me/QuickSwapDEX' },
-        { label: 'Youtube', url: 'https://www.youtube.com/channel/UCrPlF-DBwD-UzLFDzJ4Z5Fw' },
-        { label: 'Discord', url: 'https://discord.com/invite/dSMd7AFH36' },
-      ],
-    },
   },
 ];
