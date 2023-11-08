@@ -1,0 +1,39 @@
+{
+    "name": "0xCardinal",
+    "tagline": "An innovative token-based betting platform built on the BSC.",
+    "description": "0xcardinal is a pioneering, community-driven decentralized betting platform developed based on blockchain technology and operationalized on the Binance Smart Chain. 0xcardinal puts its community at the center of its operations, valuing transparency, fairness, and empowerment. By doing so, 0xcardinal enables its users to not only participate but also influence the platform’s evolution.",
+    "status": "active",
+    "images": {
+        "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1699245650628_12.jpeg",
+        "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1699245650630_BANNER.png",
+        "screenshots": [
+            "https://ecosystem-website.s3.us-east-2.amazonaws.com/1699245650733_0603.png",
+            "https://ecosystem-website.s3.us-east-2.amazonaws.com/1699245650794_0602.png",
+            "https://ecosystem-website.s3.us-east-2.amazonaws.com/1699245650909_0601.png"
+        ]
+    },
+    "categories": [
+        "gaming",
+        "defi",
+        "dao"
+    ],
+    "productType": "qrng",
+    "chains": [
+        "56"
+    ],
+    "year": 2023,
+    "links": {
+        "dapp": "https://0xcardinal.io/",
+        "docs": "https://docs.0xcardinal.io/",
+        "socials": [
+            {
+                "label": "twitter",
+                "url": "https://twitter.com/0xCardinal_io"
+            },
+            {
+                "label": "discord",
+                "url": "https://discord.com/invite/6b6JFrNzsT"
+            }
+        ]
+    }
+}

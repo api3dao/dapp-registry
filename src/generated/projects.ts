@@ -9,6 +9,63 @@ import { Project } from '../types';
 
 export const PROJECTS: Project[] = [
   {
+    name: '0xCardinal',
+    tagline: 'An innovative token-based betting platform built on the BSC.',
+    description:
+      '0xcardinal is a pioneering, community-driven decentralized betting platform developed based on blockchain technology and operationalized on the Binance Smart Chain. 0xcardinal puts its community at the center of its operations, valuing transparency, fairness, and empowerment. By doing so, 0xcardinal enables its users to not only participate but also influence the platform’s evolution.',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1699245650628_12.jpeg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1699245650630_BANNER.png',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1699245650733_0603.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1699245650794_0602.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1699245650909_0601.png',
+      ],
+    },
+    categories: ['gaming', 'defi', 'dao'],
+    productType: 'qrng',
+    chains: ['56'],
+    year: 2023,
+    links: {
+      dapp: 'https://0xcardinal.io/',
+      docs: 'https://docs.0xcardinal.io/',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/0xCardinal_io' },
+        { label: 'discord', url: 'https://discord.com/invite/6b6JFrNzsT' },
+      ],
+    },
+  },
+  {
+    name: 'Damned Pirates Society',
+    tagline: 'The Damned Pirate Society combines an on-chain light-strategy game.',
+    description:
+      'Voyaging (On-chain strategy game)/n/nThe game where you go on voyages, find treasure and grow your fleets with the profits of your plunder. Pirates, Flagships, Support Ships & Artefacts all combine to help you generate Doubloons, the in-game currency. These NFTs and live on-chain, allowing you to trade them./n/nPixel-based sprite Metaverse/n/nThe gameplay will have semi-idle style games and will also incorporate real-time elements in the future for those looking for a more traditional game experience. Sprite-based gameplay is inspired by 90s games such as Final Fantasy VI, Pokemon and of course the Curse of Monkey Island.',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1699271321271_dps.jpeg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1699271321272_DPSbanner.png',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1699271321278_Screenshot%202023-11-06%20at%2011.39.58.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1699271321302_Screenshot%202023-11-06%20at%2011.47.51.png',
+      ],
+    },
+    categories: ['gaming', 'nft'],
+    productType: 'qrng',
+    chains: ['42170', '1284'],
+    year: 2022,
+    links: {
+      dapp: 'https://damnedpiratessociety.io/',
+      website: 'https://www.damnedpiratessociety.io/',
+      docs: 'https://damnedpiratessociety.gitbook.io/the-damned-pirates-society/introduction',
+      explorer: 'https://damnedpiratessociety.gitbook.io/the-damned-pirates-society/introduction/contracts',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/TheDPSproject' },
+        { label: 'discord', url: 'https://discord.gg/thedamnedpiratessociety' },
+      ],
+    },
+  },
+  {
     name: 'Granary Finance',
     tagline: 'Decentralized Lending Protocol',
     description:
@@ -80,7 +137,7 @@ export const PROJECTS: Project[] = [
     tagline: 'Grimoire Finance : Best way to trade',
     description:
       'Grimoire Finance is a Decentralized Trading (spot & futures)Exchange and Yield Farming Protocol. As a trading platform, with a drive of being invested in developing a strong foundation with our Grimoire token (GRIM) and trading protocols for users across web3 globe',
-    status: 'active',
+    status: 'inactive',
     images: {
       logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1698846196024_Grimore%20logo%202.png',
       cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1698846196027_Grimore%20logo.png',
@@ -313,115 +370,6 @@ export const PROJECTS: Project[] = [
     year: 2021,
   },
   {
-    name: 'Shrike Perps',
-    tagline: 'Maximize your gains with 50x leverage on Shrike!',
-    description:
-      'Trade for maximum gains on zkEVM with Shrike! $3,000 up for grabs in our contests, so make sure you get on the leaderboard! Or provide liquidity with SHLP and win like the house always does through real ETH rewards from trading fees!',
-    status: 'active',
-    images: {
-      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/shrike.7fd3441e.png',
-      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1691697416706_dovish-branded-cover.png',
-      screenshots: [
-        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1691697416714_shrikesc2.png',
-        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1691697416743_shrikeSC.png',
-      ],
-    },
-    categories: ['defi'],
-    productType: 'datafeed',
-    chains: ['1101'],
-    proxies: {
-      '1101': [
-        {
-          proxyType: 'datafeedId',
-          feedName: 'ETH/USD',
-          datafeedId: '0x4385954e058fbe6b6a744f32a4f89d67aad099f8fb8b23e7ea8dd366ae88151d',
-          proxyAddress: '0x42e7638365215B18E969c7c71cAfd98fc035f3dc',
-          oev: { enabled: true, beneficiary: '0xa5964a9CF2f8ADDF72b3e9Dd417b4E950Cd34e99' },
-        },
-        {
-          proxyType: 'datafeedId',
-          feedName: 'BTC/USD',
-          datafeedId: '0xd888b92f9d71afedd0a012622c0d1d5368fc0dc0ff1d30bb16266afcd49c2c17',
-          proxyAddress: '0xDF164A1A1f51460953B3839E9e5d7EdceE0EB0D9',
-          oev: { enabled: false },
-        },
-        {
-          proxyType: 'datafeedId',
-          feedName: 'MATIC/USD',
-          datafeedId: '0x7a32de86e03383b758e3c7e00681b6c762e0cef235676a2593e4aef83c1b41b2',
-          proxyAddress: '0x9d642fD27Ab7baa66Fba30BCBD67bd31ab5578d5',
-          oev: { enabled: false },
-        },
-        {
-          proxyType: 'datafeedId',
-          feedName: 'USDC/USD',
-          datafeedId: '0x811b12b44adf2e6ad84dc3ec577cc6c0b15e76e400764139330ce3fc58043d26',
-          proxyAddress: '0x2a87813e167D8365001C99Ee8C220500767E99f0',
-          oev: { enabled: false },
-        },
-      ],
-    },
-    links: {
-      website: 'https://shrike.dovish.finance/',
-      dapp: 'https://shrike.dovish.finance/',
-      docs: 'https://dovish.gitbook.io/shrike/',
-      explorer: 'https://zkevm.polygonscan.com/',
-      socials: [
-        { label: 'twitter', url: 'https://twitter.com/DovishFi' },
-        { label: 'discord', url: 'https://discord.com/invite/Up2SMcfthg' },
-      ],
-    },
-    year: 2023,
-  },
-  {
-    name: 'Tropykus finance',
-    tagline: 'Earn interest and open fair credit lines for latinamericans.',
-    description:
-      'Tropykus enables users and companies to leverage their savings using ETH and USDC, generating passive interest. Additionally, it provides the opportunity to open credit lines for members or employees in an easy and secure way through an intuitive interface that guides both savvy users and beginners alike.',
-    status: 'active',
-    images: {
-      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1692035607644_Logo%20Tropykus%20cuadrado.png',
-      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1692035607644_Banner%20API3.png',
-      screenshots: [
-        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1692035607660_Captura%20de%20Pantalla%202023-08-11%20a%20la%28s%29%209.21.21%20a.m..png',
-        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1692035607887_Captura%20de%20Pantalla%202023-08-11%20a%20la%28s%29%209.28.11%20a.m..png',
-        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1692035608060_Captura%20de%20Pantalla%202023-08-11%20a%20la%28s%29%209.29.53%20a.m..png',
-      ],
-    },
-    categories: ['defi'],
-    productType: 'datafeed',
-    chains: ['1101'],
-    proxies: {
-      '1101': [
-        {
-          proxyType: 'dapi',
-          feedName: 'ETH/USD',
-          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
-          proxyAddress: '0x26690F9f17FdC26D419371315bc17950a0FC90eD',
-          oev: { enabled: false },
-        },
-        {
-          proxyType: 'dapi',
-          feedName: 'WBTC/USD',
-          dapiNameHash: '0x788a83d3185172684a06bc2d96ea3e98728e0e87b759e866757989dcfe63b4f4',
-          proxyAddress: '0x28Cac6604A8f2471E19c8863E8AfB163aB60186a',
-          oev: { enabled: false },
-        },
-      ],
-    },
-    links: {
-      website: 'https://tropykus.com/',
-      dapp: 'https://zk.app.tropykus.com/',
-      docs: 'https://github.com/Tropykus/protocol-rsk',
-      explorer: 'https://zkevm.polygonscan.com/',
-      socials: [
-        { label: 'twitter', url: 'https://twitter.com/tropykus' },
-        { label: 'telegram', url: 'https://t.me/tropykus' },
-      ],
-    },
-    year: 2023,
-  },
-  {
     name: 'Quickswap-Perps',
     tagline: 'cutting-edge decentralized Perpetual Exchange on Polygon zkEVM',
     description:
@@ -500,5 +448,114 @@ export const PROJECTS: Project[] = [
         { label: 'Discord', url: 'https://discord.com/invite/dSMd7AFH36' },
       ],
     },
+  },
+  {
+    name: 'Shrike Perps',
+    tagline: 'Maximize your gains with 50x leverage on Shrike!',
+    description:
+      'Trade for maximum gains on zkEVM with Shrike! $3,000 up for grabs in our contests, so make sure you get on the leaderboard! Or provide liquidity with SHLP and win like the house always does through real ETH rewards from trading fees!',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/shrike.7fd3441e.png',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1691697416706_dovish-branded-cover.png',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1691697416714_shrikesc2.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1691697416743_shrikeSC.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['1101'],
+    proxies: {
+      '1101': [
+        {
+          proxyType: 'datafeedId',
+          feedName: 'ETH/USD',
+          datafeedId: '0x4385954e058fbe6b6a744f32a4f89d67aad099f8fb8b23e7ea8dd366ae88151d',
+          proxyAddress: '0x42e7638365215B18E969c7c71cAfd98fc035f3dc',
+          oev: { enabled: true, beneficiary: '0xa5964a9CF2f8ADDF72b3e9Dd417b4E950Cd34e99' },
+        },
+        {
+          proxyType: 'datafeedId',
+          feedName: 'BTC/USD',
+          datafeedId: '0xd888b92f9d71afedd0a012622c0d1d5368fc0dc0ff1d30bb16266afcd49c2c17',
+          proxyAddress: '0xDF164A1A1f51460953B3839E9e5d7EdceE0EB0D9',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'datafeedId',
+          feedName: 'MATIC/USD',
+          datafeedId: '0x7a32de86e03383b758e3c7e00681b6c762e0cef235676a2593e4aef83c1b41b2',
+          proxyAddress: '0x9d642fD27Ab7baa66Fba30BCBD67bd31ab5578d5',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'datafeedId',
+          feedName: 'USDC/USD',
+          datafeedId: '0x811b12b44adf2e6ad84dc3ec577cc6c0b15e76e400764139330ce3fc58043d26',
+          proxyAddress: '0x2a87813e167D8365001C99Ee8C220500767E99f0',
+          oev: { enabled: false },
+        },
+      ],
+    },
+    links: {
+      website: 'https://shrike.dovish.finance/',
+      dapp: 'https://shrike.dovish.finance/',
+      docs: 'https://dovish.gitbook.io/shrike/',
+      explorer: 'https://zkevm.polygonscan.com/',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/DovishFi' },
+        { label: 'discord', url: 'https://discord.com/invite/Up2SMcfthg' },
+      ],
+    },
+    year: 2023,
+  },
+  {
+    name: 'Tropykus Finance',
+    tagline: 'Earn interest and open fair credit lines for latinamericans.',
+    description:
+      'Tropykus enables users and companies to leverage their savings using ETH and USDC, generating passive interest. Additionally, it provides the opportunity to open credit lines for members or employees in an easy and secure way through an intuitive interface that guides both savvy users and beginners alike.',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1692035607644_Logo%20Tropykus%20cuadrado.png',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1692035607644_Banner%20API3.png',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1692035607660_Captura%20de%20Pantalla%202023-08-11%20a%20la%28s%29%209.21.21%20a.m..png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1692035607887_Captura%20de%20Pantalla%202023-08-11%20a%20la%28s%29%209.28.11%20a.m..png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1692035608060_Captura%20de%20Pantalla%202023-08-11%20a%20la%28s%29%209.29.53%20a.m..png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['1101'],
+    proxies: {
+      '1101': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0x26690F9f17FdC26D419371315bc17950a0FC90eD',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'WBTC/USD',
+          dapiNameHash: '0x788a83d3185172684a06bc2d96ea3e98728e0e87b759e866757989dcfe63b4f4',
+          proxyAddress: '0x28Cac6604A8f2471E19c8863E8AfB163aB60186a',
+          oev: { enabled: false },
+        },
+      ],
+    },
+    links: {
+      website: 'https://tropykus.com/',
+      dapp: 'https://zk.app.tropykus.com/',
+      docs: 'https://github.com/Tropykus/protocol-rsk',
+      explorer: 'https://zkevm.polygonscan.com/',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/tropykus' },
+        { label: 'telegram', url: 'https://t.me/tropykus' },
+      ],
+    },
+    year: 2023,
   },
 ];
