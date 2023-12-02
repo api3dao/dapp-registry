@@ -558,4 +558,29 @@ export const PROJECTS: Project[] = [
     },
     year: 2023,
   },
+  {
+    name: 'pr new test',
+    tagline: 'testing the PR',
+    description: 'testing the PR',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1701541976538_API3-ECO-LOGO.png',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1701541976539_API3-ECO-LOGO.png',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1701541976546_1136024790856126495.webp',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1701541976550_download.jpeg',
+      ],
+    },
+    categories: ['defi', 'dex'],
+    productType: 'qrng',
+    chains: ['42170', '42161', '1313161554'],
+    links: {
+      website: 'https://docs.mantissa.finance/developers/security',
+      dapp: 'https://app.mantissa.finance/',
+      docs: 'https://docs.mantissa.finance/',
+      explorer: 'https://zkevm.polygonscan.com/address/0x12d41b6DF938C739F00c392575e3FD9292d98215',
+      socials: [],
+    },
+    year: 2023,
+  },
 ];
