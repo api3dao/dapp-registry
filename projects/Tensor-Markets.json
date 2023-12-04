@@ -1,0 +1,65 @@
+{
+  "name": "Tensor Markets",
+  "tagline": "Tensor Markets: Leverage Trading With Ease",
+  "description": "Tensor Markets is a decentralized leverage trading platform designed to provide traders with advanced tools and features for maximizing their trading strategies. Powered by Arbitrum One and Base L2, Tensor Markets combines the efficiency of Layer 2 scaling with the versatility of leverage trading.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1701708045498_1.png",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1701708045509_Banner.png",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1701708045539_Screenshot%202023-10-09%20112505.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1701708045550_Screenshot%202023-10-09%20112606.png"
+    ]
+  },
+  "categories": [
+    "defi",
+    "dao"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "42161",
+    "8453"
+  ],
+  "proxies": {
+    "42161": [
+      {
+        "proxyType": "dapi",
+        "feedName": "BTC/USD",
+        "dapiNameHash": "0x4291cd9e354c309a63b4a41d0de370e9494d5d59a306af07636abaf68159e043",
+        "proxyAddress": "0xe5Cf15fED24942E656dBF75165aF1851C89F21B5",
+        "oev": {
+          "enabled": false
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "ETH/USD",
+        "dapiNameHash": "0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42",
+        "proxyAddress": "0x26690F9f17FdC26D419371315bc17950a0FC90eD",
+        "oev": {
+          "enabled": false
+        }
+      }
+    ]
+  },
+  "links": {
+    "website": "https://tensormarkets.finance/",
+    "dapp": "https://app.tensormarkets.finance/",
+    "docs": "https://docs.tensormarkets.finance/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://twitter.com/TensorMarkets"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.gg/M4C2mAMN2C"
+      },
+      {
+        "label": "github",
+        "url": "https://github.com/Tensor-Markets"
+      }
+    ]
+  },
+  "year": 2023
+}
