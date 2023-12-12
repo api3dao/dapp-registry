@@ -1,0 +1,66 @@
+{
+  "name": "REX Protocol",
+  "tagline": "Web3 Central Limit Orderbook DEX - No-Fee Trades, Margin, and Shorts!",
+  "description": "REX Protocol has built REX Exchange, a central limit orderbook DEX that offers free trades, spot margin trading, and shorting in a front-running proof, non-custodial decentralized exchange./n/nREX Protocol, by origin, is a real estate liquidity protocol. Enabling property owners around the world to tokenize and trade their assets. Throughout the development of their RWA platform, the team created a DEX that filled a hole the DeFi world currently has. A decentralized platform that has the simplicity and functionality of centralized exchanges with the benefits and securities of decentralized exchanges. Which has prompted the release of the REX Exchange as a standalone crypto exchange.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1702406725755_REX%20Protocol%20Logo%202%20Black%20Background.png",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1702406725798_A_futuristic_city_skyline_like_that_of_Miamis-2.jpg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1702406725972_Exchange%203.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1702406726316_Screenshot%202023-12-12%20at%201.44.13%C3%A2%C2%80%C2%AFPM.png"
+    ]
+  },
+  "categories": [
+    "dex",
+    "defi",
+    "dao",
+    "other"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "137",
+    "1101"
+  ],
+  "proxies": {
+    "1101": [
+      {
+        "proxyType": "dapi",
+        "feedName": "MATIC/USD",
+        "dapiNameHash": "0x6e72570a8a22130da8a971bdf1e55055307c4ef3b05b552f06bce5ae9b34fdc2",
+        "proxyAddress": "0x103c15A3F4a8978dbC3Eb2953b460F0248c1cD26",
+        "oev": {
+          "enabled": false
+        }
+      }
+    ]
+  },
+  "links": {
+    "website": "https://www.REXExchange.io",
+    "dapp": "https://www.REXExchange.io",
+    "docs": "https://rex-protocol.gitbook.io/rex-exchange/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://twitter.com/REXProtocol"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.gg/ENczHU9p52"
+      },
+      {
+        "label": "reddit",
+        "url": "https://www.reddit.com/r/REXProtocol/"
+      },
+      {
+        "label": "github",
+        "url": "https://github.com/REXProtocol"
+      },
+      {
+        "label": "telegram",
+        "url": "https://t.me/+JXVbIJJJemliMjY5"
+      }
+    ]
+  },
+  "year": 2023
+}
