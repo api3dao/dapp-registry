@@ -1,0 +1,50 @@
+{
+  "name": "Lendle",
+  "tagline": "#1 Decentralized, non-custodial lending and borrowing market on Mantle",
+  "description": "At Lendle, we firmly believe that lending and borrowing protocols are the backbone of a well-functioning DeFi ecosystem. These protocols empower users to make the most of their cryptocurrencies, allowing them to engage in complex financial strategies and acting as a catalyst that promotes further participation within DeFi./nIn line with this vision, we are committed to bringing a new wave of innovation to the lending and borrowing landscape. Our goal is to develop a new generation of DeFi features, building on the foundation laid by giants like Aave and Geist./nWe believe that by providing users with a wider range of options for lending and borrowing, we can help to further incentivize the growth of DeFi, building a more resilient and sustainable financial system that benefits everyone.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1704450901672_lendle-logomark.png",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1704450901672_medium%20lendle%20%281%29%20%281%29.jpg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1704450901680_screenshot%20new%20lendle%201.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1704450901695_screenshot%20new%20lendle%202.png"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "5000"
+  ],
+  "proxies": {
+    "5000": [
+      {
+        "proxyType": "dapi",
+        "feedName": "mETH/ETH Exchange Rate",
+        "dapiNameHash": "0xc4a2854b0815f87a4b90e3bbfd85b129a583a8d214cc34608b958d6ba0f96545",
+        "proxyAddress": "0xF55faBDf4C4F19D48d12A94209c735ca5AC43c78",
+        "oev": {
+          "enabled": false
+        }
+      }
+    ]
+  },
+  "links": {
+    "website": "https://lendle.xyz/",
+    "dapp": "https://app.lendle.xyz/",
+    "docs": "https://docs.lendle.xyz/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://twitter.com/lendlexyz"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.gg/WwewFTW6H2"
+      }
+    ]
+  },
+  "year": 2023
+}
