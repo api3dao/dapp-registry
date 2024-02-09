@@ -37,6 +37,46 @@ export const PROJECTS: Project[] = [
     },
   },
   {
+    name: 'ChainLocker',
+    tagline: 'Data-contingent Smart Contract Escrow',
+    description:
+      'ChainLocker seeks to optimize intermediary-free conditional digital asset escrow. Users customize and deploy their own “ChainLockers”: non-custodial escrow smart contracts with immutable parameters, including the option to make execution contingent on external data. Each ChainLocker is a unique address, ensuring funds of different counterparties are not commingled and that execution is dictated strictly via code./n/nChainLockers can lock native gas tokens or ERC20-compliant tokens, with other immutable feature options including refundability, expiration, identified counterparty or open offer, and oracle-fed data contingency. Users may also print a US dollar-denominated Receipt for certain locked assets. ',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1702567223494_ChainLocker%20Logo.png',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1702567223819_Wave%201.png',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1702567223933_CreatePageScreenshot.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1702567223946_DirectoryPageScreenshot.png',
+      ],
+    },
+    categories: ['defi', 'infrastructure', 'other'],
+    productType: 'datafeed',
+    chains: ['42161', '1', '10', '1101', '137'],
+    proxies: {
+      '137': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0x009E9B1eec955E9Fe7FE64f80aE868e661cb4729',
+          oev: { enabled: false },
+        },
+      ],
+    },
+    links: {
+      website: 'https://chainlocker.org/',
+      dapp: 'https://chainlocker.org/',
+      docs: 'https://chainlocker.org/#/documentation',
+      explorer: 'https://chainlocker.org/#/directory',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/chainlockerllc' },
+        { label: 'github', url: 'https://github.com/ChainLockerLLC' },
+      ],
+    },
+    year: 2023,
+  },
+  {
     name: 'Damned Pirates Society',
     tagline: 'The Damned Pirate Society combines an on-chain light-strategy game.',
     description:
