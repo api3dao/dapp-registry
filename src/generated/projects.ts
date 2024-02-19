@@ -339,6 +339,37 @@ export const PROJECTS: Project[] = [
     },
   },
   {
+    name: 'LightLink',
+    tagline: 'The gasless blockchain network for enterprises and dApps',
+    description:
+      'LightLinks novel Enterprise Mode enables businesses to operate gas free, allowing users on their platforms to engage in a secure, user friendly blockchain network without transaction fees, barriers to entry, or the need for any tokens.',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1708301166273_Avatar%201%20%281%29.png',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1708301166274_Banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1708301167145_Screenshot%202024-02-19%20at%2010.59.01%C3%A2%C2%80%C2%AFam.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1708301167732_Screenshot%202024-02-19%20at%2010.59.37%C3%A2%C2%80%C2%AFam.png',
+      ],
+    },
+    categories: ['defi', 'infrastructure', 'dex', 'gaming', 'dao'],
+    productType: 'qrng',
+    chains: ['1'],
+    links: {
+      website: 'https://lightlink.io',
+      dapp: 'https://lightlink.io',
+      docs: 'https://docs.lightlink.io',
+      explorer: 'https://phoenix.lightlink.io',
+      socials: [
+        { label: 'twitter', url: 'https://x.com/lightlinkchain' },
+        { label: 'discord', url: 'https://discord.gg/lightlinkchain' },
+        { label: 'github', url: 'https://github.com/pellartech' },
+        { label: 'telegram', url: 'https://t.me/lightlinkchain' },
+      ],
+    },
+    year: 2023,
+  },
+  {
     name: 'MYSO Finance',
     tagline: 'We specialize in custom DeFi loan solutions and covered call lending',
     description:
