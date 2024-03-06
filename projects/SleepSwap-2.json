@@ -1,0 +1,50 @@
+{
+  "name": "SleepSwap 2",
+  "tagline": "AI based trading platform",
+  "description": "AI based trading platform",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1709741341813_quick-logo.png",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1709741341814_quick-banner%20%282%29.png",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1709741341871_quick-s1.webp",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1709741341877_quick-s2.webp"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "qrng",
+  "chains": [
+    "42170"
+  ],
+  "links": {
+    "website": "https://twitter.com/home",
+    "dapp": "https://api3-ecosystem.netlify.app/",
+    "docs": "https://api3-ecosystem.netlify.app/",
+    "explorer": "https://api3-ecosystem.netlify.app/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://twitter.com/home"
+      },
+      {
+        "label": "discord",
+        "url": "https://twitter.com/home"
+      },
+      {
+        "label": "reddit",
+        "url": "https://twitter.com/home"
+      },
+      {
+        "label": "github",
+        "url": "https://twitter.com/home"
+      },
+      {
+        "label": "telegram",
+        "url": "https://twitter.com/home"
+      }
+    ]
+  },
+  "year": 2024
+}
