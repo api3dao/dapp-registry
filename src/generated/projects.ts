@@ -37,6 +37,46 @@ export const PROJECTS: Project[] = [
     },
   },
   {
+    name: 'ChainLocker',
+    tagline: 'Data-contingent Smart Contract Escrow',
+    description:
+      'ChainLocker seeks to optimize intermediary-free conditional digital asset escrow. Users customize and deploy their own “ChainLockers”: non-custodial escrow smart contracts with immutable parameters, including the option to make execution contingent on external data. Each ChainLocker is a unique address, ensuring funds of different counterparties are not commingled and that execution is dictated strictly via code./n/nChainLockers can lock native gas tokens or ERC20-compliant tokens, with other immutable feature options including refundability, expiration, identified counterparty or open offer, and oracle-fed data contingency. Users may also print a US dollar-denominated Receipt for certain locked assets. ',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1702567223494_ChainLocker%20Logo.png',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1702567223819_Wave%201.png',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1702567223933_CreatePageScreenshot.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1702567223946_DirectoryPageScreenshot.png',
+      ],
+    },
+    categories: ['defi', 'infrastructure', 'other'],
+    productType: 'datafeed',
+    chains: ['42161', '1', '10', '1101', '137'],
+    proxies: {
+      '137': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0x009E9B1eec955E9Fe7FE64f80aE868e661cb4729',
+          oev: { enabled: false },
+        },
+      ],
+    },
+    links: {
+      website: 'https://chainlocker.org/',
+      dapp: 'https://chainlocker.org/',
+      docs: 'https://chainlocker.org/#/documentation',
+      explorer: 'https://chainlocker.org/#/directory',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/chainlockerllc' },
+        { label: 'github', url: 'https://github.com/ChainLockerLLC' },
+      ],
+    },
+    year: 2023,
+  },
+  {
     name: 'Damned Pirates Society',
     tagline: 'The Damned Pirate Society combines an on-chain light-strategy game.',
     description:
@@ -64,6 +104,39 @@ export const PROJECTS: Project[] = [
         { label: 'discord', url: 'https://discord.gg/thedamnedpiratessociety' },
       ],
     },
+  },
+  {
+    name: 'Estfor Kingdom',
+    tagline: 'A medieval fantasy web3 MMORPG. Fully on-chain, idle browser game.',
+    description:
+      'Estfor Kingdom is a medieval fantasy web3 MMORPG. Fully on-chain, idle browser game with clans, quests, skills and monsters with a $BRUSH in-game economy utilising ERC1155 NFTs for all in-game items./n/nClan wars uses API3 to randomly assign warriors to battle each other with individual skills in epic 20 v 20 fights over territories and clan vaults.',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1707254261985_ek_logo.png',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1707254262006_Logo_on_background%201.png',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1707254262054_ss1.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1707254262100_ss2.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1707254262126_ss3.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1707254262148_ss4.png',
+      ],
+    },
+    categories: ['nft', 'gaming', 'oracle'],
+    productType: 'qrng',
+    chains: ['250'],
+    links: {
+      website: 'https://estfor.com/',
+      dapp: 'https://estfor.com/',
+      docs: 'https://wiki.estfor.com/index.php/Main_Page',
+      explorer: 'https://ftmscan.com/',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/EstforKingdom' },
+        { label: 'discord', url: 'https://discord.com/invite/paintswap' },
+        { label: 'reddit', url: 'https://www.reddit.com/r/estfor/' },
+        { label: 'github', url: 'https://github.com/PaintSwap/estfor-contracts' },
+      ],
+    },
+    year: 2023,
   },
   {
     name: 'Granary Finance',
@@ -264,6 +337,83 @@ export const PROJECTS: Project[] = [
         { label: 'telegram', url: 'https://t.me/KinetixFi' },
       ],
     },
+  },
+  {
+    name: 'MYSO Finance',
+    tagline: 'We specialize in custom DeFi loan solutions and covered call lending',
+    description:
+      'MYSO Finance is a decentralized peer-to-peer lending protocol that allows users to borrow and lend with any ERC20 token. /n/nBorrowers have access to fixed, transparent terms with no risk of price-based liquidations. On the other side, lenders can create loan offers at scale and customize loan terms to their personal specifications. /n/nMYSO specializes in tailor-made DeFi loan solutions along with covered call lending, which provides alternative yield enhancement opportunities to earn upfront cash with full flexibility in setting loan duration and upside cap. ',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1704422016906_avatar_01.jpg',
+      cover:
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1704422016907_PHOTO-2023-07-23-02-42-58%20Cropped.png',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1704422017425_Screenshot%202024-01-04%20163955.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1704422017471_Screenshot%202024-01-04%20164033.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['1', '42161', '5000'],
+    proxies: {
+      '5000': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0x009E9B1eec955E9Fe7FE64f80aE868e661cb4729',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'MNT/USD',
+          dapiNameHash: '0xa9aac29787fcbd94a60c432bcb0323ec8100ca21cade393b6a0acc3e7368b7e5',
+          proxyAddress: '0x33d6e2AF008Eefa4c50a4167D245C77C9FEe00f0',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'WBTC/USD',
+          dapiNameHash: '0x788a83d3185172684a06bc2d96ea3e98728e0e87b759e866757989dcfe63b4f4',
+          proxyAddress: '0x0f1CB652F56b497C7ed6bdf61C09724D1682cB3D',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDC/USD',
+          dapiNameHash: '0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880',
+          proxyAddress: '0x9F8663dD5A0F30a41B774de46128849FE2364C17',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDT/USD',
+          dapiNameHash: '0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d',
+          proxyAddress: '0x3Adac52054a03A1a9F0DC4FFbcfBBD38eA99EF7E',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'mETH/ETH Exchange Rate',
+          dapiNameHash: '0xc4a2854b0815f87a4b90e3bbfd85b129a583a8d214cc34608b958d6ba0f96545',
+          proxyAddress: '0xF55faBDf4C4F19D48d12A94209c735ca5AC43c78',
+          oev: { enabled: false },
+        },
+      ],
+    },
+    links: {
+      website: 'https://myso.finance/',
+      dapp: 'https://app.myso.finance/',
+      docs: 'https://myso-finance.gitbook.io/myso-v2-docs',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/MYSOFinance' },
+        { label: 'discord', url: 'https://discord.gg/hBQCZ52bvq' },
+        { label: 'github', url: 'https://github.com/mysofinance' },
+        { label: 'telegram', url: 'https://t.me/MysoFinance' },
+      ],
+    },
+    year: 2023,
   },
   {
     name: 'Lendle',

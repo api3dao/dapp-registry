@@ -1,0 +1,50 @@
+{
+  "name": "Estfor Kingdom",
+  "tagline": "A medieval fantasy web3 MMORPG. Fully on-chain, idle browser game.",
+  "description": "Estfor Kingdom is a medieval fantasy web3 MMORPG. Fully on-chain, idle browser game with clans, quests, skills and monsters with a $BRUSH in-game economy utilising ERC1155 NFTs for all in-game items./n/nClan wars uses API3 to randomly assign warriors to battle each other with individual skills in epic 20 v 20 fights over territories and clan vaults.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1707254261985_ek_logo.png",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1707254262006_Logo_on_background%201.png",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1707254262054_ss1.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1707254262100_ss2.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1707254262126_ss3.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1707254262148_ss4.png"
+    ]
+  },
+  "categories": [
+    "nft",
+    "gaming",
+    "oracle"
+  ],
+  "productType": "qrng",
+  "chains": [
+    "250"
+  ],
+  "links": {
+    "website": "https://estfor.com/",
+    "dapp": "https://estfor.com/",
+    "docs": "https://wiki.estfor.com/index.php/Main_Page",
+    "explorer": "https://ftmscan.com/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://twitter.com/EstforKingdom"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.com/invite/paintswap"
+      },
+      {
+        "label": "reddit",
+        "url": "https://www.reddit.com/r/estfor/"
+      },
+      {
+        "label": "github",
+        "url": "https://github.com/PaintSwap/estfor-contracts"
+      }
+    ]
+  },
+  "year": 2023
+}
