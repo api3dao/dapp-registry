@@ -1,0 +1,102 @@
+{
+  "name": "Init Capital",
+  "tagline": "The Liquidity Hook Money Market",
+  "description": "INIT Capital is founded on the belief that liquidity should be an accessible commodity for everyone. The platform aims to democratize access to liquidity, catering not only to DeFi users but also to protocols through 'Liquidity Hooks.'/n/nOne of the biggest challenges for DeFi protocols nowadays is to bootstrap initial liquidity and consistently source it in order to grow. /n/nMany protocols struggle to access liquidity in money markets due to its lack of composability, thereby capping protocol growth. While the DeFi landscape evolves continuously to accommodate diverse borrowing use cases, the architecture of money markets has not correspondingly evolved. This prompts protocols to independently source liquidity themselves, though liquidity is limited. Consequently, protocols spend a significant amount of their native token supply on incentives to source liquidity. This approach is unsustainable in the long term and leads to liquidity fragmentation.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1710949415194_spaces_FLvXoyZPiNdlXsKNZeao_uploads_AZh9N5R47SLXg7yAygrY_INIT_logo_White.webp",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1710949415195_INIT%20Logo_BW_White_2%20%281%29.png",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1710949415195_ishare-1710948797.PNG",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1710949415247_ishare-1710948829.PNG"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "81457",
+    "5000"
+  ],
+  "proxies": {
+    "5000": [
+      {
+        "proxyType": "dapi",
+        "feedName": "ETH/USD",
+        "dapiNameHash": "0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42",
+        "proxyAddress": "0xc3888221c7abf02a9a504a8c12fc4871e563382d",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x11C1EcB2508a68D9d4de764a6e0ac76bF7E89691"
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "WBTC/USD",
+        "dapiNameHash": "0x788a83d3185172684a06bc2d96ea3e98728e0e87b759e866757989dcfe63b4f4",
+        "proxyAddress": "0x2112e290ee5c922fb191aa4f927cc0c6df611f9e",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x11C1EcB2508a68D9d4de764a6e0ac76bF7E89691"
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "MNT/USD",
+        "dapiNameHash": "0xa9aac29787fcbd94a60c432bcb0323ec8100ca21cade393b6a0acc3e7368b7e5",
+        "proxyAddress": "0xae2debfef62b1a0c8af55dae11d197bca1bcde3f",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x11C1EcB2508a68D9d4de764a6e0ac76bF7E89691"
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "USDC/USD",
+        "dapiNameHash": "0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880",
+        "proxyAddress": "0xac177ca9e44de191d5266ae31ac142784372a005",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x11C1EcB2508a68D9d4de764a6e0ac76bF7E89691"
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "USDT/USD",
+        "dapiNameHash": "0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d",
+        "proxyAddress": "0x356d599c0ab2a9d825a92f5e516d4ff9e5c6e8b9",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x11C1EcB2508a68D9d4de764a6e0ac76bF7E89691"
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "mETH/ETH Exchange Rate",
+        "dapiNameHash": "0xc4a2854b0815f87a4b90e3bbfd85b129a583a8d214cc34608b958d6ba0f96545",
+        "proxyAddress": "0x0c02bb3220498dea37544424fdcdaeff2fdd70f7",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x11C1EcB2508a68D9d4de764a6e0ac76bF7E89691"
+        }
+      }
+    ]
+  },
+  "links": {
+    "website": "https://init.capital/",
+    "dapp": "https://init.capital/",
+    "docs": "https://docs.init.capital/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://twitter.com/InitCapital_"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.com/invite/hHzFvUw3SV"
+      }
+    ]
+  },
+  "year": 2024
+}
