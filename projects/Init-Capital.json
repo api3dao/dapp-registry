@@ -11,14 +11,9 @@
       "https://ecosystem-website.s3.us-east-2.amazonaws.com/1710949415247_ishare-1710948829.PNG"
     ]
   },
-  "categories": [
-    "defi"
-  ],
+  "categories": ["defi"],
   "productType": "datafeed",
-  "chains": [
-    "81457",
-    "5000"
-  ],
+  "chains": ["81457", "5000"],
   "proxies": {
     "5000": [
       {
@@ -73,12 +68,84 @@
       },
       {
         "proxyType": "dapi",
+        "feedName": "USDe/USD",
+        "dapiNameHash": "0xfa486155e7bffd2691ee94dce1e42411544a9ee569d28388cffd09bade579659",
+        "proxyAddress": "0xbd23419fcfb5a95b6956f75ac3fb76a3c876d4bb",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x11C1EcB2508a68D9d4de764a6e0ac76bF7E89691"
+        }
+      },
+      {
+        "proxyType": "dapi",
         "feedName": "mETH/ETH Exchange Rate",
         "dapiNameHash": "0xc4a2854b0815f87a4b90e3bbfd85b129a583a8d214cc34608b958d6ba0f96545",
         "proxyAddress": "0x0c02bb3220498dea37544424fdcdaeff2fdd70f7",
         "oev": {
           "enabled": true,
           "beneficiary": "0x11C1EcB2508a68D9d4de764a6e0ac76bF7E89691"
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "sUSDe/USDe Exchange Rate",
+        "dapiNameHash": "0xa9748923704b6a516dc7038fd1c1fa623a872cdb66c94167f6da1bf2712b3dd6",
+        "proxyAddress": "0x36bac405f8d8233ba2c8bf23563afa37466cbc25",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x11C1EcB2508a68D9d4de764a6e0ac76bF7E89691"
+        }
+      }
+    ],
+    "81457": [
+      {
+        "proxyType": "dapi",
+        "feedName": "ETH/USD",
+        "dapiNameHash": "0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42",
+        "proxyAddress": "0x28f36D00422B4461bEB0340a401bC12BA3A6Df45",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0xBfe699C94AF6dA1cfe7fF81D7280dBd11baBdeb8"
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "stETH/USD",
+        "dapiNameHash": "0x641a6d0b40aeaa34f02857c1f5c56d9b55d3dd702184e8de313701381f45ebd9",
+        "proxyAddress": "0x12B59a2ed6ae2b96dA16D5ef2d45640957B67123",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0xBfe699C94AF6dA1cfe7fF81D7280dBd11baBdeb8"
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "DAI/USD",
+        "dapiNameHash": "0x9eaf6889d5df94e769098eb3119c7ad9a8f301b58296c06cb75b2859c6f35557",
+        "proxyAddress": "0x321902C3d4F6E47523E56D2f2883448a0443826a",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0xBfe699C94AF6dA1cfe7fF81D7280dBd11baBdeb8"
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "USDC/USD",
+        "dapiNameHash": "0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880",
+        "proxyAddress": "0xf3d16B27D91a4463471462A630117341c2c5aA10",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0xBfe699C94AF6dA1cfe7fF81D7280dBd11baBdeb8"
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "USDT/USD",
+        "dapiNameHash": "0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d",
+        "proxyAddress": "0x104a3Db1B855e6FE4af8444D448E1Cfca7E9Ff82",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0xBfe699C94AF6dA1cfe7fF81D7280dBd11baBdeb8"
         }
       }
     ]
