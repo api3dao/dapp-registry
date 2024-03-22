@@ -1,0 +1,83 @@
+{
+  "name": "Minterest",
+  "tagline": "Cross-chain DeFi lending protocol with sustainable governance token",
+  "description": "Minterest is an innovative cross-chain DeFi lending protocol, that unlocks the highest sustainable yields by returning 100% of captured fees to its users, by buying back its native token from the market and distributing them to the users as Governance Rewards",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1705312130549_Minterest%20Profile.png",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1705312130551_Minterest%20Partners%20%281%29.png",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1705312130595_Screenshot%202024-01-15%20at%2010.46.53.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1705312130708_Screenshot%202024-01-15%20at%2010.47.25.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1705312130815_Screenshot%202024-01-15%20at%2010.47.34.png"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "5000"
+  ],
+  "proxies": {
+    "5000": [
+      {
+        "proxyType": "dapi",
+        "feedName": "MNT/USD",
+        "dapiNameHash": "0xa9aac29787fcbd94a60c432bcb0323ec8100ca21cade393b6a0acc3e7368b7e5",
+        "proxyAddress": "0x33d6e2AF008Eefa4c50a4167D245C77C9FEe00f0",
+        "oev": {
+          "enabled": false
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "ETH/USD",
+        "dapiNameHash": "0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42",
+        "proxyAddress": "0x009E9B1eec955E9Fe7FE64f80aE868e661cb4729",
+        "oev": {
+          "enabled": false
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "USDT/USD",
+        "dapiNameHash": "0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d",
+        "proxyAddress": "0x3Adac52054a03A1a9F0DC4FFbcfBBD38eA99EF7E",
+        "oev": {
+          "enabled": false
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "USDC/USD",
+        "dapiNameHash": "0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880",
+        "proxyAddress": "0x9F8663dD5A0F30a41B774de46128849FE2364C17",
+        "oev": {
+          "enabled": false
+        }
+      }
+    ]
+  },
+  "links": {
+    "website": "https://minterest.com",
+    "dapp": "https://mantle.minterest.com",
+    "docs": "https://docs.minterest.com/faq/",
+    "explorer": "https://explorer.mantle.xyz/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://twitter.com/Minterest"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.gg/minterest"
+      },
+      {
+        "label": "telegram",
+        "url": "https://t.me/MinterestFinanceChat"
+      }
+    ]
+  },
+  "year": 2023
+}
