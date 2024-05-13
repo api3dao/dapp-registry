@@ -1,0 +1,42 @@
+{
+  "name": "JUICE Finance",
+  "tagline": "Revolutionizing Point Farming DeFi",
+  "description": "JUICE is a permissionless lending protocol that allows users to access up to 3x leverage on their collateral to use in the most well vetted & popular DApps in the Blast ecosystem. JUICE is designed to help users accumulate:/n/nMore Yield/n/nMore Points/n/nMore Airdrops/n/nMore Rewards/n/nAt JUICE Finance, our core vision is to serve as the premier destination for users looking to optimize their yield and point farming on Blast. Whether you're a lender seeking passive APY opportunities or a borrower aiming to capitalize on DeFi protocols yields, rewards, and points.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1715617735334_JUICE%20logo.jpeg",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1715617735335_Juice%20banner.jpeg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1715617735371_Screenshot%202024-05-13%20at%209.24.02%20AM.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1715617735391_Screenshot%202024-05-13%20at%209.23.50%20AM.png"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "81457"
+  ],
+  "proxies": {},
+  "links": {
+    "website": "https://www.juice.finance/",
+    "dapp": "https://app.juice.finance/",
+    "docs": "https://juice-finance.gitbook.io/juice-finance",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://twitter.com/Juice_Finance"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.gg/juicefinance"
+      },
+      {
+        "label": "github",
+        "url": "https://juice-finance.gitbook.io/"
+      }
+    ]
+  },
+  "year": 2024
+}
