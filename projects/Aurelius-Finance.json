@@ -1,0 +1,38 @@
+{
+  "name": "Aurelius Finance",
+  "tagline": "The next-generation lending experience on Mantle",
+  "description": "Aurelius issues interest-free loans denominated in the $aUSD stablecoin. Instead of paying interest, users pay a 0.5% issuance fee, meaning they don’t need to worry about micro-managing their position./n/nThere is no fee for paying back a loan./n/naUSD Loan Example/n/nIf a user deposits sufficient collateral, they can take out a 100 aUSD loan./n/nTheir total debt will appear as 105.5 aUSD, which is made up of a 0.5% issuance fee (in this case 0.5 aUSD), 5 aUSD held as a liquidation deposit, and 100 aUSD minted to the user’s wallet./n/nWhen the user pays back 100.5 aUSD, the 5 aUSD liquidation deposit will automatically be paid into their position and the position will be closed.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1715618918362_Aurelius%20Logo.jpeg",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1715618918363_Aurelius%20banner.jpeg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1715618918418_Screenshot%202024-05-13%20at%209.45.12%20AM.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1715618918439_Screenshot%202024-05-13%20at%209.45.30%20AM.png"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "5000"
+  ],
+  "proxies": {},
+  "links": {
+    "website": "https://www.aurelius.finance/",
+    "dapp": "https://app.aurelius.finance/",
+    "docs": "https://docs.aurelius.finance/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://twitter.com/AureliusFi"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.gg/AureliusFi"
+      }
+    ]
+  },
+  "year": 2024
+}
