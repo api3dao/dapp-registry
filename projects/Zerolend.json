@@ -1,0 +1,39 @@
+{
+  "name": "Zerolend",
+  "tagline": "A multi-chain lending protocol focused on LRTs, RWAs, privacy, and AA",
+  "description": "The core features of the ZeroLend ecosystem include:/n/nDeFi Lending (Live): A decentralized, non-custodial liquidity protocol enabling users to participate as liquidity providers or borrowers. ZeroLend also aims to provide lending and borrowing on various supported assets across multiple chains. To learn more, read \"DeFi Lending\". /n/nZeroLend Governance ($ZERO): A governance system for governing the ZeroLend Protocol, enabled by the $ZERO token. To learn more, read \"Zeronomics\" and \"Participation Incentives.\"/n/nAccount Abstraction (Live): This feature allows for gas-less transactions, social logins, delegated transactions, etc. To know more, read \"Account Abstraction\"",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1715787053337_Logo%20Transparent%20White.png",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1715787053338_zerolend.jpg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1715787053344_CleanShot%202024-05-15%20at%2016.28.37.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1715787053363_CleanShot%202024-05-15%20at%2016.26.42.png"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "1"
+  ],
+  "proxies": {},
+  "links": {
+    "website": "http://app.zerolend.xyz/",
+    "dapp": "https://app.zerolend.xyz/",
+    "docs": "https://docs.zerolend.xyz/",
+    "explorer": "",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://twitter.com/zerolendxyz"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.gg/zerolend"
+      }
+    ]
+  },
+  "year": 2023
+}
