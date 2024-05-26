@@ -1,0 +1,26 @@
+{
+  "name": "Test",
+  "tagline": "quater sized tweet",
+  "description": "quater sized tweet",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1716682688471_Logo.jpg",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1716682688484_zerolend.jpg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1716682688530_cover.jpg",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1716682688531_Logo.jpg"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "qrng",
+  "chains": [
+    "42170"
+  ],
+  "links": {
+    "dapp": "https://burooj.dev",
+    "socials": []
+  },
+  "year": 2018
+}
