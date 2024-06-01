@@ -1,7 +1,7 @@
 {
   "name": "@api3-ecosystem/dapp-registry",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "API3 DAO",
   "private": false,
   "main": "./dist/index.js",
@@ -30,7 +30,7 @@
     "zod": "^3.21.4"
   },
   "devDependencies": {
-    "@api3/chains": "^4.13.1",
+    "@api3/chains": "^7.1.0",
     "@types/node": "^20.2.5",
     "@types/prettier": "^2.7.3",
     "@typescript-eslint/eslint-plugin": "^5.59.8",

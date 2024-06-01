@@ -31,7 +31,7 @@
         "proxyAddress": "0x7501f1Aa71d409D1D4732b98178beE5Ad83d467B",
         "oev": {
           "enabled": true,
-          "benificiary": "0xffffffffffffffffffffffffffffffffffffffff"
+          "beneficiary": "0xffffffffffffffffffffffffffffffffffffffff"
         }
       },
       {
@@ -41,7 +41,7 @@
         "proxyAddress": "0xEE16dc11b79D052365636371447081c5CDbe4c75",
         "oev": {
           "enabled": true,
-          "benificiary": "0xffffffffffffffffffffffffffffffffffffffff"
+          "beneficiary": "0xffffffffffffffffffffffffffffffffffffffff"
         }
       },
       {
@@ -51,7 +51,7 @@
         "proxyAddress": "0xf38aE688F6759EAC85E5a6306371Eab85A1C2d6A",
         "oev": {
           "enabled": true,
-          "benificiary": "0xffffffffffffffffffffffffffffffffffffffff"
+          "beneficiary": "0xffffffffffffffffffffffffffffffffffffffff"
         }
       },
       {
@@ -61,7 +61,7 @@
         "proxyAddress": "0xFD044FFEf70439794E43C5b9Ca5E5d8a7F35CDEb",
         "oev": {
           "enabled": true,
-          "benificiary": "0xffffffffffffffffffffffffffffffffffffffff"
+          "beneficiary": "0xffffffffffffffffffffffffffffffffffffffff"
         }
       },
       {
@@ -71,7 +71,7 @@
         "proxyAddress": "0xcA561271D5055306Db839Cfa222085e2bc0d1C11",
         "oev": {
           "enabled": true,
-          "benificiary": "0xffffffffffffffffffffffffffffffffffffffff"
+          "beneficiary": "0xffffffffffffffffffffffffffffffffffffffff"
         }
       },
       {
@@ -81,7 +81,7 @@
         "proxyAddress": "0xE14541393402D6253366AFd5F7F5f3d9c0420D74",
         "oev": {
           "enabled": true,
-          "benificiary": "0xffffffffffffffffffffffffffffffffffffffff"
+          "beneficiary": "0xffffffffffffffffffffffffffffffffffffffff"
         }
       }
     ],
@@ -93,7 +93,7 @@
         "proxyAddress": "0x397116Bab53b6F38e7A65033Fc0d35C04f604414",
         "oev": {
           "enabled": true,
-          "benificiary": "0xffffffffffffffffffffffffffffffffffffffff"
+          "beneficiary": "0xffffffffffffffffffffffffffffffffffffffff"
         }
       }
     ]

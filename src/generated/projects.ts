@@ -106,13 +106,6 @@ export const PROJECTS: Project[] = [
         },
         {
           proxyType: 'dapi',
-          feedName: 'mETH/ETH Exchange Rate',
-          dapiNameHash: '0xc4a2854b0815f87a4b90e3bbfd85b129a583a8d214cc34608b958d6ba0f96545',
-          proxyAddress: '0xF55faBDf4C4F19D48d12A94209c735ca5AC43c78',
-          oev: { enabled: false },
-        },
-        {
-          proxyType: 'dapi',
           feedName: 'USDY/USD Exchange Rate',
           dapiNameHash: '0x3ee00633a33953560ce2afb3f40f32032713f7e63e855d64f15544d2256e2cc6',
           proxyAddress: '0xbD81A812a118f74857B71cACA71f98f6f0b37945',
@@ -229,6 +222,34 @@ export const PROJECTS: Project[] = [
         { label: 'discord', url: 'https://discord.com/invite/paintswap' },
         { label: 'reddit', url: 'https://www.reddit.com/r/estfor/' },
         { label: 'github', url: 'https://github.com/PaintSwap/estfor-contracts' },
+      ],
+    },
+    year: 2023,
+  },
+  {
+    name: 'Exiled Racers',
+    tagline: 'Experience the first low touch racing manager & prediction game.',
+    description:
+      'EXR is the first provably fair, algo simulated racing and prediction manager—seamlessly integrated with world class digital 3D collectibles./n/n',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715877702960_EXR%20logo.jpeg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715877702961_EXR%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715877703005_Screenshot%202024-05-16%20at%209.38.10%20AM.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715877703039_Screenshot%202024-05-16%20at%209.37.57%20AM.png',
+      ],
+    },
+    categories: ['gaming'],
+    productType: 'qrng',
+    chains: ['8453', '1284'],
+    links: {
+      website: 'https://www.exiledracers.com/',
+      dapp: 'https://base.exiledracers.com/',
+      docs: '',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/exiledracers' },
+        { label: 'discord', url: 'https://discord.com/invite/exiledracers' },
       ],
     },
     year: 2023,
@@ -1389,6 +1410,90 @@ export const PROJECTS: Project[] = [
       socials: [
         { label: 'twitter', url: 'https://twitter.com/tropykus' },
         { label: 'telegram', url: 'https://t.me/tropykus' },
+      ],
+    },
+    year: 2023,
+  },
+  {
+    name: 'Zerolend',
+    tagline: 'A multi-chain lending protocol focused on LRTs, RWAs, privacy, and AA',
+    description:
+      'The core features of the ZeroLend ecosystem include:/n/nDeFi Lending (Live): A decentralized, non-custodial liquidity protocol enabling users to participate as liquidity providers or borrowers. ZeroLend also aims to provide lending and borrowing on various supported assets across multiple chains. To learn more, read "DeFi Lending". /n/nZeroLend Governance ($ZERO): A governance system for governing the ZeroLend Protocol, enabled by the $ZERO token. To learn more, read "Zeronomics" and "Participation Incentives."/n/nAccount Abstraction (Live): This feature allows for gas-less transactions, social logins, delegated transactions, etc. To know more, read "Account Abstraction"',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715787053337_Logo%20Transparent%20White.png',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715787053338_zerolend.jpg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715787053344_CleanShot%202024-05-15%20at%2016.28.37.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715787053363_CleanShot%202024-05-15%20at%2016.26.42.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['1', '169', '196', '59144', '81457'],
+    proxies: {
+      '196': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0x7501f1Aa71d409D1D4732b98178beE5Ad83d467B',
+          oev: { enabled: true, beneficiary: '0xffffffffffffffffffffffffffffffffffffffff' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'WBTC/USD',
+          dapiNameHash: '0x788a83d3185172684a06bc2d96ea3e98728e0e87b759e866757989dcfe63b4f4',
+          proxyAddress: '0xEE16dc11b79D052365636371447081c5CDbe4c75',
+          oev: { enabled: true, beneficiary: '0xffffffffffffffffffffffffffffffffffffffff' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'OKB/USD',
+          dapiNameHash: '0xf07ba6ab1de90481b22b7837a5e1e6359c1990fd19085165bca642776b87435f',
+          proxyAddress: '0xf38aE688F6759EAC85E5a6306371Eab85A1C2d6A',
+          oev: { enabled: true, beneficiary: '0xffffffffffffffffffffffffffffffffffffffff' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDC/USD',
+          dapiNameHash: '0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880',
+          proxyAddress: '0xFD044FFEf70439794E43C5b9Ca5E5d8a7F35CDEb',
+          oev: { enabled: true, beneficiary: '0xffffffffffffffffffffffffffffffffffffffff' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDT/USD',
+          dapiNameHash: '0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d',
+          proxyAddress: '0xcA561271D5055306Db839Cfa222085e2bc0d1C11',
+          oev: { enabled: true, beneficiary: '0xffffffffffffffffffffffffffffffffffffffff' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'DAI/USD',
+          dapiNameHash: '0x9eaf6889d5df94e769098eb3119c7ad9a8f301b58296c06cb75b2859c6f35557',
+          proxyAddress: '0xE14541393402D6253366AFd5F7F5f3d9c0420D74',
+          oev: { enabled: true, beneficiary: '0xffffffffffffffffffffffffffffffffffffffff' },
+        },
+      ],
+      '59144': [
+        {
+          proxyType: 'dapi',
+          feedName: 'rsETH/ETH Exchange Rate',
+          dapiNameHash: '0xf49fd67221006e2dea4649db9e6a4f6700abe3f44fe49a6d00d8cb851539c034',
+          proxyAddress: '0x397116Bab53b6F38e7A65033Fc0d35C04f604414',
+          oev: { enabled: true, beneficiary: '0xffffffffffffffffffffffffffffffffffffffff' },
+        },
+      ],
+    },
+    links: {
+      website: 'http://app.zerolend.xyz/',
+      dapp: 'https://app.zerolend.xyz/',
+      docs: 'https://docs.zerolend.xyz/',
+      explorer: '',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/zerolendxyz' },
+        { label: 'discord', url: 'https://discord.gg/zerolend' },
       ],
     },
     year: 2023,
