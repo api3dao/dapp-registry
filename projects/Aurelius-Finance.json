@@ -85,15 +85,6 @@
       },
       {
         "proxyType": "dapi",
-        "feedName": "mETH/ETH Exchange Rate",
-        "dapiNameHash": "0xc4a2854b0815f87a4b90e3bbfd85b129a583a8d214cc34608b958d6ba0f96545",
-        "proxyAddress": "0xF55faBDf4C4F19D48d12A94209c735ca5AC43c78",
-        "oev": {
-          "enabled": false
-        }
-      },
-      {
-        "proxyType": "dapi",
         "feedName": "USDY/USD Exchange Rate",
         "dapiNameHash": "0x3ee00633a33953560ce2afb3f40f32032713f7e63e855d64f15544d2256e2cc6",
         "proxyAddress": "0xbD81A812a118f74857B71cACA71f98f6f0b37945",
