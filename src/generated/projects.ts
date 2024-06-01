@@ -1152,6 +1152,59 @@ export const PROJECTS: Project[] = [
     year: 2023,
   },
   {
+    name: 'Pac Finance',
+    tagline: '#1 lending and DeFi hub on Blast',
+    description:
+      "Pac Finance is the first self-paying lending and margin trading protocol built on Blast L2, featuring dual automatic compounding and one-click leverage. Early adopters will receive 100% of Blast developer rewards and more airdrops./n/nHybrid Lending: Provides multiple lending models such as peer-to-peer and peer-to-pool. /n/nNative Yield: Users can earn more through native yield./n/nGas Refund: The Gas fee returned by Blast to the developer will be fully returned to the user by Pac Finance./n/nDeveloper Points Sharing: Blast airdrops points to Pac Finance, and Pac Finance will return them in full to users./n/nOne-click Leverage: One-click operation can increase the leverage of the user's position, thereby earning more points./n/nSelf-repaying: Pac Finance allows users to use future earnings to offset current debts.",
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715618250309_Pac%20logo.jpeg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715618250309_Pac%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715618250338_Screenshot%202024-05-13%20at%209.34.40%20AM.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715618250360_Screenshot%202024-05-13%20at%209.34.28%20AM.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['81457'],
+    proxies: {
+      '81457': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0x009E9B1eec955E9Fe7FE64f80aE868e661cb4729',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'DAI/USD',
+          dapiNameHash: '0x9eaf6889d5df94e769098eb3119c7ad9a8f301b58296c06cb75b2859c6f35557',
+          proxyAddress: '0xD76Ec3EDcF5547B4183BF5A82a4080Ff95B58C59',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'ezETH/ETH Exchange Rate',
+          dapiNameHash: '0xe221000e12af79d43d63473ef41dd4385994af039e5345a707524a9445f87b87',
+          proxyAddress: '0x28c1576eb118f2Ccd02eF2e6Dbd732F5C8D2e86B',
+          oev: { enabled: false },
+        },
+      ],
+    },
+    links: {
+      website: 'https://www.pac.finance/',
+      dapp: 'https://app.pac.finance/',
+      docs: 'https://docs.pac.finance/',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/pac_finance' },
+        { label: 'discord', url: 'https://discord.com/invite/PVvGxRMTDA' },
+      ],
+    },
+    year: 2024,
+  },
+  {
     name: 'Quickswap-Perps',
     tagline: 'cutting-edge decentralized Perpetual Exchange on Polygon zkEVM',
     description:
