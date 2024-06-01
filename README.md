@@ -1,4 +1,4 @@
-# @api3/dapp-registry
+# @api3-ecosystem/dapp-registry
 
 > A registry of all dapps that are part of the API3 ecosystem
 
