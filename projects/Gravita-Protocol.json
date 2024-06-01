@@ -1,0 +1,83 @@
+{
+  "name": "Gravita Protocol",
+  "tagline": "An ETH-centric Borrowing Protocol for LSTs. Fueling decentralization. ",
+  "description": "GRAI is a robust and decentralized currency supported by a thriving ecosystem. Launch a Vessel to borrow GRAI against a variety of different collateral types, in particular productive and ETH-centric assets like LST.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1707423402250_Gravita_Icon_White_-_Dark_Background.png",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1707423402251_16%20by6%201600x600%20background.png",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1707423402273_1.JPG",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1707423402282_2.JPG",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1707423402289_3.JPG",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1707423402296_4.JPG"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "42161",
+    "8453",
+    "1",
+    "59144",
+    "5000",
+    "10",
+    "1101",
+    "324"
+  ],
+  "proxies": {
+    "1101": [
+      {
+        "proxyType": "dapi",
+        "feedName": "rETH/ETH Exchange Rate",
+        "dapiNameHash": "0x8524b343e26b895dfe1341a833485da069586d9c5087a4e6a9fbd02918a371e6",
+        "proxyAddress": "0x1622782C0F0586Bed2caAC8eEAA3C87807fb0d5E",
+        "oev": {
+          "enabled": false
+        }
+      }
+    ],
+    "5000": [
+      {
+        "proxyType": "dapi",
+        "feedName": "mETH/ETH Exchange Rate",
+        "dapiNameHash": "0xc4a2854b0815f87a4b90e3bbfd85b129a583a8d214cc34608b958d6ba0f96545",
+        "proxyAddress": "0xF55faBDf4C4F19D48d12A94209c735ca5AC43c78",
+        "oev": {
+          "enabled": false
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "ETH/USD",
+        "dapiNameHash": "0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42",
+        "proxyAddress": "0x009E9B1eec955E9Fe7FE64f80aE868e661cb4729",
+        "oev": {
+          "enabled": false
+        }
+      }
+    ]
+  },
+  "links": {
+    "website": "https://app.gravitaprotocol.com/",
+    "dapp": "https://www.gravitaprotocol.com/",
+    "docs": "https://docs.gravitaprotocol.com/gravita-docs/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://twitter.com/gravitaprotocol"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.gg/gravitaprotocol"
+      },
+      {
+        "label": "github",
+        "url": "https://github.com/Gravita-Protocol"
+      }
+    ]
+  },
+  "year": 2023
+}

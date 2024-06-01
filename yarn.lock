@@ -12,13 +12,13 @@
   resolved "https://registry.yarnpkg.com/@adraffy/ens-normalize/-/ens-normalize-1.9.2.tgz#60111a5d9db45b2e5cbb6231b0bb8d97e8659316"
   integrity sha512-0h+FrQDqe2Wn+IIGFkTCd4aAwTJ+7834Ek1COohCyV26AXhwQ7WQaz+4F/nLOeVl/3BtWHOHLPsq46V8YB46Eg==
 
-"@api3/chains@^4.13.1":
-  version "4.13.1"
-  resolved "https://registry.yarnpkg.com/@api3/chains/-/chains-4.13.1.tgz#a45cdcf476638cca1992779026c74680e1605f1a"
-  integrity sha512-JvvZBsZT0WcfrbXJAWd9ha7JPqOcXiP9uJfa7vqRD65WNbm5H8R91QR6at7JQyIi9HzSwTeiOaKVKGjrfHaUsg==
+"@api3/chains@^7.1.0":
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/@api3/chains/-/chains-7.1.0.tgz#402a60809167f30315dc7373a88afd7876c13fbb"
+  integrity sha512-+WAvRMvtbAdXeB86jsQ2f+1WXb1SYvNOMI76jNiyTUozSAExZlRNCD8n95ZWm5NUi6gAK7sbv3ss2rJ0VMv9TA==
   dependencies:
-    viem "^2.7.18"
-    zod "^3.22.4"
+    viem "^2.9.29"
+    zod "^3.23.5"
 
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
@@ -1270,10 +1270,10 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
-isows@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/isows/-/isows-1.0.3.tgz#93c1cf0575daf56e7120bab5c8c448b0809d0d74"
-  integrity sha512-2cKei4vlmg2cxEjm3wVSqn8pcoRF/LX/wpifuuNquFO4SQmPwarClT+SUCA2lt+l581tTeZIPIZuIDo2jWN1fg==
+isows@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/isows/-/isows-1.0.4.tgz#810cd0d90cc4995c26395d2aa4cfa4037ebdf061"
+  integrity sha512-hEzjY+x9u9hPmBom9IIAqdJCwNLax+xrPb51vEPpERoFlIxgmZcHzsT5jKG06nvInKOBGvReAVz80Umed5CczQ==
 
 jackspeak@^2.0.3:
   version "2.2.1"
@@ -1845,10 +1845,10 @@ v8-compile-cache-lib@^3.0.1:
   resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
   integrity sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==
 
-viem@^2.7.18:
-  version "2.8.18"
-  resolved "https://registry.yarnpkg.com/viem/-/viem-2.8.18.tgz#ffb051bf80381ffefc98087a20c177b25463c9f4"
-  integrity sha512-Kq3kwkKziJ8rQeLkmdbSLheHDnA+tx2EdLKLmQ3N4FVtjKYjBP9tPL1r+fI6KltVUM1TDOhIHOdslDSp57VMMg==
+viem@^2.9.29:
+  version "2.13.3"
+  resolved "https://registry.yarnpkg.com/viem/-/viem-2.13.3.tgz#950426e4cacf5e12fab2c202a339371901712481"
+  integrity sha512-3tlwDRKHSelupFjbFMdUxF41f79ktyH2F9PAQ9Dltbs1DpdDlR1x+Ksa0th6qkyjjAbpDZP3F5nMTJv/1GVPdQ==
   dependencies:
     "@adraffy/ens-normalize" "1.10.0"
     "@noble/curves" "1.2.0"
@@ -1856,7 +1856,7 @@ viem@^2.7.18:
     "@scure/bip32" "1.3.2"
     "@scure/bip39" "1.2.1"
     abitype "1.0.0"
-    isows "1.0.3"
+    isows "1.0.4"
     ws "8.13.0"
 
 which-boxed-primitive@^1.0.2:
@@ -1947,7 +1947,7 @@ zod@^3.22.3:
   resolved "https://registry.yarnpkg.com/zod/-/zod-3.22.3.tgz#2fbc96118b174290d94e8896371c95629e87a060"
   integrity sha512-EjIevzuJRiRPbVH4mGc8nApb/lVLKVpmUhAaR5R5doKGfAnGJ6Gr3CViAVjP+4FWSxCsybeWQdcgCtbX+7oZug==
 
-zod@^3.22.4:
-  version "3.22.4"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.22.4.tgz#f31c3a9386f61b1f228af56faa9255e845cf3fff"
-  integrity sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==
+zod@^3.23.5:
+  version "3.23.8"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.23.8.tgz#e37b957b5d52079769fb8097099b592f0ef4067d"
+  integrity sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==

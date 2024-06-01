@@ -1,0 +1,38 @@
+{
+  "name": "Exiled Racers",
+  "tagline": "Experience the first low touch racing manager & prediction game.",
+  "description": "EXR is the first provably fair, algo simulated racing and prediction manager—seamlessly integrated with world class digital 3D collectibles./n/n",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1715877702960_EXR%20logo.jpeg",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1715877702961_EXR%20banner.jpeg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1715877703005_Screenshot%202024-05-16%20at%209.38.10%20AM.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1715877703039_Screenshot%202024-05-16%20at%209.37.57%20AM.png"
+    ]
+  },
+  "categories": [
+    "gaming"
+  ],
+  "productType": "qrng",
+  "chains": [
+    "8453",
+    "1284"
+  ],
+  "links": {
+    "website": "https://www.exiledracers.com/",
+    "dapp": "https://base.exiledracers.com/",
+    "docs": "https://www.exiledracers.com/#/gameplay",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://twitter.com/exiledracers"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.com/invite/exiledracers"
+      }
+    ]
+  },
+  "year": 2023
+}

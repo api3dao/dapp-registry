@@ -37,6 +37,94 @@ export const PROJECTS: Project[] = [
     },
   },
   {
+    name: 'Aurelius Finance',
+    tagline: 'The next-generation lending experience on Mantle',
+    description:
+      'Aurelius issues interest-free loans denominated in the $aUSD stablecoin. Instead of paying interest, users pay a 0.5% issuance fee, meaning they don’t need to worry about micro-managing their position./n/nThere is no fee for paying back a loan./n/naUSD Loan Example/n/nIf a user deposits sufficient collateral, they can take out a 100 aUSD loan./n/nTheir total debt will appear as 105.5 aUSD, which is made up of a 0.5% issuance fee (in this case 0.5 aUSD), 5 aUSD held as a liquidation deposit, and 100 aUSD minted to the user’s wallet./n/nWhen the user pays back 100.5 aUSD, the 5 aUSD liquidation deposit will automatically be paid into their position and the position will be closed.',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715618918362_Aurelius%20Logo.jpeg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715618918363_Aurelius%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715618918418_Screenshot%202024-05-13%20at%209.45.12%20AM.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715618918439_Screenshot%202024-05-13%20at%209.45.30%20AM.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['5000'],
+    proxies: {
+      '5000': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0x009E9B1eec955E9Fe7FE64f80aE868e661cb4729',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'WBTC/USD',
+          dapiNameHash: '0x788a83d3185172684a06bc2d96ea3e98728e0e87b759e866757989dcfe63b4f4',
+          proxyAddress: '0x0f1CB652F56b497C7ed6bdf61C09724D1682cB3D',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'MNT/USD',
+          dapiNameHash: '0xa9aac29787fcbd94a60c432bcb0323ec8100ca21cade393b6a0acc3e7368b7e5',
+          proxyAddress: '0x33d6e2AF008Eefa4c50a4167D245C77C9FEe00f0',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDC/USD',
+          dapiNameHash: '0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880',
+          proxyAddress: '0x9F8663dD5A0F30a41B774de46128849FE2364C17',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDT/USD',
+          dapiNameHash: '0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d',
+          proxyAddress: '0x3Adac52054a03A1a9F0DC4FFbcfBBD38eA99EF7E',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDe/USD',
+          dapiNameHash: '0xfa486155e7bffd2691ee94dce1e42411544a9ee569d28388cffd09bade579659',
+          proxyAddress: '0xD2CDDe3E8a86e89cb3Ac2d6d54D0Dd54BDe15109',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'mETH/ETH Exchange Rate',
+          dapiNameHash: '0xc4a2854b0815f87a4b90e3bbfd85b129a583a8d214cc34608b958d6ba0f96545',
+          proxyAddress: '0xF55faBDf4C4F19D48d12A94209c735ca5AC43c78',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDY/USD Exchange Rate',
+          dapiNameHash: '0x3ee00633a33953560ce2afb3f40f32032713f7e63e855d64f15544d2256e2cc6',
+          proxyAddress: '0xbD81A812a118f74857B71cACA71f98f6f0b37945',
+          oev: { enabled: false },
+        },
+      ],
+    },
+    links: {
+      website: 'https://www.aurelius.finance/',
+      dapp: 'https://app.aurelius.finance/',
+      docs: 'https://docs.aurelius.finance/',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/AureliusFi' },
+        { label: 'discord', url: 'https://discord.gg/AureliusFi' },
+      ],
+    },
+    year: 2024,
+  },
+  {
     name: 'ChainLocker',
     tagline: 'Data-contingent Smart Contract Escrow',
     description:
@@ -139,6 +227,34 @@ export const PROJECTS: Project[] = [
     year: 2023,
   },
   {
+    name: 'Exiled Racers',
+    tagline: 'Experience the first low touch racing manager & prediction game.',
+    description:
+      'EXR is the first provably fair, algo simulated racing and prediction manager—seamlessly integrated with world class digital 3D collectibles./n/n',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715877702960_EXR%20logo.jpeg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715877702961_EXR%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715877703005_Screenshot%202024-05-16%20at%209.38.10%20AM.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715877703039_Screenshot%202024-05-16%20at%209.37.57%20AM.png',
+      ],
+    },
+    categories: ['gaming'],
+    productType: 'qrng',
+    chains: ['8453', '1284'],
+    links: {
+      website: 'https://www.exiledracers.com/',
+      dapp: 'https://base.exiledracers.com/',
+      docs: 'https://www.exiledracers.com/#/gameplay',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/exiledracers' },
+        { label: 'discord', url: 'https://discord.com/invite/exiledracers' },
+      ],
+    },
+    year: 2023,
+  },
+  {
     name: 'Granary Finance',
     tagline: 'Decentralized Lending Protocol',
     description:
@@ -204,6 +320,64 @@ export const PROJECTS: Project[] = [
         { label: 'discord', url: 'https://discord.gg/sEtRC63s' },
       ],
     },
+  },
+  {
+    name: 'Gravita Protocol',
+    tagline: 'An ETH-centric Borrowing Protocol for LSTs. Fueling decentralization. ',
+    description:
+      'GRAI is a robust and decentralized currency supported by a thriving ecosystem. Launch a Vessel to borrow GRAI against a variety of different collateral types, in particular productive and ETH-centric assets like LST.',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1707423402250_Gravita_Icon_White_-_Dark_Background.png',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1707423402251_16%20by6%201600x600%20background.png',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1707423402273_1.JPG',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1707423402282_2.JPG',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1707423402289_3.JPG',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1707423402296_4.JPG',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['42161', '8453', '1', '59144', '5000', '10', '1101', '324'],
+    proxies: {
+      '1101': [
+        {
+          proxyType: 'dapi',
+          feedName: 'rETH/ETH Exchange Rate',
+          dapiNameHash: '0x8524b343e26b895dfe1341a833485da069586d9c5087a4e6a9fbd02918a371e6',
+          proxyAddress: '0x1622782C0F0586Bed2caAC8eEAA3C87807fb0d5E',
+          oev: { enabled: false },
+        },
+      ],
+      '5000': [
+        {
+          proxyType: 'dapi',
+          feedName: 'mETH/ETH Exchange Rate',
+          dapiNameHash: '0xc4a2854b0815f87a4b90e3bbfd85b129a583a8d214cc34608b958d6ba0f96545',
+          proxyAddress: '0xF55faBDf4C4F19D48d12A94209c735ca5AC43c78',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0x009E9B1eec955E9Fe7FE64f80aE868e661cb4729',
+          oev: { enabled: false },
+        },
+      ],
+    },
+    links: {
+      website: 'https://app.gravitaprotocol.com/',
+      dapp: 'https://www.gravitaprotocol.com/',
+      docs: 'https://docs.gravitaprotocol.com/gravita-docs/',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/gravitaprotocol' },
+        { label: 'discord', url: 'https://discord.gg/gravitaprotocol' },
+        { label: 'github', url: 'https://github.com/Gravita-Protocol' },
+      ],
+    },
+    year: 2023,
   },
   {
     name: 'Grimoire Finance',
@@ -774,6 +948,168 @@ export const PROJECTS: Project[] = [
     year: 2021,
   },
   {
+    name: 'Metavault',
+    tagline: 'All-in-one cross-chain DeFi Marketplace.',
+    description:
+      'Metavault is building a cross-chain Decentralized Finance (DeFi) Marketplace, enabling one-stop access for sophisticated financial products through a unified interface. On Metavault, users can trade perps, on spot, provide liquidity, stake, trade predictions, bridge assets, and access Metavault DAO. /n/n',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1704661965625_metavault%20trade%20logomark.jpg',
+      cover:
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1704661965626_Unlocking%20cross-chain%20Decentralized%20Finance.png',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1704661965633_Screenshot%202024-01-07%20at%2020.57.21.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1704661965642_Screenshot%202024-01-07%20at%2022.12.04.png',
+      ],
+    },
+    categories: ['defi', 'dex', 'dao'],
+    productType: 'datafeed',
+    chains: ['42161', '56', '1', '2222', '59144', '10', '1101', '137', '324', '8453', '43114'],
+    proxies: {
+      '59144': [
+        {
+          proxyType: 'dapi',
+          feedName: 'AUD/USD',
+          dapiNameHash: '0x10035dba941a68c38ab4584dc6173d2d326a828d9bf93fc0cc5b34ab6cbec341',
+          proxyAddress: '0xA7e7d3b7726b8Dd0f29A9e3da9E224D7beb1694a',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'BNB/USD',
+          dapiNameHash: '0xd1770b403d7f4900d132857e9cad80716e9d947dde29cfa0669f52696c48a495',
+          proxyAddress: '0xcC1120C4790fF84fc984857B680b29A90f3Cd9BE',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'CAD/USD',
+          dapiNameHash: '0x2d3f6b1f507d101f4269a8e465246313ff68e0ed9ed545cc9ace6200e53cdcfe',
+          proxyAddress: '0xf44615EA0454b653de1e37e58f43D66745B6F364',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'CHF/USD',
+          dapiNameHash: '0x750e1ae62f848e9598ff2caf0f3979f204426027c8171c3b56226665843002ac',
+          proxyAddress: '0xE8A27C22d702EAF199d8Aa882E654b6115C6b0fC',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'CNY/USD',
+          dapiNameHash: '0x6bd6c61a67f4dc830157fc8859491768129d6b5a2d9175db3da561e1c6abb4f5',
+          proxyAddress: '0xE86a8d07d19D07d5248C38dBEf1dE75138d1cfCD',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'DAI/USD',
+          dapiNameHash: '0x9eaf6889d5df94e769098eb3119c7ad9a8f301b58296c06cb75b2859c6f35557',
+          proxyAddress: '0xD76Ec3EDcF5547B4183BF5A82a4080Ff95B58C59',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0x009E9B1eec955E9Fe7FE64f80aE868e661cb4729',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'EUR/USD',
+          dapiNameHash: '0xb98b48d49cffec4edeb24e899dd1c681d2b45de1141378c72d726f70491ffbae',
+          proxyAddress: '0x40567Ee18412A346531f8d08cD751F8d07814515',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'GBP/USD',
+          dapiNameHash: '0x2cbb31d2202b04731dced650dbdf405924914d81e40ccbb9c5f7156d510ce6a5',
+          proxyAddress: '0x0214331CA6b8340f86E22dE73F0e5C33BC0D00F5',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'JPY/USD',
+          dapiNameHash: '0x657717159bc922d52e1431401946297b1a732ce8bc411d7f64697a6c3a971763',
+          proxyAddress: '0x448e016941fc73cD64720f5003eEE54806a227de',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'MATIC/USD',
+          dapiNameHash: '0x6e72570a8a22130da8a971bdf1e55055307c4ef3b05b552f06bce5ae9b34fdc2',
+          proxyAddress: '0x103c15A3F4a8978dbC3Eb2953b460F0248c1cD26',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'SOL/USD',
+          dapiNameHash: '0x12562fa721cbd51f726fc27f5bc3580efbe6bcc1b0902277c4bca89187142406',
+          proxyAddress: '0xf6F1752062AB8DFe3cBbf59918116040E0E280fe',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'SPY/USD',
+          dapiNameHash: '0x27e1954b23c38fd40f2937fe61f8f18ecb7914a32d018a160d6c759502ed48e1',
+          proxyAddress: '0xc28D50b175cB722f0c4Dd241A1e922E80E36D54f',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDC/USD',
+          dapiNameHash: '0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880',
+          proxyAddress: '0x9F8663dD5A0F30a41B774de46128849FE2364C17',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDT/USD',
+          dapiNameHash: '0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d',
+          proxyAddress: '0x3Adac52054a03A1a9F0DC4FFbcfBBD38eA99EF7E',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'WBTC/USD',
+          dapiNameHash: '0x788a83d3185172684a06bc2d96ea3e98728e0e87b759e866757989dcfe63b4f4',
+          proxyAddress: '0x0f1CB652F56b497C7ed6bdf61C09724D1682cB3D',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'XAG/USD',
+          dapiNameHash: '0xccd841f38430d68a731ecc18e62aea51ad3d993e5d38fb458508ea5d877c8212',
+          proxyAddress: '0x2dED07f0ccb9d5F04DFB198D5f5ADdf375BD5997',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'XAU/USD',
+          dapiNameHash: '0xcaadfd402f682095269a69aa27c430c95320559f39a3699af72cd68a882ede0d',
+          proxyAddress: '0x4Cd7620Ee1A89d26d9cf28E1C5c0252EFF49e313',
+          oev: { enabled: false },
+        },
+      ],
+    },
+    links: {
+      website: 'https://metavault.trade',
+      dapp: 'https://metavault.trade',
+      docs: 'https://docs.metavault.trade/',
+      explorer: 'https://lineascan.build/',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/MetavaultTrade' },
+        { label: 'discord', url: 'https://discord.gg/metavault' },
+        { label: 'github', url: 'https://github.com/metavaultorg/' },
+        { label: 'telegram', url: 'https://t.me/MetavaultTrade' },
+      ],
+    },
+    year: 2022,
+  },
+  {
     name: 'Minterest',
     tagline: 'Cross-chain DeFi lending protocol with sustainable governance token',
     description:
@@ -835,6 +1171,59 @@ export const PROJECTS: Project[] = [
       ],
     },
     year: 2023,
+  },
+  {
+    name: 'Pac Finance',
+    tagline: '#1 lending and DeFi hub on Blast',
+    description:
+      "Pac Finance is the first self-paying lending and margin trading protocol built on Blast L2, featuring dual automatic compounding and one-click leverage. Early adopters will receive 100% of Blast developer rewards and more airdrops./n/nHybrid Lending: Provides multiple lending models such as peer-to-peer and peer-to-pool. /n/nNative Yield: Users can earn more through native yield./n/nGas Refund: The Gas fee returned by Blast to the developer will be fully returned to the user by Pac Finance./n/nDeveloper Points Sharing: Blast airdrops points to Pac Finance, and Pac Finance will return them in full to users./n/nOne-click Leverage: One-click operation can increase the leverage of the user's position, thereby earning more points./n/nSelf-repaying: Pac Finance allows users to use future earnings to offset current debts.",
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715618250309_Pac%20logo.jpeg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715618250309_Pac%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715618250338_Screenshot%202024-05-13%20at%209.34.40%20AM.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715618250360_Screenshot%202024-05-13%20at%209.34.28%20AM.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['81457'],
+    proxies: {
+      '81457': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0x009E9B1eec955E9Fe7FE64f80aE868e661cb4729',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'DAI/USD',
+          dapiNameHash: '0x9eaf6889d5df94e769098eb3119c7ad9a8f301b58296c06cb75b2859c6f35557',
+          proxyAddress: '0xD76Ec3EDcF5547B4183BF5A82a4080Ff95B58C59',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'ezETH/ETH Exchange Rate',
+          dapiNameHash: '0xe221000e12af79d43d63473ef41dd4385994af039e5345a707524a9445f87b87',
+          proxyAddress: '0x28c1576eb118f2Ccd02eF2e6Dbd732F5C8D2e86B',
+          oev: { enabled: false },
+        },
+      ],
+    },
+    links: {
+      website: 'https://www.pac.finance/',
+      dapp: 'https://app.pac.finance/',
+      docs: 'https://docs.pac.finance/',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/pac_finance' },
+        { label: 'discord', url: 'https://discord.com/invite/PVvGxRMTDA' },
+      ],
+    },
+    year: 2024,
   },
   {
     name: 'Quickswap-Perps',
@@ -1021,6 +1410,90 @@ export const PROJECTS: Project[] = [
       socials: [
         { label: 'twitter', url: 'https://twitter.com/tropykus' },
         { label: 'telegram', url: 'https://t.me/tropykus' },
+      ],
+    },
+    year: 2023,
+  },
+  {
+    name: 'Zerolend',
+    tagline: 'A multi-chain lending protocol focused on LRTs, RWAs, privacy, and AA',
+    description:
+      'The core features of the ZeroLend ecosystem include:/n/nDeFi Lending (Live): A decentralized, non-custodial liquidity protocol enabling users to participate as liquidity providers or borrowers. ZeroLend also aims to provide lending and borrowing on various supported assets across multiple chains. To learn more, read "DeFi Lending". /n/nZeroLend Governance ($ZERO): A governance system for governing the ZeroLend Protocol, enabled by the $ZERO token. To learn more, read "Zeronomics" and "Participation Incentives."/n/nAccount Abstraction (Live): This feature allows for gas-less transactions, social logins, delegated transactions, etc. To know more, read "Account Abstraction"',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715787053337_Logo%20Transparent%20White.png',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715787053338_zerolend.jpg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715787053344_CleanShot%202024-05-15%20at%2016.28.37.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1715787053363_CleanShot%202024-05-15%20at%2016.26.42.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['1', '196', '59144', '81457'],
+    proxies: {
+      '196': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0x7501f1Aa71d409D1D4732b98178beE5Ad83d467B',
+          oev: { enabled: true, beneficiary: '0xffffffffffffffffffffffffffffffffffffffff' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'WBTC/USD',
+          dapiNameHash: '0x788a83d3185172684a06bc2d96ea3e98728e0e87b759e866757989dcfe63b4f4',
+          proxyAddress: '0xEE16dc11b79D052365636371447081c5CDbe4c75',
+          oev: { enabled: true, beneficiary: '0xffffffffffffffffffffffffffffffffffffffff' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'OKB/USD',
+          dapiNameHash: '0xf07ba6ab1de90481b22b7837a5e1e6359c1990fd19085165bca642776b87435f',
+          proxyAddress: '0xf38aE688F6759EAC85E5a6306371Eab85A1C2d6A',
+          oev: { enabled: true, beneficiary: '0xffffffffffffffffffffffffffffffffffffffff' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDC/USD',
+          dapiNameHash: '0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880',
+          proxyAddress: '0xFD044FFEf70439794E43C5b9Ca5E5d8a7F35CDEb',
+          oev: { enabled: true, beneficiary: '0xffffffffffffffffffffffffffffffffffffffff' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDT/USD',
+          dapiNameHash: '0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d',
+          proxyAddress: '0xcA561271D5055306Db839Cfa222085e2bc0d1C11',
+          oev: { enabled: true, beneficiary: '0xffffffffffffffffffffffffffffffffffffffff' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'DAI/USD',
+          dapiNameHash: '0x9eaf6889d5df94e769098eb3119c7ad9a8f301b58296c06cb75b2859c6f35557',
+          proxyAddress: '0xE14541393402D6253366AFd5F7F5f3d9c0420D74',
+          oev: { enabled: true, beneficiary: '0xffffffffffffffffffffffffffffffffffffffff' },
+        },
+      ],
+      '59144': [
+        {
+          proxyType: 'dapi',
+          feedName: 'rsETH/ETH Exchange Rate',
+          dapiNameHash: '0xf49fd67221006e2dea4649db9e6a4f6700abe3f44fe49a6d00d8cb851539c034',
+          proxyAddress: '0x397116Bab53b6F38e7A65033Fc0d35C04f604414',
+          oev: { enabled: true, beneficiary: '0xffffffffffffffffffffffffffffffffffffffff' },
+        },
+      ],
+    },
+    links: {
+      website: 'http://app.zerolend.xyz/',
+      dapp: 'https://app.zerolend.xyz/',
+      docs: 'https://docs.zerolend.xyz/',
+      explorer: 'https://docs.zerolend.xyz/security/deployed-addresses',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/zerolendxyz' },
+        { label: 'discord', url: 'https://discord.gg/zerolend' },
       ],
     },
     year: 2023,
