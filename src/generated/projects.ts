@@ -246,7 +246,7 @@ export const PROJECTS: Project[] = [
     links: {
       website: 'https://www.exiledracers.com/',
       dapp: 'https://base.exiledracers.com/',
-      docs: '',
+      docs: 'https://www.exiledracers.com/#/gameplay',
       socials: [
         { label: 'twitter', url: 'https://twitter.com/exiledracers' },
         { label: 'discord', url: 'https://discord.com/invite/exiledracers' },
