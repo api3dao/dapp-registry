@@ -1430,7 +1430,7 @@ export const PROJECTS: Project[] = [
     },
     categories: ['defi'],
     productType: 'datafeed',
-    chains: ['1', '169', '196', '59144', '81457'],
+    chains: ['1', '196', '59144', '81457'],
     proxies: {
       '196': [
         {
@@ -1490,7 +1490,7 @@ export const PROJECTS: Project[] = [
       website: 'http://app.zerolend.xyz/',
       dapp: 'https://app.zerolend.xyz/',
       docs: 'https://docs.zerolend.xyz/',
-      explorer: '',
+      explorer: 'https://docs.zerolend.xyz/security/deployed-addresses',
       socials: [
         { label: 'twitter', url: 'https://twitter.com/zerolendxyz' },
         { label: 'discord', url: 'https://discord.gg/zerolend' },
