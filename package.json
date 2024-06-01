@@ -27,7 +27,7 @@
     "validate:projects": "ts-node scripts/validate-projects.ts"
   },
   "dependencies": {
-    "zod": "^3.21.4"
+    "zod": "^3.22.3"
   },
   "devDependencies": {
     "@api3/chains": "^4.13.1",
