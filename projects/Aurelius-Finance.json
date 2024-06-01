@@ -18,7 +18,91 @@
   "chains": [
     "5000"
   ],
-  "proxies": {},
+  "proxies": {
+    "5000": [
+      {
+        "proxyType": "dapi",
+        "feedName": "ETH/USD",
+        "dapiNameHash": "0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42",
+        "proxyAddress": "0x009E9B1eec955E9Fe7FE64f80aE868e661cb4729",
+        "oev": {
+          "enabled": false
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "WBTC/USD",
+        "dapiNameHash": "0x788a83d3185172684a06bc2d96ea3e98728e0e87b759e866757989dcfe63b4f4",
+        "proxyAddress": "0x0f1CB652F56b497C7ed6bdf61C09724D1682cB3D",
+        "oev": {
+          "enabled": false
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "MNT/USD",
+        "dapiNameHash": "0xa9aac29787fcbd94a60c432bcb0323ec8100ca21cade393b6a0acc3e7368b7e5",
+        "proxyAddress": "0x33d6e2AF008Eefa4c50a4167D245C77C9FEe00f0",
+        "oev": {
+          "enabled": false
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "USDC/USD",
+        "dapiNameHash": "0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880",
+        "proxyAddress": "0x9F8663dD5A0F30a41B774de46128849FE2364C17",
+        "oev": {
+          "enabled": false
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "USDT/USD",
+        "dapiNameHash": "0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d",
+        "proxyAddress": "0x3Adac52054a03A1a9F0DC4FFbcfBBD38eA99EF7E",
+        "oev": {
+          "enabled": false
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "USDe/USD",
+        "dapiNameHash": "0xfa486155e7bffd2691ee94dce1e42411544a9ee569d28388cffd09bade579659",
+        "proxyAddress": "0xD2CDDe3E8a86e89cb3Ac2d6d54D0Dd54BDe15109",
+        "oev": {
+          "enabled": false
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "mETH/ETH Exchange Rate",
+        "dapiNameHash": "0xc4a2854b0815f87a4b90e3bbfd85b129a583a8d214cc34608b958d6ba0f96545",
+        "proxyAddress": "0xF55faBDf4C4F19D48d12A94209c735ca5AC43c78",
+        "oev": {
+          "enabled": false
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "mETH/ETH Exchange Rate",
+        "dapiNameHash": "0xc4a2854b0815f87a4b90e3bbfd85b129a583a8d214cc34608b958d6ba0f96545",
+        "proxyAddress": "0xF55faBDf4C4F19D48d12A94209c735ca5AC43c78",
+        "oev": {
+          "enabled": false
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "USDY/USD Exchange Rate",
+        "dapiNameHash": "0x3ee00633a33953560ce2afb3f40f32032713f7e63e855d64f15544d2256e2cc6",
+        "proxyAddress": "0xbD81A812a118f74857B71cACA71f98f6f0b37945",
+        "oev": {
+          "enabled": false
+        }
+      }
+    ]
+  },
   "links": {
     "website": "https://www.aurelius.finance/",
     "dapp": "https://app.aurelius.finance/",
