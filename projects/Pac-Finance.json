@@ -18,7 +18,37 @@
   "chains": [
     "81457"
   ],
-  "proxies": {},
+  "proxies": {
+    "81457": [
+      {
+        "proxyType": "dapi",
+        "feedName": "ETH/USD",
+        "dapiNameHash": "0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42",
+        "proxyAddress": "0x009E9B1eec955E9Fe7FE64f80aE868e661cb4729",
+        "oev": {
+          "enabled": false
+        }
+      },
+      {
+          "proxyType": "dapi",
+          "feedName": "DAI/USD",
+          "dapiNameHash": "0x9eaf6889d5df94e769098eb3119c7ad9a8f301b58296c06cb75b2859c6f35557",
+          "proxyAddress": "0xD76Ec3EDcF5547B4183BF5A82a4080Ff95B58C59",
+          "oev": {
+            "enabled": false
+          }
+      },
+      {
+          "proxyType": "dapi",
+          "feedName": "ezETH/ETH Exchange Rate",
+          "dapiNameHash": "0xe221000e12af79d43d63473ef41dd4385994af039e5345a707524a9445f87b87",
+          "proxyAddress": "0x28c1576eb118f2Ccd02eF2e6Dbd732F5C8D2e86B",
+          "oev": {
+            "enabled": false
+          }
+      }
+    ]
+  },
   "links": {
     "website": "https://www.pac.finance/",
     "dapp": "https://app.pac.finance/",
