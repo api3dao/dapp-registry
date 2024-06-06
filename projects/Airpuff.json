@@ -1,0 +1,44 @@
+{
+  "name": "Airpuff",
+  "tagline": "Get Buff with Airpuff to power up your airdrop journey!",
+  "description": "At AirPuff, our mission goes beyond the traditional concept of airdrops. We aim to cultivate a vibrant community that boosts the value and potential of airdrops for everyone involved. As we embark on this journey, we're rolling out innovative strategies designed to enhance your airdrop experience and maximize your rewards. These strategies will help you skillfully navigate the ever-changing airdrop landscape with effectiveness and adaptability./n/nTo strengthen our community and ensure rewards are distributed wisely, we're excited to launch the AirPuff Guild. This dedicated guild will act as a central hub for airdrop enthusiasts to connect and thrive. It will also oversee the management and distribution of referral bonuses, guaranteeing that rewards are shared fairly among those who help our community grow./n/nTogether, we stand as a unified force, ready to capture even greater rewards from upcoming projects. With our strategic approach and the supportive network of the AirPuff Guild, we're setting the stage to lead the next wave of the airdrop evolution.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717710735945_airpuff%20logo.jpeg",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717710735946_airpuff%20banner.jpeg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717710735980_Screenshot%202024-06-06%20at%202.48.35%20PM.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717710736019_Screenshot%202024-06-06%20at%202.49.09%20PM.png"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "42170",
+    "1",
+    "34443"
+  ],
+  "proxies": {},
+  "links": {
+    "website": "https://www.airpuff.io/",
+    "dapp": "https://www.airpuff.io/",
+    "docs": "https://docs.airpuff.io/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://x.com/airpuff_io"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.com/invite/d8vXKavHk7"
+      },
+      {
+        "label": "telegram",
+        "url": "https://t.me/airpuff_io"
+      }
+    ]
+  },
+  "year": 2024
+}
