@@ -32,7 +32,7 @@
         "proxyType": "dapi",
         "feedName": "LDO/USD",
         "dapiNameHash": "0x4495bcb7091356505efac7d5326d6565b528bc2a3ec4ecb6543ff13ee2334dc4",
-        "proxyAddress": "0x774F0C833ceaacA9b472771FfBE3ada4d6805709",
+        "proxyAddress": "0x3a47482e994a68419D493C34470cC91f6064839C",
         "oev": {
           "enabled": false
         }
@@ -41,7 +41,7 @@
         "proxyType": "dapi",
         "feedName": "STG/USD",
         "dapiNameHash": "0xfacb6a0dc0f94e3844f1559bc9215b88ffb2e91503135ae9eb26497e93041be7",
-        "proxyAddress": "0x7972cFBa470eF69062A3C58d9BfAfe68c09Fb4F0",
+        "proxyAddress": "0x74B17DA3952B059104e88327E1D86574194E9074",
         "oev": {
           "enabled": false
         }

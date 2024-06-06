@@ -25,16 +25,16 @@
         "proxyType": "dapi",
         "feedName": "ETH/USD",
         "dapiNameHash": "0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42",
-        "proxyAddress": "0x26690F9f17FdC26D419371315bc17950a0FC90eD",
+        "proxyAddress": "0x009E9B1eec955E9Fe7FE64f80aE868e661cb4729",
         "oev": {
           "enabled": false
         }
       },
       {
         "proxyType": "dapi",
-        "feedName": "WBTC/USD",
-        "dapiNameHash": "0x788a83d3185172684a06bc2d96ea3e98728e0e87b759e866757989dcfe63b4f4",
-        "proxyAddress": "0x28Cac6604A8f2471E19c8863E8AfB163aB60186a",
+        "feedName": "BTC/USD",
+        "dapiNameHash": "0x4291cd9e354c309a63b4a41d0de370e9494d5d59a306af07636abaf68159e043",
+        "proxyAddress": "0xba7892c114743bFd39F7A76180CacC93bAcC67e0",
         "oev": {
           "enabled": false
         }
