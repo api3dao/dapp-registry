@@ -10,60 +10,60 @@
     "productType": "datafeed",
     "proxies": {
       "1101" : [
-          {
-              "proxyType": "datafeedId",
-              "feedName": "ETH/USD",
-              "datafeedId": "0x4385954e058fbe6b6a744f32a4f89d67aad099f8fb8b23e7ea8dd366ae88151d",
-              "proxyAddress": "0x94C10721Bc55E81E40E5Db92060335374F32546b",
-              "oev": {
-                "enabled": false
-              }
-          },
-          {
-             "proxyType": "datafeedId",
-              "feedName": "BTC/USD",
-              "datafeedId": "0xd888b92f9d71afedd0a012622c0d1d5368fc0dc0ff1d30bb16266afcd49c2c17",
-              "proxyAddress": "0xDF164A1A1f51460953B3839E9e5d7EdceE0EB0D9",
-              "oev": {
-                "enabled": false
-              }
-          },
-          {
-              "proxyType": "datafeedId",
-              "feedName": "MATIC/USD",
-              "datafeedId": "0x7a32de86e03383b758e3c7e00681b6c762e0cef235676a2593e4aef83c1b41b2",
-              "proxyAddress": "0x9d642fD27Ab7baa66Fba30BCBD67bd31ab5578d5",
-              "oev": {
-                "enabled": false
-              }
-          },
-          {
-            "proxyType": "datafeedId",
-            "feedName": "USDC/USD",
-            "datafeedId": "0x811b12b44adf2e6ad84dc3ec577cc6c0b15e76e400764139330ce3fc58043d26",
-            "proxyAddress": "0x2a87813e167D8365001C99Ee8C220500767E99f0",
-            "oev": {
-              "enabled": false
-            }
-          },
-          {
-            "proxyType": "datafeedId",
-            "feedName": "USDT/USD",
-            "datafeedId": "0xff96db9f5eaf10f5425e58ceb282308ab8099ef73c01bc3c6a094f84fa0aa53d",
-            "proxyAddress": "0x92860DD9335BE57c789CB95237Fd67f1c5B21c5a",
-            "oev": {
-              "enabled": false
-            }
-          },
-          {
-            "proxyType": "datafeedId",
-            "feedName": "DAI/USD",
-            "datafeedId": "0x07bd5ed37a946e4c54f1efb26f013245406fbf760ded5db962a9ce054570aa28",
-            "proxyAddress": "0x12102D07010c86fF8E7Ba6D48894c7B9039Db358",
-            "oev": {
-              "enabled": false
-            }
+        {
+          "proxyType": "dapi",
+          "feedName": "ETH/USD",
+          "dapiNameHash": "0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42",
+          "proxyAddress": "0x009E9B1eec955E9Fe7FE64f80aE868e661cb4729",
+          "oev": {
+            "enabled": false
           }
+        },
+        {
+          "proxyType": "dapi",
+          "feedName": "BTC/USD",
+          "dapiNameHash": "0x4291cd9e354c309a63b4a41d0de370e9494d5d59a306af07636abaf68159e043",
+          "proxyAddress": "0xba7892c114743bFd39F7A76180CacC93bAcC67e0",
+          "oev": {
+            "enabled": false
+          }
+        },
+        {
+          "proxyType": "dapi",
+          "feedName": "MATIC/USD",
+          "dapiNameHash": "0x7a32de86e03383b758e3c7e00681b6c762e0cef235676a2593e4aef83c1b41b2",
+          "proxyAddress": "0x103c15A3F4a8978dbC3Eb2953b460F0248c1cD26",
+          "oev": {
+            "enabled": false
+          }
+        },
+        {
+          "proxyType": "dapi",
+          "feedName": "USDT/USD",
+          "dapiNameHash": "0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d",
+          "proxyAddress": "0x3Adac52054a03A1a9F0DC4FFbcfBBD38eA99EF7E",
+          "oev": {
+            "enabled": false
+          }
+        },
+        {
+          "proxyType": "dapi",
+          "feedName": "USDC/USD",
+          "dapiNameHash": "0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880",
+          "proxyAddress": "0x9F8663dD5A0F30a41B774de46128849FE2364C17",
+          "oev": {
+            "enabled": false
+          }
+        },
+        {
+          "proxyType": "dapi",
+          "feedName": "DAI/USD",
+          "dapiNameHash": "0x9eaf6889d5df94e769098eb3119c7ad9a8f301b58296c06cb75b2859c6f35557",
+          "proxyAddress": "0xD76Ec3EDcF5547B4183BF5A82a4080Ff95B58C59",
+          "oev": {
+            "enabled": false
+          }
+        }
       ]
     },
     "year": 2023,

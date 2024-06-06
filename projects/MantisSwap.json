@@ -24,18 +24,18 @@
     "1101": [
       {
         "proxyType": "dapi",
-        "feedName": "USDC/USD",
-        "dapiNameHash": "0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880",
-        "proxyAddress": "0x8DF7d919Fe9e866259BB4D135922c5Bd96AF6A27",
+        "feedName": "USDT/USD",
+        "dapiNameHash": "0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d",
+        "proxyAddress": "0x3Adac52054a03A1a9F0DC4FFbcfBBD38eA99EF7E",
         "oev": {
           "enabled": false
         }
       },
       {
         "proxyType": "dapi",
-        "feedName": "USDT/USD",
-        "dapiNameHash": "0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d",
-        "proxyAddress": "0xF63Fa6EA00678F435Ae3e845541EBb2Db0a1e8fF",
+        "feedName": "USDC/USD",
+        "dapiNameHash": "0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880",
+        "proxyAddress": "0x9F8663dD5A0F30a41B774de46128849FE2364C17",
         "oev": {
           "enabled": false
         }
@@ -44,7 +44,7 @@
         "proxyType": "dapi",
         "feedName": "DAI/USD",
         "dapiNameHash": "0x9eaf6889d5df94e769098eb3119c7ad9a8f301b58296c06cb75b2859c6f35557",
-        "proxyAddress": "0x6538D9c4b12b5E5E209917D29C097465Ba8EFA02",
+        "proxyAddress": "0xD76Ec3EDcF5547B4183BF5A82a4080Ff95B58C59",
         "oev": {
           "enabled": false
         }

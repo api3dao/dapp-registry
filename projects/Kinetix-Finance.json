@@ -25,7 +25,7 @@
                 "proxyType": "dapi",
                 "feedName": "ATOM/USD",
                 "dapiNameHash": "0x23cdae0d2e01579a9dac06f1666639946391be8c10213d419428853b7de67f31",
-                "proxyAddress": "0x0582Fd0AfD3a40d53859b948E5c9854c3E03B5E2",
+                "proxyAddress": "0x623932C0E4c426D14755977F05E9fc395e8F0E2A",
                 "oev": {
                     "enabled": false
                 }
@@ -34,7 +34,7 @@
                 "proxyType": "dapi",
                 "feedName": "USDT/USD",
                 "dapiNameHash": "0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d",
-                "proxyAddress": "0xF63Fa6EA00678F435Ae3e845541EBb2Db0a1e8fF",
+                "proxyAddress": "0x3Adac52054a03A1a9F0DC4FFbcfBBD38eA99EF7E",
                 "oev": {
                     "enabled": false
                 }
@@ -43,7 +43,7 @@
                 "proxyType": "dapi",
                 "feedName": "ETH/USD",
                 "dapiNameHash": "0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42",
-                "proxyAddress": "0x26690F9f17FdC26D419371315bc17950a0FC90eD",
+                "proxyAddress": "0x009E9B1eec955E9Fe7FE64f80aE868e661cb4729",
                 "oev": {
                     "enabled": false
                 }
@@ -52,7 +52,7 @@
                 "proxyType": "dapi",
                 "feedName": "KAVA/USD",
                 "dapiNameHash": "0xe8a1adc2c39e0913b30761ffc9d563d42c3ec7829c2584fa024d23660e8adcb6",
-                "proxyAddress": "0xCDd2231400dfC719205b90FC2D69106d376F9656",
+                "proxyAddress": "0x57691dAE1Df38DCa53b8ec0f39E7c0BFDe40C1A4",
                 "oev": {
                     "enabled": false
                 }
@@ -61,7 +61,7 @@
                 "proxyType": "dapi",
                 "feedName": "BTC/USD",
                 "dapiNameHash": "0x4291cd9e354c309a63b4a41d0de370e9494d5d59a306af07636abaf68159e043",
-                "proxyAddress": "0xe5Cf15fED24942E656dBF75165aF1851C89F21B5",
+                "proxyAddress": "0xba7892c114743bFd39F7A76180CacC93bAcC67e0",
                 "oev": {
                     "enabled": false
                 }
