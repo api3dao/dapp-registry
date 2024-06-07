@@ -1,0 +1,47 @@
+{
+  "name": "wefi",
+  "tagline": "Decentralized leverage engine",
+  "description": "WeFi is a decentralized money market protocol that opens up investment loan options in DeFi for global users to invest in digital assets via multi-pool borrowing./n/nWeFi is a trustless protocol driven by secure smart contracts. It does not rely on credit scoring or any centralized enforcement to operate./n/nWeFi allows cryptocurrency lenders to enjoy attractive, sustainable yields. Conversely, borrowers access predictable investment loans empowering them to invest in the lucrative digital asset market./n/nWeFi Finance's investment loans are used to invest in other digital assets from a connected DEX via the WeFi protocol. Afterward, the acquired asset (investment) is securely locked in our protocol until the loan is repaid with interest. If not, the asset is liquidated in an auction when it reaches the liquidation point./n/nWeFi Finance is a money market ledger where users can supply or borrow digital assets. Interest is computed as a function of time, fluctuating depending on market conditions. The protocol's smart contracts will be publicly accessible and flexible for incorporation by diverse systems, industry dApps, and ordinary users across the globe./n/nEach money market is unique to a given isolated pool. It also contains a transparent and publicly-inspectable ledger, recording all transactions and historic interest rates.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717786218951_wefi%20logo.jpeg",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717786218952_wefi%20banner.jpeg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717786218981_Screenshot%202024-06-06%20at%203.00.43%20PM.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717786219020_Screenshot%202024-06-06%20at%203.00.55%20PM.png"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "137",
+    "59144"
+  ],
+  "proxies": {},
+  "links": {
+    "website": "https://wefi.xyz/",
+    "dapp": "https://www.beta.app.wefi.xyz/",
+    "docs": "https://docs.wefi.xyz/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://x.com/wefi_xyz"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.com/invite/B6U6kectbV"
+      },
+      {
+        "label": "github",
+        "url": "https://github.com/wefi-xyz/"
+      },
+      {
+        "label": "telegram",
+        "url": "https://t.me/wefi_xyz"
+      }
+    ]
+  },
+  "year": 2023
+}
