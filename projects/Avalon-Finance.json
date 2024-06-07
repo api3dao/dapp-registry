@@ -1,0 +1,40 @@
+{
+  "name": "Avalon Finance",
+  "tagline": "The First Modular CeDeFi Lending ",
+  "description": "Avalon Finance strives to become the best decentralized lending protocol on BTC layer 2. It has been launched on Merlin, Bitlayer, CoreDAO, BNB Chain and Arbitrum. /n/nIt comprises three key components:/n/nOvercollateralized lending: A foundational lending protocol with an isolation pool mechanism supporting a wide range of assets, both major and less liquid, as collateral./n/nAlgorithmic stablecoin based on lending: An overcollateralized algorithmic stablecoin leveraging the lending protocol to optimize capital efficiency for users./n/nRWA lending: An innovative lending protocol which is tailored for both permissioned RWA and permissionless RWA to maximize capital efficiency and yield farming",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717785114412_Avalon%20logo.jpeg",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717785114413_avalon%20banner.png",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717785114434_Screenshot%202024-06-07%20at%2011.27.19%20AM.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717785114489_Screenshot%202024-06-07%20at%2011.27.33%20AM.png"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "4200",
+    "42170",
+    "56"
+  ],
+  "proxies": {},
+  "links": {
+    "website": "https://www.avalonfinance.xyz/",
+    "dapp": "https://app.avalonfinance.xyz/",
+    "docs": "https://docs.avalonfinance.xyz/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://x.com/avalonfinance_"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.com/invite/avafinance"
+      }
+    ]
+  },
+  "year": 2024
+}
