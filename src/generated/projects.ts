@@ -1306,6 +1306,52 @@ export const PROJECTS: Project[] = [
     },
   },
   {
+    name: 'Shoebill Finance',
+    tagline: 'LST Collaterizable Lending Protocol. The safest way to borrow assets.',
+    description:
+      "Shoebill Finance V2 (aka. Shoebill) is a decentralized finance (DeFi) protocol that provides leveraged investment services on multiple EVM networks and BTC layer2s. Investors borrow assets deposited in Shoebill to maximize the size of their investment and pay interest. The protocol aims to maximize users' returns by building and expanding a circular structure where investors and depositors mutually support each other's returns./n/nLow Risk, Maximized Return/n/nUsers can optimize their yield by borrowing BTC, ETH, STONE, METIS, MANTA, WEMIX, KLAY and then re-staking it to use as collateral to borrow more assets. This strategy allows users to earn yield rewards while minimizing liquidation risk./n/nInvestment Opportunity/n/nShoebill V2 maximizes users' ability to leverage other projects for potential returns and redemptions. It provides users with more investment opportunities with relatively low risk by securing a competitive APY through leverage or utilizing BTC/ETH/STONE etc. as another investment opportunity./n/nCollateral Expansion/n/nShoebill V2 will expand with plans to integrate more LST (Liquid Staked Tokens) in the future to provide users with broader options.",
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717717931243_shoebill%20logo.png',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717717931244_shoebill%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717717931298_Screenshot%202024-06-06%20at%204.49.50%20PM.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717717931306_Screenshot%202024-06-06%20at%204.49.36%20PM.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['255'],
+    proxies: {
+      '255': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0xa47Fd122b11CdD7aad7c3e8B740FB91D83Ce43D1',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'spETH/ETH Exchange Rate',
+          dapiNameHash: '0x79b79c518707d42c3f952f70b87bd2e13e481c3d342e87e9ea8224a8cd98682e',
+          proxyAddress: '0xcAc74aFC58AdB86d4A44afdc66D6F68Bad0cFCd1',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+      ],
+    },
+    links: {
+      website: 'https://shoebill.finance/#/',
+      dapp: 'https://kroma-eth.shoebill.finance/#/',
+      docs: 'https://docs.shoebill.finance/',
+      socials: [
+        { label: 'twitter', url: 'https://x.com/ShoebillFinance' },
+        { label: 'telegram', url: 'https://t.me/ShoebillChat_ENG' },
+      ],
+    },
+    year: 2024,
+  },
+  {
     name: 'Shrike Perps',
     tagline: 'Maximize your gains with 50x leverage on Shrike!',
     description:

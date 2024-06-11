@@ -18,7 +18,30 @@
   "chains": [
     "255"
   ],
-  "proxies": {},
+  "proxies": {
+    "255": [
+      {
+        "proxyType": "dapi",
+        "feedName": "ETH/USD",
+        "dapiNameHash": "0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42",
+        "proxyAddress": "0xa47Fd122b11CdD7aad7c3e8B740FB91D83Ce43D1",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "spETH/ETH Exchange Rate",
+        "dapiNameHash": "0x79b79c518707d42c3f952f70b87bd2e13e481c3d342e87e9ea8224a8cd98682e",
+        "proxyAddress": "0xcAc74aFC58AdB86d4A44afdc66D6F68Bad0cFCd1",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+        }
+      }
+    ]
+  },
   "links": {
     "website": "https://shoebill.finance/#/",
     "dapp": "https://kroma-eth.shoebill.finance/#/",
