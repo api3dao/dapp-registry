@@ -1,5 +1,5 @@
 {
-  "name": "Orbit",
+  "name": "Orbit Protocol",
   "tagline": "The most secure lending protocol on Blast.",
   "description": "Orbit is a decentralized liquidity protocol that facilitates the lending and borrowing of Blast assets. Orbit's innovation is to make use of Blast's native yield to provide a better lending / borrowing experience. The protocol is expected to generate yields that are more competitive to existing lending protocols./n/nThe protocol defines a money market between lenders, wishing to earn additional yield on their asset holdings, and borrowers, looking to borrow assets with the use of other assets as collateral. Lenders supply supported Blast assets for a predetermined lending period in return for Orbit Assets (oAssets), which represent the lender's initial principal as well as accrued yield. /n/nUpon expiry of the predetermined lending period, oAssets can be redeemed for principal + accrued yield - this simplifies yield collection to be done just by holding on to them. Users can also borrow assets by providing supported Blast assets as collateral and borrowing at under the protocol-defined loan-to-value ratio. /n/nNative yield from lender assets and provided collaterals first accumulate to the Orbit token, acting as the medium to forward future Blast yield value to the present. Orbit tokens are then distributed to both lenders and borrowers, used to subsidize the yield.",
   "status": "active",
@@ -18,7 +18,20 @@
   "chains": [
     "81457"
   ],
-  "proxies": {},
+  "proxies": {
+    "81457": [
+      {
+        "proxyType": "dapi",
+        "feedName": "ETH/USD",
+        "dapiNameHash": "0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42",
+        "proxyAddress": "0xCBE95Ba8fF327a1E3e6Bdade4C598277450145B3",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x6315F65843e7582508e4F0aAC20a7203E7B09F02"
+        }
+      }
+    ]
+  },
   "links": {
     "website": "https://orbitlending.io/",
     "dapp": "https://app.orbitlending.io/",
