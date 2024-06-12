@@ -767,83 +767,6 @@ export const PROJECTS: Project[] = [
     year: 2023,
   },
   {
-    name: 'MYSO Finance',
-    tagline: 'We specialize in custom DeFi loan solutions and covered call lending',
-    description:
-      'MYSO Finance is a decentralized peer-to-peer lending protocol that allows users to borrow and lend with any ERC20 token. /n/nBorrowers have access to fixed, transparent terms with no risk of price-based liquidations. On the other side, lenders can create loan offers at scale and customize loan terms to their personal specifications. /n/nMYSO specializes in tailor-made DeFi loan solutions along with covered call lending, which provides alternative yield enhancement opportunities to earn upfront cash with full flexibility in setting loan duration and upside cap. ',
-    status: 'active',
-    images: {
-      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1704422016906_avatar_01.jpg',
-      cover:
-        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1704422016907_PHOTO-2023-07-23-02-42-58%20Cropped.png',
-      screenshots: [
-        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1704422017425_Screenshot%202024-01-04%20163955.png',
-        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1704422017471_Screenshot%202024-01-04%20164033.png',
-      ],
-    },
-    categories: ['defi'],
-    productType: 'datafeed',
-    chains: ['1', '42161', '5000'],
-    proxies: {
-      '5000': [
-        {
-          proxyType: 'dapi',
-          feedName: 'ETH/USD',
-          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
-          proxyAddress: '0x009E9B1eec955E9Fe7FE64f80aE868e661cb4729',
-          oev: { enabled: false },
-        },
-        {
-          proxyType: 'dapi',
-          feedName: 'MNT/USD',
-          dapiNameHash: '0xa9aac29787fcbd94a60c432bcb0323ec8100ca21cade393b6a0acc3e7368b7e5',
-          proxyAddress: '0x33d6e2AF008Eefa4c50a4167D245C77C9FEe00f0',
-          oev: { enabled: false },
-        },
-        {
-          proxyType: 'dapi',
-          feedName: 'WBTC/USD',
-          dapiNameHash: '0x788a83d3185172684a06bc2d96ea3e98728e0e87b759e866757989dcfe63b4f4',
-          proxyAddress: '0x0f1CB652F56b497C7ed6bdf61C09724D1682cB3D',
-          oev: { enabled: false },
-        },
-        {
-          proxyType: 'dapi',
-          feedName: 'USDC/USD',
-          dapiNameHash: '0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880',
-          proxyAddress: '0x9F8663dD5A0F30a41B774de46128849FE2364C17',
-          oev: { enabled: false },
-        },
-        {
-          proxyType: 'dapi',
-          feedName: 'USDT/USD',
-          dapiNameHash: '0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d',
-          proxyAddress: '0x3Adac52054a03A1a9F0DC4FFbcfBBD38eA99EF7E',
-          oev: { enabled: false },
-        },
-        {
-          proxyType: 'dapi',
-          feedName: 'mETH/ETH Exchange Rate',
-          dapiNameHash: '0xc4a2854b0815f87a4b90e3bbfd85b129a583a8d214cc34608b958d6ba0f96545',
-          proxyAddress: '0xF55faBDf4C4F19D48d12A94209c735ca5AC43c78',
-          oev: { enabled: false },
-        },
-      ],
-    },
-    links: {
-      website: 'https://myso.finance/',
-      dapp: 'https://app.myso.finance/',
-      docs: 'https://myso-finance.gitbook.io/myso-v2-docs',
-      socials: [
-        { label: 'twitter', url: 'https://twitter.com/MYSOFinance' },
-        { label: 'discord', url: 'https://discord.gg/hBQCZ52bvq' },
-        { label: 'github', url: 'https://github.com/mysofinance' },
-        { label: 'telegram', url: 'https://t.me/MysoFinance' },
-      ],
-    },
-    year: 2023,
-  },
-  {
     name: 'MantisSwap',
     tagline: 'Next Generation Stableswap',
     description:
@@ -1213,6 +1136,83 @@ export const PROJECTS: Project[] = [
     year: 2023,
   },
   {
+    name: 'MYSO Finance',
+    tagline: 'We specialize in custom DeFi loan solutions and covered call lending',
+    description:
+      'MYSO Finance is a decentralized peer-to-peer lending protocol that allows users to borrow and lend with any ERC20 token. /n/nBorrowers have access to fixed, transparent terms with no risk of price-based liquidations. On the other side, lenders can create loan offers at scale and customize loan terms to their personal specifications. /n/nMYSO specializes in tailor-made DeFi loan solutions along with covered call lending, which provides alternative yield enhancement opportunities to earn upfront cash with full flexibility in setting loan duration and upside cap. ',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1704422016906_avatar_01.jpg',
+      cover:
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1704422016907_PHOTO-2023-07-23-02-42-58%20Cropped.png',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1704422017425_Screenshot%202024-01-04%20163955.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1704422017471_Screenshot%202024-01-04%20164033.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['1', '42161', '5000'],
+    proxies: {
+      '5000': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0x009E9B1eec955E9Fe7FE64f80aE868e661cb4729',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'MNT/USD',
+          dapiNameHash: '0xa9aac29787fcbd94a60c432bcb0323ec8100ca21cade393b6a0acc3e7368b7e5',
+          proxyAddress: '0x33d6e2AF008Eefa4c50a4167D245C77C9FEe00f0',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'WBTC/USD',
+          dapiNameHash: '0x788a83d3185172684a06bc2d96ea3e98728e0e87b759e866757989dcfe63b4f4',
+          proxyAddress: '0x0f1CB652F56b497C7ed6bdf61C09724D1682cB3D',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDC/USD',
+          dapiNameHash: '0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880',
+          proxyAddress: '0x9F8663dD5A0F30a41B774de46128849FE2364C17',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDT/USD',
+          dapiNameHash: '0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d',
+          proxyAddress: '0x3Adac52054a03A1a9F0DC4FFbcfBBD38eA99EF7E',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'mETH/ETH Exchange Rate',
+          dapiNameHash: '0xc4a2854b0815f87a4b90e3bbfd85b129a583a8d214cc34608b958d6ba0f96545',
+          proxyAddress: '0xF55faBDf4C4F19D48d12A94209c735ca5AC43c78',
+          oev: { enabled: false },
+        },
+      ],
+    },
+    links: {
+      website: 'https://myso.finance/',
+      dapp: 'https://app.myso.finance/',
+      docs: 'https://myso-finance.gitbook.io/myso-v2-docs',
+      socials: [
+        { label: 'twitter', url: 'https://twitter.com/MYSOFinance' },
+        { label: 'discord', url: 'https://discord.gg/hBQCZ52bvq' },
+        { label: 'github', url: 'https://github.com/mysofinance' },
+        { label: 'telegram', url: 'https://t.me/MysoFinance' },
+      ],
+    },
+    year: 2023,
+  },
+  {
     name: 'Orbit Protocol',
     tagline: 'The most secure lending protocol on Blast.',
     description:
@@ -1544,6 +1544,105 @@ export const PROJECTS: Project[] = [
       socials: [
         { label: 'twitter', url: 'https://twitter.com/tropykus' },
         { label: 'telegram', url: 'https://t.me/tropykus' },
+      ],
+    },
+    year: 2023,
+  },
+  {
+    name: 'Wefi',
+    tagline: 'Decentralized leverage engine',
+    description:
+      "WeFi is a decentralized money market protocol that opens up investment loan options in DeFi for global users to invest in digital assets via multi-pool borrowing./n/nWeFi is a trustless protocol driven by secure smart contracts. It does not rely on credit scoring or any centralized enforcement to operate./n/nWeFi allows cryptocurrency lenders to enjoy attractive, sustainable yields. Conversely, borrowers access predictable investment loans empowering them to invest in the lucrative digital asset market./n/nWeFi Finance's investment loans are used to invest in other digital assets from a connected DEX via the WeFi protocol. Afterward, the acquired asset (investment) is securely locked in our protocol until the loan is repaid with interest. If not, the asset is liquidated in an auction when it reaches the liquidation point./n/nWeFi Finance is a money market ledger where users can supply or borrow digital assets. Interest is computed as a function of time, fluctuating depending on market conditions. The protocol's smart contracts will be publicly accessible and flexible for incorporation by diverse systems, industry dApps, and ordinary users across the globe./n/nEach money market is unique to a given isolated pool. It also contains a transparent and publicly-inspectable ledger, recording all transactions and historic interest rates.",
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717786218951_wefi%20logo.jpeg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717786218952_wefi%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717786218981_Screenshot%202024-06-06%20at%203.00.43%20PM.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717786219020_Screenshot%202024-06-06%20at%203.00.55%20PM.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['137', '1101', '59144'],
+    proxies: {
+      '1101': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0x009E9B1eec955E9Fe7FE64f80aE868e661cb4729',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'BTC/USD',
+          dapiNameHash: '0x4291cd9e354c309a63b4a41d0de370e9494d5d59a306af07636abaf68159e043',
+          proxyAddress: '0xba7892c114743bFd39F7A76180CacC93bAcC67e0',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'MATIC/USD',
+          dapiNameHash: '0x7a32de86e03383b758e3c7e00681b6c762e0cef235676a2593e4aef83c1b41b2',
+          proxyAddress: '0x103c15A3F4a8978dbC3Eb2953b460F0248c1cD26',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDT/USD',
+          dapiNameHash: '0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d',
+          proxyAddress: '0x3Adac52054a03A1a9F0DC4FFbcfBBD38eA99EF7E',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDC/USD',
+          dapiNameHash: '0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880',
+          proxyAddress: '0x9F8663dD5A0F30a41B774de46128849FE2364C17',
+          oev: { enabled: false },
+        },
+      ],
+      '59144': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0x009E9B1eec955E9Fe7FE64f80aE868e661cb4729',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'WBTC/USD',
+          dapiNameHash: '0x788a83d3185172684a06bc2d96ea3e98728e0e87b759e866757989dcfe63b4f4',
+          proxyAddress: '0x0f1CB652F56b497C7ed6bdf61C09724D1682cB3D',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDT/USD',
+          dapiNameHash: '0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d',
+          proxyAddress: '0x3Adac52054a03A1a9F0DC4FFbcfBBD38eA99EF7E',
+          oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDC/USD',
+          dapiNameHash: '0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880',
+          proxyAddress: '0x9F8663dD5A0F30a41B774de46128849FE2364C17',
+          oev: { enabled: false },
+        },
+      ],
+    },
+    links: {
+      website: 'https://wefi.xyz/',
+      dapp: 'https://www.beta.app.wefi.xyz/',
+      docs: 'https://docs.wefi.xyz/',
+      socials: [
+        { label: 'twitter', url: 'https://x.com/wefi_xyz' },
+        { label: 'discord', url: 'https://discord.com/invite/B6U6kectbV' },
+        { label: 'github', url: 'https://github.com/wefi-xyz/' },
+        { label: 'telegram', url: 'https://t.me/wefi_xyz' },
       ],
     },
     year: 2023,
