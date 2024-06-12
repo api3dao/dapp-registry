@@ -948,6 +948,46 @@ export const PROJECTS: Project[] = [
     year: 2021,
   },
   {
+    name: 'Mendi Finance',
+    tagline: 'The #1 lending protocol on  Linea.',
+    description:
+      'Mendi Finance is an EVM compatible lending/borrowing protocol on Linea. Mendi Finance provides peer-to-peer lending solutions that are fully decentralized, transparent and non-custodial. Similar to (and based on) existing lending platforms like Compound Finance and AAVE users will be able to lend any supported assets on our platform, and use their capital to borrow supported assets. At launch, Mendi Finance offers the following high-liquidity money markets with dynamically adjusted incentives: /n/nwETH, wstETH, wBTC, USDC, USDT, DAI/n/nMendi aims to be the prime lending protocol on Linea by offering highest competitive incentives for money markets, having the deepest liquidity and being native to Linea. /n/nMendi Finance is going to release further products to enhance and simplify user experience. Our goal is to simplify the different trading strategies available within a lending protocol for all of our users and reward those with further incentives who contribute the most to our community. /n/nMendi Finance also aims to connect retail investors with institutional DeFi through the Mendi money markets. Our aim is to enable our users to generate more yield by integrating institutional DeFi products. By leveraging this huge potential market there is great upside to the community for the next bull run, and this can enable the community to generate high and secure yield on their assets.',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717710229701_mendi%20logo.jpeg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717710229703_mendi%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717710229797_Screenshot%202024-06-06%20at%202.40.26%20PM.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717710229824_Screenshot%202024-06-06%20at%202.41.06%20PM.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['59144'],
+    proxies: {
+      '59144': [
+        {
+          proxyType: 'dapi',
+          feedName: 'rsETH/ETH Exchange Rate',
+          dapiNameHash: '0xf49fd67221006e2dea4649db9e6a4f6700abe3f44fe49a6d00d8cb851539c034',
+          proxyAddress: '0xc30e51C9EDD92B9eeF45f281c712faaAf59912BA',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+      ],
+    },
+    links: {
+      website: 'https://mendi.finance/',
+      dapp: 'https://mendi.finance/',
+      docs: 'https://docs.mendi.finance/',
+      socials: [
+        { label: 'twitter', url: 'https://x.com/MendiFinance' },
+        { label: 'discord', url: 'https://discord.com/invite/G3vWy8cbnK' },
+        { label: 'github', url: 'https://github.com/mendi-finance/' },
+      ],
+    },
+    year: 2023,
+  },
+  {
     name: 'Metavault',
     tagline: 'All-in-one cross-chain DeFi Marketplace.',
     description:
@@ -1173,6 +1213,47 @@ export const PROJECTS: Project[] = [
     year: 2023,
   },
   {
+    name: 'Orbit Protocol',
+    tagline: 'The most secure lending protocol on Blast.',
+    description:
+      "Orbit is a decentralized liquidity protocol that facilitates the lending and borrowing of Blast assets. Orbit's innovation is to make use of Blast's native yield to provide a better lending / borrowing experience. The protocol is expected to generate yields that are more competitive to existing lending protocols./n/nThe protocol defines a money market between lenders, wishing to earn additional yield on their asset holdings, and borrowers, looking to borrow assets with the use of other assets as collateral. Lenders supply supported Blast assets for a predetermined lending period in return for Orbit Assets (oAssets), which represent the lender's initial principal as well as accrued yield. /n/nUpon expiry of the predetermined lending period, oAssets can be redeemed for principal + accrued yield - this simplifies yield collection to be done just by holding on to them. Users can also borrow assets by providing supported Blast assets as collateral and borrowing at under the protocol-defined loan-to-value ratio. /n/nNative yield from lender assets and provided collaterals first accumulate to the Orbit token, acting as the medium to forward future Blast yield value to the present. Orbit tokens are then distributed to both lenders and borrowers, used to subsidize the yield.",
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717708562416_Orbit%20logo.jpeg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717708562421_Orbit%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717708562470_Screenshot%202024-06-06%20at%202.12.55%20PM.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717708562503_Screenshot%202024-06-06%20at%202.12.37%20PM.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['81457'],
+    proxies: {
+      '81457': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0xCBE95Ba8fF327a1E3e6Bdade4C598277450145B3',
+          oev: { enabled: true, beneficiary: '0x6315F65843e7582508e4F0aAC20a7203E7B09F02' },
+        },
+      ],
+    },
+    links: {
+      website: 'https://orbitlending.io/',
+      dapp: 'https://app.orbitlending.io/',
+      docs: 'https://book.orbitlending.io/',
+      socials: [
+        { label: 'twitter', url: 'https://x.com/OrbitLending' },
+        { label: 'discord', url: 'https://discord.com/invite/4MFstFJcap' },
+        { label: 'github', url: 'https://github.com/orbit-protocol' },
+        { label: 'telegram', url: 'https://t.me/orbitcommunity' },
+      ],
+    },
+    year: 2024,
+  },
+  {
     name: 'Pac Finance',
     tagline: '#1 lending and DeFi hub on Blast',
     description:
@@ -1304,6 +1385,52 @@ export const PROJECTS: Project[] = [
         { label: 'Discord', url: 'https://discord.com/invite/dSMd7AFH36' },
       ],
     },
+  },
+  {
+    name: 'Shoebill Finance',
+    tagline: 'LST Collaterizable Lending Protocol. The safest way to borrow assets.',
+    description:
+      "Shoebill Finance V2 (aka. Shoebill) is a decentralized finance (DeFi) protocol that provides leveraged investment services on multiple EVM networks and BTC layer2s. Investors borrow assets deposited in Shoebill to maximize the size of their investment and pay interest. The protocol aims to maximize users' returns by building and expanding a circular structure where investors and depositors mutually support each other's returns./n/nLow Risk, Maximized Return/n/nUsers can optimize their yield by borrowing BTC, ETH, STONE, METIS, MANTA, WEMIX, KLAY and then re-staking it to use as collateral to borrow more assets. This strategy allows users to earn yield rewards while minimizing liquidation risk./n/nInvestment Opportunity/n/nShoebill V2 maximizes users' ability to leverage other projects for potential returns and redemptions. It provides users with more investment opportunities with relatively low risk by securing a competitive APY through leverage or utilizing BTC/ETH/STONE etc. as another investment opportunity./n/nCollateral Expansion/n/nShoebill V2 will expand with plans to integrate more LST (Liquid Staked Tokens) in the future to provide users with broader options.",
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717717931243_shoebill%20logo.png',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717717931244_shoebill%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717717931298_Screenshot%202024-06-06%20at%204.49.50%20PM.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717717931306_Screenshot%202024-06-06%20at%204.49.36%20PM.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['255'],
+    proxies: {
+      '255': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0xa47Fd122b11CdD7aad7c3e8B740FB91D83Ce43D1',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'spETH/ETH Exchange Rate',
+          dapiNameHash: '0x79b79c518707d42c3f952f70b87bd2e13e481c3d342e87e9ea8224a8cd98682e',
+          proxyAddress: '0xcAc74aFC58AdB86d4A44afdc66D6F68Bad0cFCd1',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+      ],
+    },
+    links: {
+      website: 'https://shoebill.finance/#/',
+      dapp: 'https://kroma-eth.shoebill.finance/#/',
+      docs: 'https://docs.shoebill.finance/',
+      socials: [
+        { label: 'twitter', url: 'https://x.com/ShoebillFinance' },
+        { label: 'telegram', url: 'https://t.me/ShoebillChat_ENG' },
+      ],
+    },
+    year: 2024,
   },
   {
     name: 'Shrike Perps',
