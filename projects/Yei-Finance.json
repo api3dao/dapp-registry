@@ -1,0 +1,38 @@
+{
+  "name": "Yei Finance",
+  "tagline": "Money market on Sei.",
+  "description": "Yei Finance, a pioneering decentralized, non-custodial money market protocol on the Sei network, crafted to offer flexible and innovative financial solutions. Our protocol engages users in the following ways:/n/nDeposit Assets: Suppliers enhance market liquidity by depositing assets, earning passive income as their cryptocurrencies yield returns./n/nBorrow Assets: Borrowers access funds through two main frameworks: traditional overcollateralized loans and undercollateralized loans via our flash loan feature, each adhering to stringent risk parameters./n/nManage Risks: We equip our users with advanced tools and comprehensive information designed to manage and mitigate financial risks effectively./n/nYei Finance is committed to enhancing transparency and empowering our users by leveraging cutting-edge blockchain technology. This ensures that our financial services are secure, efficient, and widely accessible. Our platform accommodates a broad spectrum of assets, ranging from LRTs and LSTs to all major cryptocurrencies, and is designed to seamlessly adapt and incorporate new asset classes as the network grows. We cater to a diverse audience, including blockchain aficionados and financial investors, who are in search of innovative and strategic investment opportunities within the rapidly growing cryptocurrency market.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1718381727388_yei%20logo.jpeg",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1718381727389_yei%20banner.jpeg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1718381727486_Screenshot%202024-06-14%20at%209.12.52%20AM.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1718381727544_Screenshot%202024-06-14%20at%209.13.11%20AM.png"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "1329"
+  ],
+  "proxies": {},
+  "links": {
+    "website": "https://www.yei.finance/",
+    "dapp": "https://app.yei.finance/",
+    "docs": "https://docs.yei.finance/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://x.com/YeiFinance"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.com/invite/gbSCN9GNSv"
+      }
+    ]
+  },
+  "year": 2024
+}
