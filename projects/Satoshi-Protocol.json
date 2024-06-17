@@ -1,0 +1,43 @@
+{
+  "name": "Satoshi Protocol",
+  "tagline": "Universal stablecoin protocol backed by Bitcoin.",
+  "description": "Satoshi Protocol is a revolutionary \"universal\" stablecoin protocol backed by Bitcoin. It allows users to deposit BTC as collateral to borrow the stablecoin $SAT on both Layer 1 and Layer 2./n/nThis initiative facilitates the mobilization of trillions in Bitcoin within the BTCfi ecosystem, governed by the token $OSHI.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1715974564118_satoshi%20logo.png",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1715974564119_header%20for%20ecosystem.png",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1715974564133_1.jpg",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1715974564155_2.jpg"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "30"
+  ],
+  "proxies": {},
+  "links": {
+    "website": "https://satoshiprotocol.org/",
+    "dapp": "https://app.satoshiprotocol.org/",
+    "docs": "https://docs.satoshiprotocol.org/",
+    "explorer": "https://scan-mainnet.bevm.io/address/0x365b4915289f2b27dcA58BEBd2960ECDCC2AE3b6",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://x.com/SatoshiBEVM"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.gg/satoshiprotocol"
+      },
+      {
+        "label": "telegram",
+        "url": "https://t.me/satoshi_sat"
+      }
+    ]
+  },
+  "year": 2024
+}
