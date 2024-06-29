@@ -1,0 +1,44 @@
+{
+  "name": "Segment Finance",
+  "tagline": "The Superchain Liquidity Layer",
+  "description": "Segment Finance is an advanced lending and borrowing platform for the Superchain Ecosystem. The innovative tokenomics and reward distribution mechanics ensure a robust growth and unparalleled sustainability./n/nSegment Finance aims to be the prime lending platform on the Superchain by offering highest competitive incentives for money markets, biggest variety of supported assets and  the deepest liquidity.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1719619711431_segment%20logo.jpeg",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1719619711432_segment%20banner.jpeg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1719619711437_Screenshot%202024-06-28%20at%208.03.20%20PM.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1719619711500_Screenshot%202024-06-28%20at%208.03.04%20PM.png"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "60808",
+    "56",
+    "204"
+  ],
+  "proxies": {},
+  "links": {
+    "website": "https://www.segment.finance/#/",
+    "dapp": "https://app.segment.finance/#/",
+    "docs": "https://docs.segment.finance/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://x.com/segment_fi"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.com/invite/sNkaUFmxSb"
+      },
+      {
+        "label": "github",
+        "url": "https://github.com/Segment-Finance"
+      }
+    ]
+  },
+  "year": 2023
+}
