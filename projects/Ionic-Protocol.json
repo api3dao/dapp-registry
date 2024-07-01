@@ -1,0 +1,42 @@
+{
+  "name": "Ionic Protocol",
+  "tagline": "#1 money market for Yield Bearing Assets on the OP Superchain",
+  "description": "Ionic is a decentralised non-custodial money market protocol, supported by a comprehensive security monitoring and failsafe systems. Ionic gives users complete control over their funds by providing best interest rates on Mode Network. With meticulously designed tokenonomics model, Ionic aims for robust and long-lasting growth, cultivating exemplary conduct among all participants for the collective benefit of every stakeholder./n/nKey Features:/nRevenue Sharing: Distributes a portion of the platform's fees + a portion of SFS rewards to users on a weekly basis, relative to their stake. /n/nUnrivalled asset support: Biggest variety of supported assets on Mode Network, including but not limited to LRTs, LSTs, and all of the major tokens available, with the ability to easily add new asset classes as new protocols onboard onto the network./n/nLooping: One-click looping to open a leverage position on the desired assets (Coming soon).",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717785558546_ionic%20logo.jpeg",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717785558547_ionic%20banner.jpeg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717785558548_Screenshot%202024-06-07%20at%2011.35.55%20AM.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717785558604_Screenshot%202024-06-07%20at%2011.36.14%20AM.png"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "34443"
+  ],
+  "proxies": {},
+  "links": {
+    "website": "https://www.ionic.money/",
+    "dapp": "https://app.ionic.money/",
+    "docs": "https://doc.ionic.money/ionic-documentation",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://x.com/ionicmoney"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.com/invite/FmgedqR9wn"
+      },
+      {
+        "label": "telegram",
+        "url": "https://t.me/ionicmoney"
+      }
+    ]
+  },
+  "year": 2024
+}
