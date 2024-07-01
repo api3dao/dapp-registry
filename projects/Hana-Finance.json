@@ -1,0 +1,38 @@
+{
+  "name": "Hana Finance",
+  "tagline": "The leading decentralised liquidity market on Taiko. ",
+  "description": "Hana Finance is a decentralised non-custodial liquidity market protocol built on Taiko, the Ethereum-equivalent L2 ZK-Rollup. Users will be able to participate as liquidity suppliers or borrowers on Hana. Suppliers will provide liquidity on available markets on Hana to earn passive interest, while borrowers are able to borrow liquidity in an over-collateralised manner./n/nThrough lending and borrowing on Hana Finance, users are able to-/n/nEarn- Earn ongoing interest by supplying assets to borrowers/n/nBorrow- Increase the capital efficiency of their holdings by borrowing liquidity against collateral assets and utilising it across the ecosystems farms/n/nLeverage- Achieve leveraged or short positions at a lower cost than a typical perps protocol/n/nHana aims to aligns to the broader goal of liquidity efficiency and unlocking use cases for supplied and borrowed tokens with partners across the Taiko ecosystem.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717784554697_hana%20logo.jpeg",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717784554698_hana%20banner.jpeg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717784554728_Screenshot%202024-06-07%20at%2010.33.30%20AM.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717784554778_Screenshot%202024-06-07%20at%2010.33.46%20AM.png"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "167000"
+  ],
+  "proxies": {},
+  "links": {
+    "website": "https://www.hana.finance/",
+    "dapp": "https://www.hana.finance/market",
+    "docs": "https://docs.hana.finance/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://x.com/Hana_Finance"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.com/invite/hanafinance"
+      }
+    ]
+  },
+  "year": 2024
+}
