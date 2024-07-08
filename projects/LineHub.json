@@ -1,0 +1,47 @@
+{
+  "name": "LineHub",
+  "tagline": "Next-Generation DeFi Marketplace built on Linea",
+  "description": "LineHub is a platform that aims to facilitate the DeFi adventure by offering a comprehensive range of DeFi products through a single user-friendly interface. This approach simplifies the process of accessing and utilizing different DeFi offerings, making it more convenient and efficient for users./n/nLineHub v1 will offer the following products, all accessible from a single interface on Linea:/n/n1. Spot trading/n/n2. Perp trading (cross-chain aggregator)/n/n3. V2-V3 pools for LP/n/n4. ALM/n/n5. Bridging solutions/n/nWith the growth of the Linea ecosystem, LineHub envisions expanding its feature set over time. By integrating the main leaders of each sector on Linea, LineHub aims to introduce additional products and services that align with the evolving needs of the DeFi community./n/nHow does LineHub work?/nLineHub has plans to propose in the v1 of Line hub, v2-v3 AMM, Perp DEX aggregator, LP products, bridge integration. With all this offering, LineHub expands its reach and enables users on Linea to access DeFi opportunities on a single interface./n/nLineHub also incorporates an innovative aggregator for Perp trading, enabling traders to access the liquidity of the main Perp DEX available on 12 chains directly from Linea, further expanding their trading opportunities and trading rate.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1720456283607_Linehub%20logo.jpeg",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1720456283608_linehub%20banner.jpeg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1720456283662_Screenshot%202024-07-08%20at%209.27.32%20AM.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1720456283700_Screenshot%202024-07-08%20at%209.28.25%20AM.png"
+    ]
+  },
+  "categories": [
+    "defi",
+    "dex"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "59144"
+  ],
+  "proxies": {},
+  "links": {
+    "website": "https://linehub.io/home",
+    "dapp": "https://linehub.io/apps/perps",
+    "docs": "https://docs.linehub.io/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://x.com/LineDefiHub"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.com/invite/linehub"
+      },
+      {
+        "label": "github",
+        "url": "https://github.com/linedefi"
+      },
+      {
+        "label": "telegram",
+        "url": "https://t.me/line_hub"
+      }
+    ]
+  },
+  "year": 2024
+}
