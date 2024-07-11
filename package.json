@@ -1,7 +1,7 @@
 {
   "name": "@api3-ecosystem/dapp-registry",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "API3 DAO",
   "private": false,
   "main": "./dist/index.js",
