@@ -442,6 +442,59 @@ export const PROJECTS: Project[] = [
     },
   },
   {
+    name: 'Hana Finance',
+    tagline: 'The leading decentralised liquidity market on Taiko. ',
+    description:
+      'Hana Finance is a decentralised non-custodial liquidity market protocol built on Taiko, the Ethereum-equivalent L2 ZK-Rollup. Users will be able to participate as liquidity suppliers or borrowers on Hana. Suppliers will provide liquidity on available markets on Hana to earn passive interest, while borrowers are able to borrow liquidity in an over-collateralised manner./n/nThrough lending and borrowing on Hana Finance, users are able to-/n/nEarn- Earn ongoing interest by supplying assets to borrowers/n/nBorrow- Increase the capital efficiency of their holdings by borrowing liquidity against collateral assets and utilising it across the ecosystems farms/n/nLeverage- Achieve leveraged or short positions at a lower cost than a typical perps protocol/n/nHana aims to aligns to the broader goal of liquidity efficiency and unlocking use cases for supplied and borrowed tokens with partners across the Taiko ecosystem.',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717784554697_hana%20logo.jpeg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717784554698_hana%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717784554728_Screenshot%202024-06-07%20at%2010.33.30%20AM.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717784554778_Screenshot%202024-06-07%20at%2010.33.46%20AM.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['167000'],
+    proxies: {
+      '167000': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0xdd2e137aF99EECF880F6e09C0e88376f28865d98',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'TAIKO/USD',
+          dapiNameHash: '0x447ab94271cde07abe89d98f8826a251fb0189535c7b730fdb6e56fb27fe91d8',
+          proxyAddress: '0x6C0b9573244D7D74Cf998197b525B2d31565AD02',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDC/USD',
+          dapiNameHash: '0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880',
+          proxyAddress: '0x28c8c5cbD120aa48799EE4df6906Fed3565E21F7',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+      ],
+    },
+    links: {
+      website: 'https://www.hana.finance/',
+      dapp: 'https://www.hana.finance/market',
+      docs: 'https://docs.hana.finance/',
+      socials: [
+        { label: 'twitter', url: 'https://x.com/Hana_Finance' },
+        { label: 'discord', url: 'https://discord.com/invite/hanafinance' },
+      ],
+    },
+    year: 2024,
+  },
+  {
     name: 'Init Capital',
     tagline: 'The Liquidity Hook Money Market',
     description:
@@ -567,6 +620,60 @@ export const PROJECTS: Project[] = [
     year: 2024,
   },
   {
+    name: 'Ionic Protocol',
+    tagline: '#1 money market for Yield Bearing Assets on the OP Superchain',
+    description:
+      "Ionic is a decentralised non-custodial money market protocol, supported by a comprehensive security monitoring and failsafe systems. Ionic gives users complete control over their funds by providing best interest rates on Mode Network. With meticulously designed tokenonomics model, Ionic aims for robust and long-lasting growth, cultivating exemplary conduct among all participants for the collective benefit of every stakeholder./n/nKey Features:/nRevenue Sharing: Distributes a portion of the platform's fees + a portion of SFS rewards to users on a weekly basis, relative to their stake. /n/nUnrivalled asset support: Biggest variety of supported assets on Mode Network, including but not limited to LRTs, LSTs, and all of the major tokens available, with the ability to easily add new asset classes as new protocols onboard onto the network./n/nLooping: One-click looping to open a leverage position on the desired assets (Coming soon).",
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717785558546_ionic%20logo.jpeg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717785558547_ionic%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717785558548_Screenshot%202024-06-07%20at%2011.35.55%20AM.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717785558604_Screenshot%202024-06-07%20at%2011.36.14%20AM.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['34443'],
+    proxies: {
+      '34443': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ezETH/ETH Exchange Rate',
+          dapiNameHash: '0xe221000e12af79d43d63473ef41dd4385994af039e5345a707524a9445f87b87',
+          proxyAddress: '0x3621b06BfFE478eB481adf65bbF139A052Ed7321',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'weETH/ETH Exchange Rate',
+          dapiNameHash: '0xf95a90733a8a0e87042f7ec04d5fd6349627d730d5920df0471d344e9b660d50',
+          proxyAddress: '0x672020bd166A51A79Ada022B51C974775d17e0f6',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'rsETH/ETH Exchange Rate',
+          dapiNameHash: '0xf49fd67221006e2dea4649db9e6a4f6700abe3f44fe49a6d00d8cb851539c034',
+          proxyAddress: '0xc30e51C9EDD92B9eeF45f281c712faaAf59912BA',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+      ],
+    },
+    links: {
+      website: 'https://www.ionic.money/',
+      dapp: 'https://app.ionic.money/',
+      docs: 'https://doc.ionic.money/ionic-documentation',
+      socials: [
+        { label: 'twitter', url: 'https://x.com/ionicmoney' },
+        { label: 'discord', url: 'https://discord.com/invite/FmgedqR9wn' },
+        { label: 'telegram', url: 'https://t.me/ionicmoney' },
+      ],
+    },
+    year: 2024,
+  },
+  {
     name: 'Juice Finance',
     tagline: 'Revolutionizing Point Farming DeFi',
     description:
@@ -639,6 +746,13 @@ export const PROJECTS: Project[] = [
           feedName: 'sUSDe/USDe Exchange Rate',
           dapiNameHash: '0xa9748923704b6a516dc7038fd1c1fa623a872cdb66c94167f6da1bf2712b3dd6',
           proxyAddress: '0x26fd2E217fdc2BBEA58f9fd6610C8A8c0163F85d',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'BLAST/USD',
+          dapiNameHash: '0x7f05d4dd8928902fb8f8217b8a876c68d337df447ad7579071a97e8443e42c71',
+          proxyAddress: '0xe7035B8E74790ea7CB632c098FE7B217176806Cd',
           oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
         },
       ],
