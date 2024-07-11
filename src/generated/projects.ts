@@ -567,6 +567,60 @@ export const PROJECTS: Project[] = [
     year: 2024,
   },
   {
+    name: 'Ionic Protocol',
+    tagline: '#1 money market for Yield Bearing Assets on the OP Superchain',
+    description:
+      "Ionic is a decentralised non-custodial money market protocol, supported by a comprehensive security monitoring and failsafe systems. Ionic gives users complete control over their funds by providing best interest rates on Mode Network. With meticulously designed tokenonomics model, Ionic aims for robust and long-lasting growth, cultivating exemplary conduct among all participants for the collective benefit of every stakeholder./n/nKey Features:/nRevenue Sharing: Distributes a portion of the platform's fees + a portion of SFS rewards to users on a weekly basis, relative to their stake. /n/nUnrivalled asset support: Biggest variety of supported assets on Mode Network, including but not limited to LRTs, LSTs, and all of the major tokens available, with the ability to easily add new asset classes as new protocols onboard onto the network./n/nLooping: One-click looping to open a leverage position on the desired assets (Coming soon).",
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717785558546_ionic%20logo.jpeg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717785558547_ionic%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717785558548_Screenshot%202024-06-07%20at%2011.35.55%20AM.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717785558604_Screenshot%202024-06-07%20at%2011.36.14%20AM.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['34443'],
+    proxies: {
+      '34443': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ezETH/ETH Exchange Rate',
+          dapiNameHash: '0xe221000e12af79d43d63473ef41dd4385994af039e5345a707524a9445f87b87',
+          proxyAddress: '0x3621b06BfFE478eB481adf65bbF139A052Ed7321',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'weETH/ETH Exchange Rate',
+          dapiNameHash: '0xf95a90733a8a0e87042f7ec04d5fd6349627d730d5920df0471d344e9b660d50',
+          proxyAddress: '0x672020bd166A51A79Ada022B51C974775d17e0f6',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'rsETH/ETH Exchange Rate',
+          dapiNameHash: '0xf49fd67221006e2dea4649db9e6a4f6700abe3f44fe49a6d00d8cb851539c034',
+          proxyAddress: '0xc30e51C9EDD92B9eeF45f281c712faaAf59912BA',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+      ],
+    },
+    links: {
+      website: 'https://www.ionic.money/',
+      dapp: 'https://app.ionic.money/',
+      docs: 'https://doc.ionic.money/ionic-documentation',
+      socials: [
+        { label: 'twitter', url: 'https://x.com/ionicmoney' },
+        { label: 'discord', url: 'https://discord.com/invite/FmgedqR9wn' },
+        { label: 'telegram', url: 'https://t.me/ionicmoney' },
+      ],
+    },
+    year: 2024,
+  },
+  {
     name: 'Juice Finance',
     tagline: 'Revolutionizing Point Farming DeFi',
     description:
@@ -639,6 +693,13 @@ export const PROJECTS: Project[] = [
           feedName: 'sUSDe/USDe Exchange Rate',
           dapiNameHash: '0xa9748923704b6a516dc7038fd1c1fa623a872cdb66c94167f6da1bf2712b3dd6',
           proxyAddress: '0x26fd2E217fdc2BBEA58f9fd6610C8A8c0163F85d',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'BLAST/USD',
+          dapiNameHash: '0x7f05d4dd8928902fb8f8217b8a876c68d337df447ad7579071a97e8443e42c71',
+          proxyAddress: '0xe7035B8E74790ea7CB632c098FE7B217176806Cd',
           oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
         },
       ],
