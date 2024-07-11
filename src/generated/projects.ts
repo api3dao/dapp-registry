@@ -442,6 +442,59 @@ export const PROJECTS: Project[] = [
     },
   },
   {
+    name: 'Hana Finance',
+    tagline: 'The leading decentralised liquidity market on Taiko. ',
+    description:
+      'Hana Finance is a decentralised non-custodial liquidity market protocol built on Taiko, the Ethereum-equivalent L2 ZK-Rollup. Users will be able to participate as liquidity suppliers or borrowers on Hana. Suppliers will provide liquidity on available markets on Hana to earn passive interest, while borrowers are able to borrow liquidity in an over-collateralised manner./n/nThrough lending and borrowing on Hana Finance, users are able to-/n/nEarn- Earn ongoing interest by supplying assets to borrowers/n/nBorrow- Increase the capital efficiency of their holdings by borrowing liquidity against collateral assets and utilising it across the ecosystems farms/n/nLeverage- Achieve leveraged or short positions at a lower cost than a typical perps protocol/n/nHana aims to aligns to the broader goal of liquidity efficiency and unlocking use cases for supplied and borrowed tokens with partners across the Taiko ecosystem.',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717784554697_hana%20logo.jpeg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717784554698_hana%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717784554728_Screenshot%202024-06-07%20at%2010.33.30%20AM.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717784554778_Screenshot%202024-06-07%20at%2010.33.46%20AM.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['167000'],
+    proxies: {
+      '167000': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0xdd2e137aF99EECF880F6e09C0e88376f28865d98',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'TAIKO/USD',
+          dapiNameHash: '0x447ab94271cde07abe89d98f8826a251fb0189535c7b730fdb6e56fb27fe91d8',
+          proxyAddress: '0x6C0b9573244D7D74Cf998197b525B2d31565AD02',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDC/USD',
+          dapiNameHash: '0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880',
+          proxyAddress: '0x28c8c5cbD120aa48799EE4df6906Fed3565E21F7',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+      ],
+    },
+    links: {
+      website: 'https://www.hana.finance/',
+      dapp: 'https://www.hana.finance/market',
+      docs: 'https://docs.hana.finance/',
+      socials: [
+        { label: 'twitter', url: 'https://x.com/Hana_Finance' },
+        { label: 'discord', url: 'https://discord.com/invite/hanafinance' },
+      ],
+    },
+    year: 2024,
+  },
+  {
     name: 'Init Capital',
     tagline: 'The Liquidity Hook Money Market',
     description:
