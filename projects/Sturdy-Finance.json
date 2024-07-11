@@ -1,0 +1,69 @@
+{
+  "name": "Sturdy Finance",
+  "tagline": "Isolated lending with shared liquidity, powered by the Sturdy Subnet.",
+  "description": "Sturdy enables anyone to create a liquid money market for any token. Sturdy uses a novel two-tier architecture to isolate risk between assets while avoiding liquidity fragmentation. The base layer consists of risk-isolated pools; aggregation built on top enables lenders to select which collateral assets can be used as collateral for their deposits./n/nHow Sturdy works /nSturdy introduces permissionless pooled lending, accomplished through a novel two-tier architecture. Here’s how it works:/n/nTier 1: Siloed Lending Pairs/nEach siloed lending pair operates as a mini-lending market consisting of a single lending asset and a single collateral asset. For example, you could have a siloed lending pair where users can only lend or borrow USDC and can only use ETH as collateral./n/nEach siloed lending pair is isolated, meaning a user who lends to silo X has no exposure to silo Y. They’re simplistic, immutable, permissionless to create, and technically similar to Fraxlend. Silos themselves aren’t a new development and can be found in existing isolated lending protocols. What makes Sturdy V2 innovative is its novel method for preventing liquidity fragmentation. This is where the aggregation layer comes in./n/nTier 2: Aggregators/nThe second layer of Sturdy V2 consists of aggregators that move funds between siloed lending pairs. Users lend a single asset to a Yearn V3 lending optimizer, which deposits the assets to whitelisted siloed lending pairs. Each aggregator automatically distributes lent assets among the whitelisted siloed lending pairs to maximize yield; aggregators use Sturdy’s Bittensor subnet to find the optimal allocation between whitelisted silos. Users lending to the aggregator would be exposed only to the collateral types they’ve chosen, with no exposure to other siloed lending pairs or collateral assets.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1720030168929_sturdy%20logo.jpeg",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1720030168930_sturdy%20banner.jpeg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1720030168974_Screenshot%202024-07-03%20at%2011.04.42%20AM.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1720030168992_Screenshot%202024-07-03%20at%2011.04.53%20AM.png"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "34443"
+  ],
+  "proxies": {
+    "34443": [
+      {
+        "proxyType": "dapi",
+        "feedName": "ezETH/ETH Exchange Rate",
+        "dapiNameHash": "0xe221000e12af79d43d63473ef41dd4385994af039e5345a707524a9445f87b87",
+        "proxyAddress": "0x3621b06BfFE478eB481adf65bbF139A052Ed7321",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "ETH/USD",
+        "dapiNameHash": "0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42",
+        "proxyAddress": "0xa47Fd122b11CdD7aad7c3e8B740FB91D83Ce43D1",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+        }
+      }
+    ]
+  },
+  "links": {
+    "website": "https://sturdy.finance/",
+    "dapp": "https://v2.sturdy.finance/overview",
+    "docs": "https://docs.sturdy.finance/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://x.com/SturdyFinance"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.com/invite/tRVHp6Vx5N"
+      },
+      {
+        "label": "github",
+        "url": "https://github.com/sturdyfi"
+      },
+      {
+        "label": "telegram",
+        "url": "https://t.me/sturdyfinance"
+      }
+    ]
+  },
+  "year": 2022
+}
