@@ -11,16 +11,73 @@
       "https://ecosystem-website.s3.us-east-2.amazonaws.com/1719619711500_Screenshot%202024-06-28%20at%208.03.04%20PM.png"
     ]
   },
-  "categories": [
-    "defi"
-  ],
+  "categories": ["defi"],
   "productType": "datafeed",
-  "chains": [
-    "60808",
-    "56",
-    "204"
-  ],
-  "proxies": {},
+  "chains": ["60808", "56", "204"],
+  "proxies": {
+    "60808": [
+      {
+        "proxyType": "dapi",
+        "feedName": "BTC/USD",
+        "dapiNameHash": "0x4291cd9e354c309a63b4a41d0de370e9494d5d59a306af07636abaf68159e043",
+        "proxyAddress": "0x81A64473D102b38eDcf35A7675654768D11d7e24",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "ETH/USD",
+        "dapiNameHash": "0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42",
+        "proxyAddress": "0xa47Fd122b11CdD7aad7c3e8B740FB91D83Ce43D1",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "DAI/USD",
+        "dapiNameHash": "0x9eaf6889d5df94e769098eb3119c7ad9a8f301b58296c06cb75b2859c6f35557",
+        "proxyAddress": "0x6c324Bc6043B34a0881c4D4fa3D67aDB73684eE9",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "stETH/USD",
+        "dapiNameHash": "0x641a6d0b40aeaa34f02857c1f5c56d9b55d3dd702184e8de313701381f45ebd9",
+        "proxyAddress": "0x8013eeD5B6D8293A22e59b39a17eF4f2e3fba597",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "rETH/ETH Exchange Rate",
+        "dapiNameHash": "0x8524b343e26b895dfe1341a833485da069586d9c5087a4e6a9fbd02918a371e6",
+        "proxyAddress": "0xedC967e1d1F6db21Fcd18F06ccCBbac5B07eFD91",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "wstETH/stETH Exchange Rate",
+        "dapiNameHash": "0x046342039521da9c3c5faf74ddee7623bec8e5028fd80de9070aaccee8dfff28",
+        "proxyAddress": "0xD44cD8e42Ff375e9Fd13fEf75E82c20687D047f6",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+        }
+      }
+    ]
+  },
   "links": {
     "website": "https://www.segment.finance/#/",
     "dapp": "https://app.segment.finance/#/",
