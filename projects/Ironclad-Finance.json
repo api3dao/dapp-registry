@@ -1,0 +1,42 @@
+{
+  "name": "Ironclad Finance",
+  "tagline": "Decentralized lending market on Mode Network",
+  "description": "Ironclad Finance is a decentralized non-custodial liquidity market protocol where users can participate as depositors or borrowers. Depositors provide liquidity to the market to earn a passive income, while borrowers are able to borrow in an overcollateralized (perpetually) or undercollateralized (one-block liquidity) fashion.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1721925945839_Ironclad%20logo.jpeg",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1721925945840_ironclad%20banner.png",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1721925945881_ironclad%20home.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1721925945941_ironclad%20dapp.png"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "34443"
+  ],
+  "proxies": {},
+  "links": {
+    "website": "https://www.ironclad.finance/",
+    "dapp": "https://app.ironclad.finance/",
+    "docs": "https://docs.ironclad.finance/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://x.com/IroncladFinance"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.com/invite/ta4yDWbxS7"
+      },
+      {
+        "label": "github",
+        "url": "https://github.com/The-Granary/Silo/blob/main/addresses/ironclad_addresses.json"
+      }
+    ]
+  },
+  "year": 2024
+}
