@@ -1,0 +1,44 @@
+{
+  "name": "Silo Finance",
+  "tagline": "Isolated lending markets on Ethereum, Arbitrum, and Optimism.",
+  "description": "Silo is a non-custodial lending protocol to borrow any crypto asset with another./n/nWhen you deposit in a Silo, you don't share the risk with other tokens in the protocol. Silos can only borrow the bridge asset from each other, keeping the risk isolated to a single Silo./n/nTo concentrate liquidity, each token asset gets one Silo only. With the bridge asset connecting all Silos, liquidity moves fluidly in the protocol, enabling any collateral token to borrow another./n/nSilo is designed to support any token asset on the chains it operates on. Silos share default collateral factors that can be adjusted on a Silo level at any time.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1721926481934_silo%20logo.png",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1721926481935_silo%20banner.jpeg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1721926481997_Silo%20home.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1721926482039_Silo%20dapp.png"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "42161",
+    "10",
+    "1"
+  ],
+  "proxies": {},
+  "links": {
+    "website": "https://www.silo.finance/",
+    "dapp": "https://app.silo.finance/",
+    "docs": "https://devdocs.silo.finance/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://x.com/SiloFinance"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.com/invite/silo-finance"
+      },
+      {
+        "label": "github",
+        "url": "https://github.com/silo-finance/silo-core-v1"
+      }
+    ]
+  },
+  "year": 2022
+}
