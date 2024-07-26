@@ -20,7 +20,21 @@
     "10",
     "1"
   ],
-  "proxies": {},
+  "proxies": {
+    "42161": [
+      {
+        "proxyType": "dapi",
+        "feedName": "RDNT/USD",
+        "dapiNameHash": "0x7fc54d7c21fd8162f468a5f6887affffe6b885e09d57e0e0acf841bb34ad6b38",
+        "proxyAddress": "0xf1499A3A7F451Ab08021582Ee55457B0E6B16e67",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x6adD2B0D2bA7A4075d75c3E1801214c53e407418"
+
+        }
+      }
+    ]
+  },
   "links": {
     "website": "https://www.silo.finance/",
     "dapp": "https://app.silo.finance/",
