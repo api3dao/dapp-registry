@@ -867,6 +867,48 @@ export const PROJECTS: Project[] = [
           proxyAddress: '0xF55faBDf4C4F19D48d12A94209c735ca5AC43c78',
           oev: { enabled: false },
         },
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0xa47Fd122b11CdD7aad7c3e8B740FB91D83Ce43D1',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDC/USD',
+          dapiNameHash: '0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880',
+          proxyAddress: '0xa790a882bB695D0286C391C0935a05c347290bdB',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDT/USD',
+          dapiNameHash: '0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d',
+          proxyAddress: '0xF00249f594f11c3F98F2D73433274D10098906B6',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'WBTC/USD',
+          dapiNameHash: '0x788a83d3185172684a06bc2d96ea3e98728e0e87b759e866757989dcfe63b4f4',
+          proxyAddress: '0x73AB44615772a0d31dB48A87d7F4F81a3601BceB',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'MNT/USD',
+          dapiNameHash: '0xa9aac29787fcbd94a60c432bcb0323ec8100ca21cade393b6a0acc3e7368b7e5',
+          proxyAddress: '0x0DA7254eBa56eeE9D1c466A1624D07dB1c1cdBe8',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDe/USD',
+          dapiNameHash: '0xfa486155e7bffd2691ee94dce1e42411544a9ee569d28388cffd09bade579659',
+          proxyAddress: '0xFD4CEe9987B5A4fC286F863fe826BDBC20E262F1',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
       ],
     },
     links: {
@@ -1688,6 +1730,46 @@ export const PROJECTS: Project[] = [
       ],
     },
     year: 2023,
+  },
+  {
+    name: 'Silo Finance',
+    tagline: 'Isolated lending markets on Ethereum, Arbitrum, and Optimism.',
+    description:
+      "Silo is a non-custodial lending protocol to borrow any crypto asset with another./n/nWhen you deposit in a Silo, you don't share the risk with other tokens in the protocol. Silos can only borrow the bridge asset from each other, keeping the risk isolated to a single Silo./n/nTo concentrate liquidity, each token asset gets one Silo only. With the bridge asset connecting all Silos, liquidity moves fluidly in the protocol, enabling any collateral token to borrow another./n/nSilo is designed to support any token asset on the chains it operates on. Silos share default collateral factors that can be adjusted on a Silo level at any time.",
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1721926481934_silo%20logo.png',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1721926481935_silo%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1721926481997_Silo%20home.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1721926482039_Silo%20dapp.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['42161', '10', '1'],
+    proxies: {
+      '42161': [
+        {
+          proxyType: 'dapi',
+          feedName: 'RDNT/USD',
+          dapiNameHash: '0x7fc54d7c21fd8162f468a5f6887affffe6b885e09d57e0e0acf841bb34ad6b38',
+          proxyAddress: '0xf1499A3A7F451Ab08021582Ee55457B0E6B16e67',
+          oev: { enabled: true, beneficiary: '0x6adD2B0D2bA7A4075d75c3E1801214c53e407418' },
+        },
+      ],
+    },
+    links: {
+      website: 'https://www.silo.finance/',
+      dapp: 'https://app.silo.finance/',
+      docs: 'https://devdocs.silo.finance/',
+      socials: [
+        { label: 'twitter', url: 'https://x.com/SiloFinance' },
+        { label: 'discord', url: 'https://discord.com/invite/silo-finance' },
+        { label: 'github', url: 'https://github.com/silo-finance/silo-core-v1' },
+      ],
+    },
+    year: 2022,
   },
   {
     name: 'Sturdy Finance',
