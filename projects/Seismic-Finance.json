@@ -18,7 +18,20 @@
   "chains": [
     "81457"
   ],
-  "proxies": {},
+  "proxies": {
+    "81457": [
+      {
+        "proxyType": "dapi",
+        "feedName": "BLAST/USD",
+        "dapiNameHash": "0x7f05d4dd8928902fb8f8217b8a876c68d337df447ad7579071a97e8443e42c71",
+        "proxyAddress": "0xe7035B8E74790ea7CB632c098FE7B217176806Cd",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+        }
+      }
+    ]
+  },
   "links": {
     "website": "https://www.seismic.finance/",
     "dapp": "https://app.seismic.finance/",
