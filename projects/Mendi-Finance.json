@@ -1,0 +1,55 @@
+{
+  "name": "Mendi Finance",
+  "tagline": "The #1 lending protocol on  Linea.",
+  "description": "Mendi Finance is an EVM compatible lending/borrowing protocol on Linea. Mendi Finance provides peer-to-peer lending solutions that are fully decentralized, transparent and non-custodial. Similar to (and based on) existing lending platforms like Compound Finance and AAVE users will be able to lend any supported assets on our platform, and use their capital to borrow supported assets. At launch, Mendi Finance offers the following high-liquidity money markets with dynamically adjusted incentives: /n/nwETH, wstETH, wBTC, USDC, USDT, DAI/n/nMendi aims to be the prime lending protocol on Linea by offering highest competitive incentives for money markets, having the deepest liquidity and being native to Linea. /n/nMendi Finance is going to release further products to enhance and simplify user experience. Our goal is to simplify the different trading strategies available within a lending protocol for all of our users and reward those with further incentives who contribute the most to our community. /n/nMendi Finance also aims to connect retail investors with institutional DeFi through the Mendi money markets. Our aim is to enable our users to generate more yield by integrating institutional DeFi products. By leveraging this huge potential market there is great upside to the community for the next bull run, and this can enable the community to generate high and secure yield on their assets.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717710229701_mendi%20logo.jpeg",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717710229703_mendi%20banner.jpeg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717710229797_Screenshot%202024-06-06%20at%202.40.26%20PM.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1717710229824_Screenshot%202024-06-06%20at%202.41.06%20PM.png"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "59144"
+  ],
+  "proxies": {
+     "59144": [
+      {
+        "proxyType": "dapi",
+        "feedName": "rsETH/ETH Exchange Rate",
+        "dapiNameHash": "0xf49fd67221006e2dea4649db9e6a4f6700abe3f44fe49a6d00d8cb851539c034",
+        "proxyAddress": "0xc30e51C9EDD92B9eeF45f281c712faaAf59912BA",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+        }
+      }
+    ]
+  },
+  "links": {
+    "website": "https://mendi.finance/",
+    "dapp": "https://mendi.finance/",
+    "docs": "https://docs.mendi.finance/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://x.com/MendiFinance"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.com/invite/G3vWy8cbnK"
+      },
+      {
+        "label": "github",
+        "url": "https://github.com/mendi-finance/"
+      }
+    ]
+  },
+  "year": 2023
+}
