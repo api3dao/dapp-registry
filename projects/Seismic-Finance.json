@@ -1,0 +1,51 @@
+{
+  "name": "Seismic Finance",
+  "tagline": "The definitive Blast native lending market.",
+  "description": "Seismic Finance is the definitive Blast native lending market./n/nPure Blast-native collateral, maximized rewards, and a focus on the most competitive rates and security, will make us a foundational primitive for Blast./n/nSeismic is built from the ground up to enable Blast-focused power users with reliable and safe access to leverage and yields on ideal Blast-native collateral.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1719620132021_seismic%20logo.jpeg",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1719620132045_seismic%20banner.jpeg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1719620132122_Screenshot%202024-06-28%20at%208.13.30%20PM.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1719620132144_Screenshot%202024-06-28%20at%208.13.17%20PM.png"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "81457"
+  ],
+  "proxies": {
+    "81457": [
+      {
+        "proxyType": "dapi",
+        "feedName": "BLAST/USD",
+        "dapiNameHash": "0x7f05d4dd8928902fb8f8217b8a876c68d337df447ad7579071a97e8443e42c71",
+        "proxyAddress": "0xe7035B8E74790ea7CB632c098FE7B217176806Cd",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+        }
+      }
+    ]
+  },
+  "links": {
+    "website": "https://www.seismic.finance/",
+    "dapp": "https://app.seismic.finance/",
+    "docs": "https://docs.seismic.finance/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://x.com/seismicfinance"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.com/invite/seismic"
+      }
+    ]
+  },
+  "year": 2024
+}
