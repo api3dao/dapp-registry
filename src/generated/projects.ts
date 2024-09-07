@@ -2022,6 +2022,53 @@ export const PROJECTS: Project[] = [
     year: 2022,
   },
   {
+    name: 'Splice Finance',
+    tagline: ' Splice Finance - Fixed APR or Boosted Points; you choose. ',
+    description:
+      'Fixed yield and leveraged points are now available on Mode!/n/nBy creating a yield market in DeFi, Splice unlocks the full potential to go long on yield and leverage points multipliers or received a fixed income. The three main strategies are:/n/nFixed yield (e.g. earn fixed yield on ezETH)/n/nLong yield (e.g. bet on MODE yield going up by purchasing more yield)/n/nEarn more yield without additional risks (e.g. provide liquidity with your MODE)',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1721929779225_splice%20logo.jpeg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1721929779225_splice%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1721929779366_Screenshot%202024-07-25%20at%2010.45.20%20AM.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1721929779408_Screenshot%202024-07-25%20at%2010.46.03%20AM.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['81457', '34443'],
+    proxies: {
+      '34443': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ezETH/ETH Exchange Rate',
+          dapiNameHash: '0xe221000e12af79d43d63473ef41dd4385994af039e5345a707524a9445f87b87',
+          proxyAddress: '0x3621b06BfFE478eB481adf65bbF139A052Ed7321',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'weETH/ETH Exchange Rate',
+          dapiNameHash: '0xf95a90733a8a0e87042f7ec04d5fd6349627d730d5920df0471d344e9b660d50',
+          proxyAddress: '0x672020bd166A51A79Ada022B51C974775d17e0f6',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+      ],
+    },
+    links: {
+      website: 'https://app.splice.fi/',
+      dapp: 'https://app.splice.fi/',
+      docs: 'https://docs.splice.fi/',
+      socials: [
+        { label: 'twitter', url: 'https://x.com/splice_fi' },
+        { label: 'discord', url: 'https://discord.com/invite/splicefi' },
+        { label: 'telegram', url: 'https://t.me/splicefi' },
+      ],
+    },
+    year: 2024,
+  },
+  {
     name: 'Sturdy Finance',
     tagline: 'Isolated lending with shared liquidity, powered by the Sturdy Subnet.',
     description:
