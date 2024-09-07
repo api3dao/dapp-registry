@@ -37,6 +37,60 @@ export const PROJECTS: Project[] = [
     },
   },
   {
+    name: 'Airpuff',
+    tagline: 'Get Buff with Airpuff to power up your airdrop journey!',
+    description:
+      "At AirPuff, our mission goes beyond the traditional concept of airdrops. We aim to cultivate a vibrant community that boosts the value and potential of airdrops for everyone involved. As we embark on this journey, we're rolling out innovative strategies designed to enhance your airdrop experience and maximize your rewards. These strategies will help you skillfully navigate the ever-changing airdrop landscape with effectiveness and adaptability./n/nTo strengthen our community and ensure rewards are distributed wisely, we're excited to launch the AirPuff Guild. This dedicated guild will act as a central hub for airdrop enthusiasts to connect and thrive. It will also oversee the management and distribution of referral bonuses, guaranteeing that rewards are shared fairly among those who help our community grow./n/nTogether, we stand as a unified force, ready to capture even greater rewards from upcoming projects. With our strategic approach and the supportive network of the AirPuff Guild, we're setting the stage to lead the next wave of the airdrop evolution.",
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717710735945_airpuff%20logo.jpeg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717710735946_airpuff%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717710735980_Screenshot%202024-06-06%20at%202.48.35%20PM.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717710736019_Screenshot%202024-06-06%20at%202.49.09%20PM.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['42170', '1', '34443'],
+    proxies: {
+      '42161': [
+        {
+          proxyType: 'dapi',
+          feedName: 'weETH/ETH Exchange Rate',
+          dapiNameHash: '0xf95a90733a8a0e87042f7ec04d5fd6349627d730d5920df0471d344e9b660d50',
+          proxyAddress: '0x13F9e27446438fB2c34bc57018D6130ae724bF59',
+          oev: { enabled: true, beneficiary: '0x6adD2B0D2bA7A4075d75c3E1801214c53e407418' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'ezETH/ETH Exchange Rate',
+          dapiNameHash: '0xe221000e12af79d43d63473ef41dd4385994af039e5345a707524a9445f87b87',
+          proxyAddress: '0xEB7C19e2245Af227570516E963efA74Da8C38c51',
+          oev: { enabled: true, beneficiary: '0x6adD2B0D2bA7A4075d75c3E1801214c53e407418' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'rsETH/ETH Exchange Rate',
+          dapiNameHash: '0xf49fd67221006e2dea4649db9e6a4f6700abe3f44fe49a6d00d8cb851539c034',
+          proxyAddress: '0xe22fD122A143FedF96E0439B1d72A0B5016e2e61',
+          oev: { enabled: true, beneficiary: '0x6adD2B0D2bA7A4075d75c3E1801214c53e407418' },
+        },
+      ],
+    },
+    links: {
+      website: 'https://www.airpuff.io/',
+      dapp: 'https://www.airpuff.io/',
+      docs: 'https://docs.airpuff.io/',
+      socials: [
+        { label: 'twitter', url: 'https://x.com/airpuff_io' },
+        { label: 'discord', url: 'https://discord.com/invite/d8vXKavHk7' },
+        { label: 'telegram', url: 'https://t.me/airpuff_io' },
+      ],
+    },
+    year: 2024,
+  },
+  {
     name: 'Aurelius Finance',
     tagline: 'The next-generation lending experience on Mantle',
     description:
@@ -442,6 +496,59 @@ export const PROJECTS: Project[] = [
     },
   },
   {
+    name: 'Hana Finance',
+    tagline: 'The leading decentralised liquidity market on Taiko. ',
+    description:
+      'Hana Finance is a decentralised non-custodial liquidity market protocol built on Taiko, the Ethereum-equivalent L2 ZK-Rollup. Users will be able to participate as liquidity suppliers or borrowers on Hana. Suppliers will provide liquidity on available markets on Hana to earn passive interest, while borrowers are able to borrow liquidity in an over-collateralised manner./n/nThrough lending and borrowing on Hana Finance, users are able to-/n/nEarn- Earn ongoing interest by supplying assets to borrowers/n/nBorrow- Increase the capital efficiency of their holdings by borrowing liquidity against collateral assets and utilising it across the ecosystems farms/n/nLeverage- Achieve leveraged or short positions at a lower cost than a typical perps protocol/n/nHana aims to aligns to the broader goal of liquidity efficiency and unlocking use cases for supplied and borrowed tokens with partners across the Taiko ecosystem.',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717784554697_hana%20logo.jpeg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717784554698_hana%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717784554728_Screenshot%202024-06-07%20at%2010.33.30%20AM.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717784554778_Screenshot%202024-06-07%20at%2010.33.46%20AM.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['167000'],
+    proxies: {
+      '167000': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0xdd2e137aF99EECF880F6e09C0e88376f28865d98',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'TAIKO/USD',
+          dapiNameHash: '0x447ab94271cde07abe89d98f8826a251fb0189535c7b730fdb6e56fb27fe91d8',
+          proxyAddress: '0x6C0b9573244D7D74Cf998197b525B2d31565AD02',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDC/USD',
+          dapiNameHash: '0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880',
+          proxyAddress: '0x28c8c5cbD120aa48799EE4df6906Fed3565E21F7',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+      ],
+    },
+    links: {
+      website: 'https://www.hana.finance/',
+      dapp: 'https://www.hana.finance/market',
+      docs: 'https://docs.hana.finance/',
+      socials: [
+        { label: 'twitter', url: 'https://x.com/Hana_Finance' },
+        { label: 'discord', url: 'https://discord.com/invite/hanafinance' },
+      ],
+    },
+    year: 2024,
+  },
+  {
     name: 'Init Capital',
     tagline: 'The Liquidity Hook Money Market',
     description:
@@ -567,6 +674,60 @@ export const PROJECTS: Project[] = [
     year: 2024,
   },
   {
+    name: 'Ionic Protocol',
+    tagline: '#1 money market for Yield Bearing Assets on the OP Superchain',
+    description:
+      "Ionic is a decentralised non-custodial money market protocol, supported by a comprehensive security monitoring and failsafe systems. Ionic gives users complete control over their funds by providing best interest rates on Mode Network. With meticulously designed tokenonomics model, Ionic aims for robust and long-lasting growth, cultivating exemplary conduct among all participants for the collective benefit of every stakeholder./n/nKey Features:/nRevenue Sharing: Distributes a portion of the platform's fees + a portion of SFS rewards to users on a weekly basis, relative to their stake. /n/nUnrivalled asset support: Biggest variety of supported assets on Mode Network, including but not limited to LRTs, LSTs, and all of the major tokens available, with the ability to easily add new asset classes as new protocols onboard onto the network./n/nLooping: One-click looping to open a leverage position on the desired assets (Coming soon).",
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717785558546_ionic%20logo.jpeg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717785558547_ionic%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717785558548_Screenshot%202024-06-07%20at%2011.35.55%20AM.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1717785558604_Screenshot%202024-06-07%20at%2011.36.14%20AM.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['34443'],
+    proxies: {
+      '34443': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ezETH/ETH Exchange Rate',
+          dapiNameHash: '0xe221000e12af79d43d63473ef41dd4385994af039e5345a707524a9445f87b87',
+          proxyAddress: '0x3621b06BfFE478eB481adf65bbF139A052Ed7321',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'weETH/ETH Exchange Rate',
+          dapiNameHash: '0xf95a90733a8a0e87042f7ec04d5fd6349627d730d5920df0471d344e9b660d50',
+          proxyAddress: '0x672020bd166A51A79Ada022B51C974775d17e0f6',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'rsETH/ETH Exchange Rate',
+          dapiNameHash: '0xf49fd67221006e2dea4649db9e6a4f6700abe3f44fe49a6d00d8cb851539c034',
+          proxyAddress: '0xc30e51C9EDD92B9eeF45f281c712faaAf59912BA',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+      ],
+    },
+    links: {
+      website: 'https://www.ionic.money/',
+      dapp: 'https://app.ionic.money/',
+      docs: 'https://doc.ionic.money/ionic-documentation',
+      socials: [
+        { label: 'twitter', url: 'https://x.com/ionicmoney' },
+        { label: 'discord', url: 'https://discord.com/invite/FmgedqR9wn' },
+        { label: 'telegram', url: 'https://t.me/ionicmoney' },
+      ],
+    },
+    year: 2024,
+  },
+  {
     name: 'Juice Finance',
     tagline: 'Revolutionizing Point Farming DeFi',
     description:
@@ -639,6 +800,13 @@ export const PROJECTS: Project[] = [
           feedName: 'sUSDe/USDe Exchange Rate',
           dapiNameHash: '0xa9748923704b6a516dc7038fd1c1fa623a872cdb66c94167f6da1bf2712b3dd6',
           proxyAddress: '0x26fd2E217fdc2BBEA58f9fd6610C8A8c0163F85d',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'BLAST/USD',
+          dapiNameHash: '0x7f05d4dd8928902fb8f8217b8a876c68d337df447ad7579071a97e8443e42c71',
+          proxyAddress: '0xe7035B8E74790ea7CB632c098FE7B217176806Cd',
           oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
         },
       ],
@@ -752,6 +920,48 @@ export const PROJECTS: Project[] = [
           dapiNameHash: '0xc4a2854b0815f87a4b90e3bbfd85b129a583a8d214cc34608b958d6ba0f96545',
           proxyAddress: '0xF55faBDf4C4F19D48d12A94209c735ca5AC43c78',
           oev: { enabled: false },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0xa47Fd122b11CdD7aad7c3e8B740FB91D83Ce43D1',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDC/USD',
+          dapiNameHash: '0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880',
+          proxyAddress: '0xa790a882bB695D0286C391C0935a05c347290bdB',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDT/USD',
+          dapiNameHash: '0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d',
+          proxyAddress: '0xF00249f594f11c3F98F2D73433274D10098906B6',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'WBTC/USD',
+          dapiNameHash: '0x788a83d3185172684a06bc2d96ea3e98728e0e87b759e866757989dcfe63b4f4',
+          proxyAddress: '0x73AB44615772a0d31dB48A87d7F4F81a3601BceB',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'MNT/USD',
+          dapiNameHash: '0xa9aac29787fcbd94a60c432bcb0323ec8100ca21cade393b6a0acc3e7368b7e5',
+          proxyAddress: '0x0DA7254eBa56eeE9D1c466A1624D07dB1c1cdBe8',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDe/USD',
+          dapiNameHash: '0xfa486155e7bffd2691ee94dce1e42411544a9ee569d28388cffd09bade579659',
+          proxyAddress: '0xFD4CEe9987B5A4fC286F863fe826BDBC20E262F1',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
         },
       ],
     },
@@ -1538,6 +1748,94 @@ export const PROJECTS: Project[] = [
       ],
     },
     year: 2023,
+  },
+  {
+    name: 'Silo Finance',
+    tagline: 'Isolated lending markets on Ethereum, Arbitrum, and Optimism.',
+    description:
+      "Silo is a non-custodial lending protocol to borrow any crypto asset with another./n/nWhen you deposit in a Silo, you don't share the risk with other tokens in the protocol. Silos can only borrow the bridge asset from each other, keeping the risk isolated to a single Silo./n/nTo concentrate liquidity, each token asset gets one Silo only. With the bridge asset connecting all Silos, liquidity moves fluidly in the protocol, enabling any collateral token to borrow another./n/nSilo is designed to support any token asset on the chains it operates on. Silos share default collateral factors that can be adjusted on a Silo level at any time.",
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1721926481934_silo%20logo.png',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1721926481935_silo%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1721926481997_Silo%20home.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1721926482039_Silo%20dapp.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['42161', '10', '1'],
+    proxies: {
+      '42161': [
+        {
+          proxyType: 'dapi',
+          feedName: 'RDNT/USD',
+          dapiNameHash: '0x7fc54d7c21fd8162f468a5f6887affffe6b885e09d57e0e0acf841bb34ad6b38',
+          proxyAddress: '0xf1499A3A7F451Ab08021582Ee55457B0E6B16e67',
+          oev: { enabled: true, beneficiary: '0x6adD2B0D2bA7A4075d75c3E1801214c53e407418' },
+        },
+      ],
+    },
+    links: {
+      website: 'https://www.silo.finance/',
+      dapp: 'https://app.silo.finance/',
+      docs: 'https://devdocs.silo.finance/',
+      socials: [
+        { label: 'twitter', url: 'https://x.com/SiloFinance' },
+        { label: 'discord', url: 'https://discord.com/invite/silo-finance' },
+        { label: 'github', url: 'https://github.com/silo-finance/silo-core-v1' },
+      ],
+    },
+    year: 2022,
+  },
+  {
+    name: 'Sturdy Finance',
+    tagline: 'Isolated lending with shared liquidity, powered by the Sturdy Subnet.',
+    description:
+      'Sturdy enables anyone to create a liquid money market for any token. Sturdy uses a novel two-tier architecture to isolate risk between assets while avoiding liquidity fragmentation. The base layer consists of risk-isolated pools; aggregation built on top enables lenders to select which collateral assets can be used as collateral for their deposits./n/nHow Sturdy works /nSturdy introduces permissionless pooled lending, accomplished through a novel two-tier architecture. Here’s how it works:/n/nTier 1: Siloed Lending Pairs/nEach siloed lending pair operates as a mini-lending market consisting of a single lending asset and a single collateral asset. For example, you could have a siloed lending pair where users can only lend or borrow USDC and can only use ETH as collateral./n/nEach siloed lending pair is isolated, meaning a user who lends to silo X has no exposure to silo Y. They’re simplistic, immutable, permissionless to create, and technically similar to Fraxlend. Silos themselves aren’t a new development and can be found in existing isolated lending protocols. What makes Sturdy V2 innovative is its novel method for preventing liquidity fragmentation. This is where the aggregation layer comes in./n/nTier 2: Aggregators/nThe second layer of Sturdy V2 consists of aggregators that move funds between siloed lending pairs. Users lend a single asset to a Yearn V3 lending optimizer, which deposits the assets to whitelisted siloed lending pairs. Each aggregator automatically distributes lent assets among the whitelisted siloed lending pairs to maximize yield; aggregators use Sturdy’s Bittensor subnet to find the optimal allocation between whitelisted silos. Users lending to the aggregator would be exposed only to the collateral types they’ve chosen, with no exposure to other siloed lending pairs or collateral assets.',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1720030168929_sturdy%20logo.jpeg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1720030168930_sturdy%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1720030168974_Screenshot%202024-07-03%20at%2011.04.42%20AM.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1720030168992_Screenshot%202024-07-03%20at%2011.04.53%20AM.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['34443'],
+    proxies: {
+      '34443': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ezETH/ETH Exchange Rate',
+          dapiNameHash: '0xe221000e12af79d43d63473ef41dd4385994af039e5345a707524a9445f87b87',
+          proxyAddress: '0x3621b06BfFE478eB481adf65bbF139A052Ed7321',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0xa47Fd122b11CdD7aad7c3e8B740FB91D83Ce43D1',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+      ],
+    },
+    links: {
+      website: 'https://sturdy.finance/',
+      dapp: 'https://v2.sturdy.finance/overview',
+      docs: 'https://docs.sturdy.finance/',
+      socials: [
+        { label: 'twitter', url: 'https://x.com/SturdyFinance' },
+        { label: 'discord', url: 'https://discord.com/invite/tRVHp6Vx5N' },
+        { label: 'github', url: 'https://github.com/sturdyfi' },
+        { label: 'telegram', url: 'https://t.me/sturdyfinance' },
+      ],
+    },
+    year: 2022,
   },
   {
     name: 'Tropykus Finance',
