@@ -19,7 +19,30 @@
     "81457",
     "34443"
   ],
-  "proxies": {},
+  "proxies": {
+    "34443": [
+      {
+        "proxyType": "dapi",
+        "feedName": "ezETH/ETH Exchange Rate",
+        "dapiNameHash": "0xe221000e12af79d43d63473ef41dd4385994af039e5345a707524a9445f87b87",
+        "proxyAddress": "0x3621b06BfFE478eB481adf65bbF139A052Ed7321",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "weETH/ETH Exchange Rate",
+        "dapiNameHash": "0xf95a90733a8a0e87042f7ec04d5fd6349627d730d5920df0471d344e9b660d50",
+        "proxyAddress": "0x672020bd166A51A79Ada022B51C974775d17e0f6",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+        }
+      }
+    ]
+  },
   "links": {
     "website": "https://app.splice.fi/",
     "dapp": "https://app.splice.fi/",
