@@ -24,9 +24,11 @@
         "proxyType": "dapi",
         "feedName": "mETH/ETH Exchange Rate",
         "dapiNameHash": "0xc4a2854b0815f87a4b90e3bbfd85b129a583a8d214cc34608b958d6ba0f96545",
-        "proxyAddress": "0xF55faBDf4C4F19D48d12A94209c735ca5AC43c78",
+        "proxyAddress": "0xc956fA4813a6Ef89eccEDcb8e693184771C163EA",
         "oev": {
-          "enabled": false
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+
         }
       },
       {
