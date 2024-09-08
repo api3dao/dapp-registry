@@ -19,7 +19,82 @@
   "chains": [
     "59144"
   ],
-  "proxies": {},
+  "proxies": {
+    "59144": [
+      {
+        "proxyType": "dapi",
+        "feedName": "BNB/USD",
+        "dapiNameHash": "0xd1770b403d7f4900d132857e9cad80716e9d947dde29cfa0669f52696c48a495",
+        "proxyAddress": "0xcC1120C4790fF84fc984857B680b29A90f3Cd9BE",
+        "oev": {
+          "enabled": false
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "DAI/USD",
+        "dapiNameHash": "0x9eaf6889d5df94e769098eb3119c7ad9a8f301b58296c06cb75b2859c6f35557",
+        "proxyAddress": "0xD76Ec3EDcF5547B4183BF5A82a4080Ff95B58C59",
+        "oev": {
+          "enabled": false
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "ETH/USD",
+        "dapiNameHash": "0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42",
+        "proxyAddress": "0x009E9B1eec955E9Fe7FE64f80aE868e661cb4729",
+        "oev": {
+          "enabled": false
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "MATIC/USD",
+        "dapiNameHash": "0x6e72570a8a22130da8a971bdf1e55055307c4ef3b05b552f06bce5ae9b34fdc2",
+        "proxyAddress": "0x103c15A3F4a8978dbC3Eb2953b460F0248c1cD26",
+        "oev": {
+          "enabled": false
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "SOL/USD",
+        "dapiNameHash": "0x12562fa721cbd51f726fc27f5bc3580efbe6bcc1b0902277c4bca89187142406",
+        "proxyAddress": "0xf6F1752062AB8DFe3cBbf59918116040E0E280fe",
+        "oev": {
+          "enabled": false
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "USDC/USD",
+        "dapiNameHash": "0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880",
+        "proxyAddress": "0x9F8663dD5A0F30a41B774de46128849FE2364C17",
+        "oev": {
+          "enabled": false
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "USDT/USD",
+        "dapiNameHash": "0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d",
+        "proxyAddress": "0x3Adac52054a03A1a9F0DC4FFbcfBBD38eA99EF7E",
+        "oev": {
+          "enabled": false
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "WBTC/USD",
+        "dapiNameHash": "0x788a83d3185172684a06bc2d96ea3e98728e0e87b759e866757989dcfe63b4f4",
+        "proxyAddress": "0x0f1CB652F56b497C7ed6bdf61C09724D1682cB3D",
+        "oev": {
+          "enabled": false
+        }
+      }
+    ]
+  },
   "links": {
     "website": "https://linehub.io/home",
     "dapp": "https://linehub.io/apps/perps",
