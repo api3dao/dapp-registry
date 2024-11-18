@@ -30,7 +30,7 @@
     "zod": "^3.22.3"
   },
   "devDependencies": {
-    "@api3/chains": "^7.1.0",
+    "@api3/chains": "^10.8.0",
     "@types/node": "^20.2.5",
     "@types/prettier": "^2.7.3",
     "@typescript-eslint/eslint-plugin": "^5.59.8",

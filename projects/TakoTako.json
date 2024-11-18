@@ -1,0 +1,42 @@
+{
+  "name": "TakoTako",
+  "tagline": "The based money market on Taiko",
+  "description": "TAKOTAKO is a robust money market protocol that emphasizes real yield by offering competitive rates and sharing almost half of its revenue with users. It provides a user-friendly platform for borrowing, lending, and optimizing asset utility, designed to generate sustainable returns through innovative yield strategies.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1730216163188_Takotako%20logo.jpg",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1730216163189_Tako%20banner.jpeg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1730216163246_Screenshot%202024-10-29%20at%208.26.15%E2%80%AFAM.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1730216163287_Screenshot%202024-10-29%20at%208.26.37%E2%80%AFAM.png"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "167000"
+  ],
+  "proxies": {},
+  "links": {
+    "website": "https://takotako.xyz/",
+    "dapp": "https://takotako.xyz/",
+    "docs": "https://github.com/TakoTako-xyz",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://x.com/TAKOTAKOxyz"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.com/invite/kFEpu83Gav"
+      },
+      {
+        "label": "github",
+        "url": "https://github.com/TakoTako-xyz"
+      }
+    ]
+  },
+  "year": 2024
+}
