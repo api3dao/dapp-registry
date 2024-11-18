@@ -1,0 +1,38 @@
+{
+  "name": "Lore Finance",
+  "tagline": "The credit hub of Scroll. ",
+  "description": "Harness best-in-class security, stability, and yield opportunities on Scroll, a Native zkEVM ecosystem attracting DeFi’s most talented teams and highest yields. DeFine your own narrative.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1731091792447_Lore%20logo.jpg",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1731091792448_lore%20banner.jpeg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1731091792492_Screenshot%202024-11-08%20at%2010.45.24%E2%80%AFAM.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1731091792530_Screenshot%202024-11-08%20at%2010.45.42%E2%80%AFAM.png"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "534352"
+  ],
+  "proxies": {},
+  "links": {
+    "website": "https://www.lore.finance/",
+    "dapp": "https://app.lore.finance/",
+    "docs": "https://docs.lore.finance/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://x.com/LoreFinance"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.gg/jFe4mFvABS"
+      }
+    ]
+  },
+  "year": 2024
+}
