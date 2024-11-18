@@ -2166,6 +2166,36 @@ export const PROJECTS: Project[] = [
     year: 2022,
   },
   {
+    name: 'TakoTako',
+    tagline: 'The based money market on Taiko',
+    description:
+      'TAKOTAKO is a robust money market protocol that emphasizes real yield by offering competitive rates and sharing almost half of its revenue with users. It provides a user-friendly platform for borrowing, lending, and optimizing asset utility, designed to generate sustainable returns through innovative yield strategies.',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1730216163188_Takotako%20logo.jpg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1730216163189_Tako%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1730216163246_Screenshot%202024-10-29%20at%208.26.15%E2%80%AFAM.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1730216163287_Screenshot%202024-10-29%20at%208.26.37%E2%80%AFAM.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['167000'],
+    proxies: {},
+    links: {
+      website: 'https://takotako.xyz/',
+      dapp: 'https://takotako.xyz/',
+      docs: 'https://github.com/TakoTako-xyz',
+      socials: [
+        { label: 'twitter', url: 'https://x.com/TAKOTAKOxyz' },
+        { label: 'discord', url: 'https://discord.com/invite/kFEpu83Gav' },
+        { label: 'github', url: 'https://github.com/TakoTako-xyz' },
+      ],
+    },
+    year: 2024,
+  },
+  {
     name: 'Tropykus Finance',
     tagline: 'Earn interest and open fair credit lines for latinamericans.',
     description:
@@ -2311,6 +2341,101 @@ export const PROJECTS: Project[] = [
       ],
     },
     year: 2023,
+  },
+  {
+    name: 'Yei Finance',
+    tagline: 'Money market on Sei.',
+    description:
+      'Yei Finance, a pioneering decentralized, non-custodial money market protocol on the Sei network, crafted to offer flexible and innovative financial solutions. Our protocol engages users in the following ways:/n/nDeposit Assets: Suppliers enhance market liquidity by depositing assets, earning passive income as their cryptocurrencies yield returns./n/nBorrow Assets: Borrowers access funds through two main frameworks: traditional overcollateralized loans and undercollateralized loans via our flash loan feature, each adhering to stringent risk parameters./n/nManage Risks: We equip our users with advanced tools and comprehensive information designed to manage and mitigate financial risks effectively./n/nYei Finance is committed to enhancing transparency and empowering our users by leveraging cutting-edge blockchain technology. This ensures that our financial services are secure, efficient, and widely accessible. Our platform accommodates a broad spectrum of assets, ranging from LRTs and LSTs to all major cryptocurrencies, and is designed to seamlessly adapt and incorporate new asset classes as the network grows. We cater to a diverse audience, including blockchain aficionados and financial investors, who are in search of innovative and strategic investment opportunities within the rapidly growing cryptocurrency market.',
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1718381727388_yei%20logo.jpeg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1718381727389_yei%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1718381727486_Screenshot%202024-06-14%20at%209.12.52%20AM.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1718381727544_Screenshot%202024-06-14%20at%209.13.11%20AM.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['1329'],
+    proxies: {
+      '1329': [
+        {
+          proxyType: 'dapi',
+          feedName: 'ETH/USD',
+          dapiNameHash: '0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42',
+          proxyAddress: '0xa47Fd122b11CdD7aad7c3e8B740FB91D83Ce43D1',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDC/USD',
+          dapiNameHash: '0xcf06c5a2cb4c0c8206b1ae6607b086f686975da398249a7ff8609568582fc948',
+          proxyAddress: '0xa790a882bB695D0286C391C0935a05c347290bdB',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'USDT/USD',
+          dapiNameHash: '0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d',
+          proxyAddress: '0xF00249f594f11c3F98F2D73433274D10098906B6',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'SEI/USD',
+          dapiNameHash: '0xbfdc07756492cf42c509a8cf2705f105902514c63051120af7cc1cc776bacf93',
+          proxyAddress: '0x8DFEBAB10271A95f1F7E8DA0FA063fdD299D0033',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'SEI/USD',
+          dapiNameHash: '0xbfdc07756492cf42c509a8cf2705f105902514c63051120af7cc1cc776bacf93',
+          proxyAddress: '0x8DFEBAB10271A95f1F7E8DA0FA063fdD299D0033',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'FRAX/USD',
+          dapiNameHash: '0xf391c17eecee361c6c54218c7332f02adaf91e3b5a88f33de977c7cfdda8d96a',
+          proxyAddress: '0x91d0A84866c825b3Fe51F821c4610c71539ACaF6',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'FRAX/USD',
+          dapiNameHash: '0xf391c17eecee361c6c54218c7332f02adaf91e3b5a88f33de977c7cfdda8d96a',
+          proxyAddress: '0x91d0A84866c825b3Fe51F821c4610c71539ACaF6',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'sFRAX/FRAX Exchange Rate',
+          dapiNameHash: '0x5eb0368743666e72018da375a56bc52ae67fa6658f523cc38fadee00ba019e2d',
+          proxyAddress: '0x3CC2cA9693613F8c258A40Fb17a6Aa587981a94E',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+        {
+          proxyType: 'dapi',
+          feedName: 'sfrxETH/frxETH Exchange Rate',
+          dapiNameHash: '0x3a2e6bd5fde1dc2d933b41ba2383af82a4c2c314548446a924f97655f5ec9684',
+          proxyAddress: '0xB8f66692a0EaD7403B77d4e74d7a27789577a199',
+          oev: { enabled: true, beneficiary: '0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26' },
+        },
+      ],
+    },
+    links: {
+      website: 'https://www.yei.finance/',
+      dapp: 'https://app.yei.finance/',
+      docs: 'https://docs.yei.finance/',
+      socials: [
+        { label: 'twitter', url: 'https://x.com/YeiFinance' },
+        { label: 'discord', url: 'https://discord.com/invite/gbSCN9GNSv' },
+      ],
+    },
+    year: 2024,
   },
   {
     name: 'Zerolend',
