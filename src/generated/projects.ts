@@ -316,6 +316,37 @@ export const PROJECTS: Project[] = [
     },
   },
   {
+    name: 'Davos Protocol',
+    tagline: ' The First Stablecoin Platform Advancing Liquid Staking and Restaking',
+    description:
+      "The Davos Protocol positions itself at the forefront of DeFi innovation, merging the reliability of traditional finance with the dynamic features of decentralized finance. Our approach involves, implementing a unique monetary policy that draws on indicators from both the TradFi and Defi worlds, to harmonize each sector’s capabilities. /n/nOur unique monetary strategy, based on both traditional financial indicators and DeFi metrics, is critical in bridging the gap between TradFi and DeFi. This strategic approach not only provides stability and adaptability to market conditions, but it also combines the greatest aspects of TradFi's reliability with the dynamic innovation of DeFi./n/nDavos Protocol’s efforts aim to act as a bridge that not only connects but also enriches the traditional and decentralized financial landscapes./n/nMission Statement of Davos Protocol: To bring value to the DeFi landscape by confronting the intrinsic yield deficiencies of stablecoins, leveraging cutting-edge technological infrastructure and innovative mechanisms that offer users maximum utility and unprecedented financial empowerment./n/nVision Statement of Davos Protocol: To lead the forefront of decentralized finance as the go-to solution for stability, scalability, and inclusivity, ensuring that every stakeholder, from novice to expert, can harness the true potential of their assets, unbounded by traditional financial limitations.",
+    status: 'active',
+    images: {
+      logo: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1728401974634_davos%20logo.jpg',
+      cover: 'https://ecosystem-website.s3.us-east-2.amazonaws.com/1728401974635_davos%20banner.jpeg',
+      screenshots: [
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1728401974687_Screenshot%202024-10-08%20at%208.31.59%E2%80%AFAM.png',
+        'https://ecosystem-website.s3.us-east-2.amazonaws.com/1728401974708_Screenshot%202024-10-08%20at%208.32.24%E2%80%AFAM.png',
+      ],
+    },
+    categories: ['defi'],
+    productType: 'datafeed',
+    chains: ['200901'],
+    proxies: {},
+    links: {
+      website: 'https://davos.xyz/',
+      dapp: 'https://link3.to/davos',
+      docs: 'https://docs.davos.xyz/',
+      socials: [
+        { label: 'twitter', url: 'https://x.com/Davos_Protocol' },
+        { label: 'discord', url: 'https://discord.com/invite/davos-protocol-978896437612019722' },
+        { label: 'github', url: 'https://github.com/davos-money/legacy-davos-contracts' },
+        { label: 'telegram', url: 'https://t.me/davosprotocol' },
+      ],
+    },
+    year: 2024,
+  },
+  {
     name: 'Estfor Kingdom',
     tagline: 'A medieval fantasy web3 MMORPG. Fully on-chain, idle browser game.',
     description:
