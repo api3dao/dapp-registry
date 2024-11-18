@@ -1,0 +1,96 @@
+{
+  "name": "BMX",
+  "tagline": "Decentralized perpetual trading platform that launched on BASE & MODE",
+  "description": "BMX is a decentralized exchange offering spot and perpetual futures trading, requiring only a wallet connection to use. All trades are settled against a singular liquidity pool consisting of blue-chip assets, where a user can provide liquidity with any whitelisted asset, and in exchange, they receive LP tokens, representing their share in the diversified liquidity pool./n/nFor traders, BMX offers various advantages over existing exchanges:/n/nlow transaction fees/nno price impact/n“scam wick” liquidation protection (while keeping full control of your assets)/n/nWelcome to the new era of DeFi perpetual trading./n/n",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1721928085430_bmx_white.png",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1721928085434_1500x500.jpeg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1721928085477_Screenshot%202024-07-25%20at%2010.19.36%20AM.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1721928085496_Screenshot%202024-07-25%20at%2010.19.24%20AM.png"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "8453",
+    "34443"
+  ],
+  "proxies": {
+    "34443": [
+      {
+        "proxyType": "dapi",
+        "feedName": "WBTC/USD",
+        "dapiNameHash": "0x788a83d3185172684a06bc2d96ea3e98728e0e87b759e866757989dcfe63b4f4",
+        "proxyAddress": "0x73AB44615772a0d31dB48A87d7F4F81a3601BceB",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "MODE/USD",
+        "dapiNameHash": "0x7a7f4c8ae5b6db7eb6928d0454b937e1739fd168bb402efce39d1f9d2f84a364",
+        "proxyAddress": "0xecF094e9C935f01B542B4DA40861f3087698EA0D",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "USDC/USD",
+        "dapiNameHash": "0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880",
+        "proxyAddress": "0xa790a882bB695D0286C391C0935a05c347290bdB",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "ETH/USD",
+        "dapiNameHash": "0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42",
+        "proxyAddress": "0xa47Fd122b11CdD7aad7c3e8B740FB91D83Ce43D1",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "weETH/ETH Exchange Rate",
+        "dapiNameHash": "0xf95a90733a8a0e87042f7ec04d5fd6349627d730d5920df0471d344e9b660d50",
+        "proxyAddress": "0x672020bd166A51A79Ada022B51C974775d17e0f6",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+        }
+      }
+    ]
+  },
+  "links": {
+    "website": "https://www.bmx.trade/",
+    "dapp": "https://www.bmx.trade/trade",
+    "docs": "https://docs.morphex.trade/bmx",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://x.com/MorphexBMX"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.morphex.trade"
+      },
+      {
+        "label": "telegram",
+        "url": "https://t.me/MorphexBMX"
+      }
+    ]
+  },
+  "year": 2023
+}

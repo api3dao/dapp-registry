@@ -24,9 +24,77 @@
         "proxyType": "dapi",
         "feedName": "mETH/ETH Exchange Rate",
         "dapiNameHash": "0xc4a2854b0815f87a4b90e3bbfd85b129a583a8d214cc34608b958d6ba0f96545",
-        "proxyAddress": "0xF55faBDf4C4F19D48d12A94209c735ca5AC43c78",
+        "proxyAddress": "0xc956fA4813a6Ef89eccEDcb8e693184771C163EA",
         "oev": {
-          "enabled": false
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "ETH/USD",
+        "dapiNameHash": "0x9e6138f8f57d7b493a8364edb0a0ac92399dfd890eecb9121050836a1749ba42",
+        "proxyAddress": "0xa47Fd122b11CdD7aad7c3e8B740FB91D83Ce43D1",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "USDC/USD",
+        "dapiNameHash": "0x228ffa116d7cb33d822dc4f1ba986ee7ecfa6b6b570aab9663f30f560df7f880",
+        "proxyAddress": "0xa790a882bB695D0286C391C0935a05c347290bdB",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "USDT/USD",
+        "dapiNameHash": "0x48ddbf100a94d2af942f3f3b525fe385c1ac3c8020c9d90aecd487f72adcaf3d",
+        "proxyAddress": "0xF00249f594f11c3F98F2D73433274D10098906B6",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "WBTC/USD",
+        "dapiNameHash": "0x788a83d3185172684a06bc2d96ea3e98728e0e87b759e866757989dcfe63b4f4",
+        "proxyAddress": "0x73AB44615772a0d31dB48A87d7F4F81a3601BceB",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "MNT/USD",
+        "dapiNameHash": "0xa9aac29787fcbd94a60c432bcb0323ec8100ca21cade393b6a0acc3e7368b7e5",
+        "proxyAddress": "0x0DA7254eBa56eeE9D1c466A1624D07dB1c1cdBe8",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+
+        }
+      },
+      {
+        "proxyType": "dapi",
+        "feedName": "USDe/USD",
+        "dapiNameHash": "0xfa486155e7bffd2691ee94dce1e42411544a9ee569d28388cffd09bade579659",
+        "proxyAddress": "0xFD4CEe9987B5A4fC286F863fe826BDBC20E262F1",
+        "oev": {
+          "enabled": true,
+          "beneficiary": "0x14A9E40FcAdA95A273ce3c8d4ccF7EA3280BDd26"
+
         }
       }
     ]
