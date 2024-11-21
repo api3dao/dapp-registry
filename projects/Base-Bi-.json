@@ -1,0 +1,42 @@
+{
+  "name": "Base Bi ",
+  "tagline": "Decentralized trading being meme inspired & alpha protocol on Base",
+  "description": "Base Bi, the next frontier in decentralized finance (DeFi) prediction markets. Built on the robust and efficient Base blockchain, Base Bi empowers users to engage in speculation on a wide range of future events with unparalleled security, transparency, and speed./n/nBase Bi is a state-of-the-art DeFi platform that facilitates prediction markets, enabling users to buy and sell shares based on the anticipated outcomes of various events. Whether you want to predict the outcome of political elections, sports events, or cryptocurrency price movements, Base Bi provides a decentralized marketplace where your insights can translate into potential profits.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1728402845252_Base%20Bi%20logo.jpg",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1728402845253_Base%20bi%20banner.jpeg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1728402845298_Screenshot%202024-10-08%20at%208.51.57%E2%80%AFAM.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1728402845335_Screenshot%202024-10-08%20at%208.52.10%E2%80%AFAM.png"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "8453"
+  ],
+  "proxies": {},
+  "links": {
+    "website": "https://www.basebi.xyz/",
+    "dapp": "https://app.basebi.xyz/",
+    "docs": "https://docs.basebi.xyz/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://x.com/basebidefi"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.com/invite/basebi"
+      },
+      {
+        "label": "telegram",
+        "url": "https://t.me/BaseBiChannel"
+      }
+    ]
+  },
+  "year": 2024
+}
