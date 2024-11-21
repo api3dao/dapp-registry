@@ -1,0 +1,42 @@
+{
+  "name": "Paribus",
+  "tagline": "Invest in DeFi. Redefine your yield. ",
+  "description": "Paribus is a comprehensive, decentralized, cross-chain lending and borrowing protocol. Apart from being holistic, the solution is interoperable and inventive. Where there is value, this value can be leveraged. Nearly any asset can be represented in a non-fungible form to have its value represented on-chain. Paribus is indiscriminate in this regard as we aim for users to unlock the full potential of digitizable assets. With our underlying framework blockchain-agnostic, the ability to interact with assets from other ecosystems will be mission critical in creating marketplaces./n/nParibus believes there are methodologies to tap into the value of less conventional crypto-assets from NFTs to LP tokens and what still lies ahead. The potential to generate passive income from liquidity positions, synthetics, and other yield-bearing assets are in the works and may come to represent a future economy where individuals can take ownership of earning yields. These catalysts for the evolution of DeFi and in the bigger picture, a sort of “ValueFi,” is a world where assets can be fully leveraged by way of sharing for mutual benefit.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1732206241554_Paribus%20logo.jpg",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1732206241555_Paribus%20banner.jpeg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1732206241595_Screenshot%202024-11-21%20at%208.17.36%E2%80%AFAM.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1732206241618_Screenshot%202024-11-21%20at%208.17.50%E2%80%AFAM.png"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "42170"
+  ],
+  "proxies": {},
+  "links": {
+    "website": "https://paribus.io/",
+    "dapp": "https://app.paribus.io/",
+    "docs": "https://docs.paribus.io/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://x.com/paribus_io"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.com/invite/paribus"
+      },
+      {
+        "label": "telegram",
+        "url": "https://t.me/paribus_io"
+      }
+    ]
+  },
+  "year": 2024
+}
