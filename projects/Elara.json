@@ -1,0 +1,42 @@
+{
+  "name": "Elara",
+  "tagline": "The first native lending protocol on Zircuit",
+  "description": "Elara revolutionizes DeFi lending by introducing dynamic liquidity balancing and cross-pool borrowing technologies, optimizing security, rates, and user experience across multiple lending pools. /n/nOur innovative dual-pool market structure consists of a main pool for major assets and satellite pools for LST/LRTs. This system is overseen by an advanced management algorithm that continuously balances liquidity, risk, and yields. The unique design enhances security through risk isolation, while providing a superior experience for both borrowers and lenders with seamless cross-pool operations.",
+  "status": "active",
+  "images": {
+    "logo": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1732294109646_elara%20logo.jpg",
+    "cover": "https://ecosystem-website.s3.us-east-2.amazonaws.com/1732294109647_elara%20banner.jpeg",
+    "screenshots": [
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1732294109702_Screenshot%202024-11-22%20at%208.45.12%E2%80%AFAM.png",
+      "https://ecosystem-website.s3.us-east-2.amazonaws.com/1732294109722_Screenshot%202024-11-22%20at%208.46.22%E2%80%AFAM.png"
+    ]
+  },
+  "categories": [
+    "defi"
+  ],
+  "productType": "datafeed",
+  "chains": [
+    "48900"
+  ],
+  "proxies": {},
+  "links": {
+    "website": "https://alpha.elara.finance/markets",
+    "dapp": "https://alpha.elara.finance/markets",
+    "docs": "https://learn.elara.finance/",
+    "socials": [
+      {
+        "label": "twitter",
+        "url": "https://x.com/ElaraLabs"
+      },
+      {
+        "label": "discord",
+        "url": "https://discord.com/invite/jYWm6dC67s"
+      },
+      {
+        "label": "github",
+        "url": "https://github.com/ElaraFinance/"
+      }
+    ]
+  },
+  "year": 2024
+}
